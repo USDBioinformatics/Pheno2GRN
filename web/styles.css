@@ -1,0 +1,11 @@
+/*
+Sets up basic class stuff for ALL Primefaces elements.
+*/
+.ui-widget, .ui-widget .ui-widget {
+	
+	font-size: 15px !important;
+}
+
+.panelGrid tr, .panelGrid td {
+   border: none;
+}

@@ -1,0 +1,3708 @@
+GO:0070935	3'-UTR-mediated mRNA stabilization
+GO:0042791	5S class rRNA transcription from RNA polymerase III type 1 promoter
+GO:0031672^OBO_REL:part_of(TAO:0009316)	A band of cardiac muscle cell
+GO:0031672^OBO_REL:part_of(TAO:0009115)	A band of skeletal muscle cell
+TAO:0009142^OBO_REL:part_of(TAO:0000669)	B cell of head kidney
+GO:0030509	BMP signaling pathway
+GO:0060803	BMP signaling pathway involved in mesodermal cell fate specification
+TAO:0009243	CAP motoneuron
+TAO:0009243^OBO_REL:part_of(TAO:0001056)	CAP motoneuron of myotome
+TAO:0009191	CNS interneuron
+TAO:0009191^OBO_REL:part_of(TAO:0000075)	CNS interneuron of spinal cord
+TAO:0009067	CNS neuron (sensu Vertebrata)
+TAO:0000145	CNS tracts and commissures
+TAO:0000145^OBO_REL:part_of(TAO:0000008)	CNS tracts and commissures of brain
+TAO:0000145^OBO_REL:part_of(TAO:0000075)	CNS tracts and commissures of spinal cord
+GO:0015030^OBO_REL:part_of(CARO:0000013)	Cajal body of cell
+GO:0030576	Cajal body organization
+TAO:0005233	CiD
+TAO:0005176	CoSA
+TAO:0009228	D cell
+TAO:0000711	DEL
+TAO:0000711^OBO_REL:part_of(TAO:0001094)	DEL of body
+GO:0006977	DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest
+GO:0042771	DNA damage response, signal transduction by p53 class mediator resulting in induction of apoptosis
+GO:0008630	DNA damage response, signal transduction resulting in induction of apoptosis
+GO:0080111	DNA demethylation
+GO:0006309	DNA fragmentation involved in apoptotic nuclear change
+GO:0044028	DNA hypomethylation
+GO:0006306	DNA methylation
+GO:0032776	DNA methylation on cytosine
+GO:0010424	DNA methylation on cytosine within a CG sequence
+GO:0006260	DNA replication
+GO:0000076	DNA replication checkpoint
+TAO:0005178	DoLA
+TAO:0000309	E-YSL
+GO:0006888	ER to Golgi vesicle-mediated transport
+TAO:0000086	EVL
+TAO:0000086^OBO_REL:part_of(TAO:0001094)	EVL of body
+GO:0000080	G1 phase of mitotic cell cycle
+GO:0000082	G1/S transition of mitotic cell cycle
+GO:0031572	G2/M transition DNA damage checkpoint
+GO:0000086	G2/M transition of mitotic cell cycle
+GO:0097154	GABAergic neuron differentiation
+TAO:0009276^OBO_REL:part_of(TAO:0001256)	GABAergic neuron of lateral floor plate
+TAO:0009276^OBO_REL:part_of(TAO:0000402)	GABAergic neuron of olfactory bulb
+TAO:0009276^OBO_REL:part_of(TAO:0000152)	GABAergic neuron of retina
+TAO:0009276^OBO_REL:part_of(TAO:0000075)	GABAergic neuron of spinal cord
+GO:0036156^OBO_REL:part_of(TAO:0009032)	GO:0036156 of ciliated cell
+GO:0036156^OBO_REL:part_of(TAO:0000150)	GO:0036156 of pronephric duct
+GO:0036157^OBO_REL:part_of(TAO:0009032)	GO:0036157 of ciliated cell
+GO:0036157^OBO_REL:part_of(TAO:0000150)	GO:0036157 of pronephric duct
+GO:0036268	GO:0036268
+GO:0036269	GO:0036269
+GO:0036302	GO:0036302
+GO:0036306	GO:0036306
+GO:0036342	GO:0036342
+GO:0061468^OBO_REL:part_of(TAO:0000093)	GO:0061468 of blastomere
+GO:0061472	GO:0061472
+GO:0090497	GO:0090497
+GO:0090504	GO:0090504
+GO:0097324	GO:0097324
+GO:0097401	GO:0097401
+GO:1901270	GO:1901270
+GO:0006183	GTP biosynthetic process
+GO:0003924	GTPase activity
+GO:0005794^OBO_REL:part_of(CL:0000138)	Golgi apparatus of chondrocyte
+GO:0005794^OBO_REL:part_of(TAO:0009269)	Golgi apparatus of enterocyte
+GO:0005794^OBO_REL:part_of(TAO:0009154)	Golgi apparatus of eye photoreceptor cell
+GO:0005794^OBO_REL:part_of(TAO:0009114)	Golgi apparatus of muscle cell
+GO:0005794^OBO_REL:part_of(VSAO:0000032)	Golgi apparatus of notochord
+GO:0005795^OBO_REL:part_of(TAO:0009269)	Golgi stack of enterocyte
+GO:0031673^OBO_REL:part_of(TAO:0009316)	H zone of cardiac muscle cell
+GO:0031673^OBO_REL:part_of(TAO:0009115)	H zone of skeletal muscle cell
+GO:0031674^OBO_REL:part_of(TAO:0009316)	I band of cardiac muscle cell
+GO:0031674^OBO_REL:part_of(TAO:0005277)	I band of skeletal muscle
+GO:0031674^OBO_REL:part_of(TAO:0009115)	I band of skeletal muscle cell
+GO:0007254	JNK cascade
+TAO:0005240^OBO_REL:part_of(TAO:0001256)	Kolmer-Agduhr neuron of lateral floor plate
+TAO:0005240^OBO_REL:part_of(TAO:0000075)	Kolmer-Agduhr neuron of spinal cord
+TAO:0000001	Kupffer's vesicle
+GO:0070121	Kupffer's vesicle development
+TAO:0009108	Leydig cell
+GO:0031430^OBO_REL:part_of(TAO:0001056)	M band of myotome
+GO:0031430^OBO_REL:part_of(TAO:0005277)	M band of skeletal muscle
+GO:0031430^OBO_REL:part_of(TAO:0009115)	M band of skeletal muscle cell
+GO:0000279	M phase
+GO:0000087	M phase of mitotic cell cycle
+GO:0000216	M/G1 transition of mitotic cell cycle
+GO:0004707	MAP kinase activity
+MPATH:218^OBO_REL:part_of(TAO:0000107)	MPATH:218 of eye
+MPATH:218^OBO_REL:part_of(TAO:0001967)	MPATH:218 of orbit
+MPATH:310^OBO_REL:part_of(TAO:0000598)	MPATH:310 of testis
+MPATH:317^OBO_REL:part_of(TAO:0000598)	MPATH:317 of testis
+MPATH:359^OBO_REL:part_of(TAO:0009091)	MPATH:359 of melanocyte
+MPATH:435^OBO_REL:part_of(TAO:0001094)	MPATH:435 of body
+MPATH:437^OBO_REL:part_of(TAO:0000142)	MPATH:437 of peripheral nervous system
+MPATH:513^OBO_REL:part_of(TAO:0001094)	MPATH:513 of body
+TAO:0009149	Mauthner neuron
+TAO:0009149^OBO_REL:part_of(TAO:0000029)	Mauthner neuron of hindbrain
+TAO:0001205	Meckel's cartilage
+TAO:0005179	MiP motor neuron
+GO:0006777	Mo-molybdopterin cofactor biosynthetic process
+TAO:0009280	Muller cell
+TAO:0005326	NaK ionocyte
+GO:0007219	Notch signaling pathway
+TAO:0009320	OFF-bipolar cell
+TAO:0009319	ON-bipolar cell
+GO:0043186^OBO_REL:part_of(TAO:0009288)	P granule of primordial germ cell
+TAO:0009071	Purkinje cell
+TAO:0009071^OBO_REL:part_of(TAO:0000100)	Purkinje cell of cerebellum
+TAO:0009071^OBO_REL:part_of(TAO:0000029)	Purkinje cell of hindbrain
+GO:0071076	RNA 3' uridylation
+TAO:0005198	RoL2
+TAO:0005198^OBO_REL:part_of(TAO:0001032)	RoL2 of rhombomere 4
+TAO:0009150	Rohon-Beard neuron
+TAO:0009150^OBO_REL:part_of(TAO:0001135)	Rohon-Beard neuron of neural tube
+TAO:0009150^OBO_REL:part_of(TAO:0000075)	Rohon-Beard neuron of spinal cord
+GO:0051320	S phase
+GO:0000084	S phase of mitotic cell cycle
+TAO:0009135	Schwann cell
+GO:0014044	Schwann cell development
+GO:0014037	Schwann cell differentiation
+GO:0036135	Schwann cell migration
+TAO:0009135^OBO_REL:part_of(TAO:0000034)	Schwann cell of lateral line system
+TAO:0009135^OBO_REL:part_of(TAO:0000175)	Schwann cell of posterior lateral line nerve
+GO:0014010	Schwann cell proliferation
+TAO:0009133	Sertoli cell
+TAO:0009046	T cell
+GO:0070231	T cell apoptosis
+GO:0030217	T cell differentiation
+GO:0033077	T cell differentiation in thymus
+TAO:0009046^OBO_REL:part_of(TAO:0000669)	T cell of head kidney
+TAO:0009046^OBO_REL:part_of(TAO:0001078)	T cell of thymus
+GO:0030315^OBO_REL:part_of(TAO:0009117)	T-tubule of fast muscle cell
+GO:0030315^OBO_REL:part_of(TAO:0005145)	T-tubule of muscle
+GO:0030315^OBO_REL:part_of(TAO:0001056)	T-tubule of myotome
+GO:0030315^OBO_REL:part_of(TAO:0009115)	T-tubule of skeletal muscle cell
+GO:0033292	T-tubule organization
+GO:0031929	TOR signaling cascade
+GO:0005685^OBO_REL:part_of(TAO:0001094)	U1 snRNP of body
+GO:0005688^OBO_REL:part_of(TAO:0001094)	U6 snRNP of body
+TAO:0009221	UV sensitive photoreceptor cell
+TAO:0005177	VeLD
+TAO:0001188	Weberian apparatus
+TAO:0001190	Weberian vertebra
+GO:0061355	Wnt protein secretion
+GO:0016055	Wnt receptor signaling pathway
+GO:0021881	Wnt receptor signaling pathway involved in forebrain neuron fate commitment
+GO:0007223	Wnt receptor signaling pathway, calcium modulating pathway
+GO:0060071	Wnt receptor signaling pathway, planar cell polarity pathway
+TAO:0000088	YSL
+TAO:0000088^OBO_REL:part_of(TAO:0001094)	YSL of body
+GO:0030018^OBO_REL:part_of(TAO:0005280)	Z disc of cardiac muscle
+GO:0030018^OBO_REL:part_of(TAO:0009316)	Z disc of cardiac muscle cell
+GO:0030018^OBO_REL:part_of(TAO:0000009)	Z disc of cardiac ventricle
+GO:0030018^OBO_REL:part_of(TAO:0000114)	Z disc of heart
+GO:0030018^OBO_REL:part_of(TAO:0005145)	Z disc of muscle
+GO:0030018^OBO_REL:part_of(TAO:0001056)	Z disc of myotome
+GO:0030018^OBO_REL:part_of(TAO:0005277)	Z disc of skeletal muscle
+GO:0030018^OBO_REL:part_of(TAO:0009115)	Z disc of skeletal muscle cell
+GO:0030018^OBO_REL:part_of(TAO:0009116)	Z disc of slow muscle cell
+ZFA:0005633^OBO_REL:part_of(TAO:0001269)	ZFA:0005633 of regenerating fin
+TAO:0000713	abducens motor nucleus
+GO:0021560	abducens nerve development
+TAO:0000462	abductor hyohyoid
+GO:0015464	acetylcholine receptor activity
+GO:0051630	acetylcholine uptake
+GO:0005892^OBO_REL:part_of(TAO:0009114)	acetylcholine-gated channel complex of muscle cell
+GO:0005892^OBO_REL:part_of(TAO:0005277)	acetylcholine-gated channel complex of skeletal muscle
+GO:0005892^OBO_REL:part_of(TAO:0000473)	acetylcholine-gated channel complex of trunk musculature
+GO:0003990	acetylcholinesterase activity
+TAO:0009277	acinar cell
+GO:0003779	actin binding
+GO:0015629^OBO_REL:part_of(TAO:0000086)	actin cytoskeleton of EVL
+GO:0015629^OBO_REL:part_of(TAO:0000088)	actin cytoskeleton of YSL
+GO:0015629^OBO_REL:part_of(TAO:0000105)	actin cytoskeleton of epidermis
+GO:0015629^OBO_REL:part_of(TAO:0000150)	actin cytoskeleton of pronephric duct
+GO:0015629^OBO_REL:part_of(TAO:0009115)	actin cytoskeleton of skeletal muscle cell
+GO:0015629^OBO_REL:part_of(TAO:0000155)	actin cytoskeleton of somite
+GO:0030036	actin cytoskeleton organization
+GO:0070650	actin filament bundle distribution
+GO:0032432^OBO_REL:part_of(TAO:0009316)	actin filament bundle of cardiac muscle cell
+GO:0032432^OBO_REL:part_of(TAO:0009139)	actin filament bundle of endodermal cell
+GO:0032432^OBO_REL:part_of(TAO:0000121)	actin filament bundle of lateral plate mesoderm
+GO:0032432^OBO_REL:part_of(TAO:0000473)	actin filament bundle of trunk musculature
+GO:0005884^OBO_REL:part_of(TAO:0000086)	actin filament of EVL
+GO:0005884^OBO_REL:part_of(TAO:0000088)	actin filament of YSL
+GO:0005884^OBO_REL:part_of(TAO:0001094)	actin filament of body
+GO:0005884^OBO_REL:part_of(CL:0000138)	actin filament of chondrocyte
+GO:0005884^OBO_REL:part_of(TAO:0009117)	actin filament of fast muscle cell
+GO:0005884^OBO_REL:part_of(TAO:0000035)	actin filament of lens
+GO:0005884^OBO_REL:part_of(TAO:0005145)	actin filament of muscle
+GO:0005884^OBO_REL:part_of(TAO:0001056)	actin filament of myotome
+GO:0005884^OBO_REL:part_of(TAO:0005277)	actin filament of skeletal muscle
+GO:0005884^OBO_REL:part_of(TAO:0009116)	actin filament of slow muscle cell
+GO:0007015	actin filament organization
+GO:0030041	actin filament polymerization
+GO:0033275	actin-myosin filament sliding
+TAO:0000089	actinotrichium
+TAO:0000089^OBO_REL:part_of(VSAO:0000172)	actinotrichium of lepidotrichium
+TAO:0000089^OBO_REL:part_of(TAO:0000040)	actinotrichium of median fin fold
+TAO:0000089^OBO_REL:part_of(TAO:0001269)	actinotrichium of regenerating fin
+GO:0006919	activation of cysteine-type endopeptidase activity involved in apoptotic process
+TAO:0000003	adaxial cell
+TAO:0000003^OBO_REL:part_of(TAO:0000255)	adaxial cell of paraxial mesoderm
+TAO:0000003^OBO_REL:part_of(TAO:0000155)	adaxial cell of somite
+TAO:0000715	adductor hyohyoid
+TAO:0000465	adductor operculi
+TAO:0001198	adenohypophyseal placode
+TAO:0001282	adenohypophysis
+GO:0021984	adenohypophysis development
+GO:0048855	adenohypophysis morphogenesis
+GO:0034334	adherens junction maintenance
+GO:0005912^OBO_REL:part_of(TAO:0000711)	adherens junction of DEL
+GO:0005912^OBO_REL:part_of(TAO:0000086)	adherens junction of EVL
+GO:0005912^OBO_REL:part_of(TAO:0005257)	adherens junction of blood vessel endothelium
+GO:0005912^OBO_REL:part_of(TAO:0000114)	adherens junction of heart
+GO:0005912^OBO_REL:part_of(TAO:0001071)	adherens junction of presumptive retina
+GO:0005912^OBO_REL:part_of(TAO:0000152)	adherens junction of retina
+GO:0030325	adrenal gland development
+TAO:0009061^OBO_REL:part_of(TAO:0000633)	adrenergic neuron of caudal tuberculum
+TAO:0009061^OBO_REL:part_of(TAO:0000012)	adrenergic neuron of central nervous system
+TAO:0009061^OBO_REL:part_of(TAO:0000109)	adrenergic neuron of forebrain
+TAO:0009061^OBO_REL:part_of(TAO:0000539)	adrenergic neuron of locus coeruleus
+TAO:0009061^OBO_REL:part_of(TAO:0000545)	adrenergic neuron of medulla oblongata
+TAO:0009061^OBO_REL:part_of(TAO:0000402)	adrenergic neuron of olfactory bulb
+TAO:0009061^OBO_REL:part_of(TAO:0000470)	adrenergic neuron of preoptic area
+TAO:0009061^OBO_REL:part_of(TAO:0000418)	adrenergic neuron of pretectum
+TAO:0009216	adrenocorticotropic hormone secreting cell
+TAO:0009216^OBO_REL:part_of(TAO:0000012)	adrenocorticotropic hormone secreting cell of central nervous system
+GO:0008344	adult locomotory behavior
+GO:0009060	aerobic respiration
+GO:0048933	afferent axon development in posterior lateral line nerve
+TAO:0001357	alar plate midbrain
+GO:0004035	alkaline phosphatase activity
+GO:0004035^OBO_REL:part_of(TAO:0000014)	alkaline phosphatase activity of dorsal aorta
+GO:0046921	alpha-(1->6)-fucosyltransferase activity
+GO:0071929	alpha-tubulin acetylation
+GO:0000380	alternative nuclear mRNA splicing, via spliceosome
+TAO:0009255	amacrine cell
+GO:0035881	amacrine cell differentiation
+GO:0015696	ammonium transport
+GO:0042982	amyloid precursor protein metabolic process
+VSAO:0000163	anal fin
+TAO:0000646	anal fin distal radial
+VSAO:0000176	anal fin lepidotrichium
+TAO:0000268	anal fin proximal radial
+BSPO:0000010^OBO_REL:part_of(TAO:0001094)	anatomical axis of body
+BSPO:0000010^OBO_REL:part_of(TAO:0001115)	anatomical axis of trunk
+BSPO:0000092^OBO_REL:part_of(TAO:0000114)	anatomical compartment boundary of heart
+BSPO:0000092^OBO_REL:part_of(TAO:0000155)	anatomical compartment boundary of somite
+BSPO:0000006^OBO_REL:part_of(TAO:0000086)	anatomical margin of EVL
+BSPO:0000070^OBO_REL:part_of(TAO:0000066)	anatomical region of proctodeum
+BSPO:0000005^OBO_REL:part_of(TAO:0001094)	anatomical surface of body
+BSPO:0000005^OBO_REL:part_of(TAO:0000640)	anatomical surface of cornea
+CARO:0000011	anatomical system
+GO:0035779	angioblast cell differentiation
+GO:0035476	angioblast cell migration
+GO:0035479	angioblast cell migration from lateral mesoderm to midline
+TAO:0009258	angioblastic mesenchymal cell
+TAO:0009258^OBO_REL:part_of(TAO:0005077)	angioblastic mesenchymal cell of vascular cord
+GO:0001525	angiogenesis
+ZFA:0005604	angiogenic sprout
+ZFA:0005604^OBO_REL:part_of(TAO:0001061)	angiogenic sprout of intersegmental artery
+GO:0060006	angular vestibuloocular reflex
+TAO:0000618	ansulate commissure
+TAO:0000004	anterior axial hypoblast
+TAO:0000423	anterior cardinal vein
+TAO:0002144	anterior catecholaminergic tract
+TAO:0000578	anterior ceratohyal
+TAO:0001067	anterior cerebral vein
+TAO:0001277	anterior chamber swim bladder
+TAO:0001108	anterior commissure
+GO:0021960	anterior commissure morphogenesis
+BSPO:0000087^OBO_REL:part_of(TAO:0001128)	anterior compartment of pharyngeal pouch 1
+TAO:0000619	anterior crista
+TAO:0000468	anterior crista primordium
+TAO:0001472	anterior lateral line neuromast
+TAO:0001316	anterior lateral line placode
+TAO:0005039	anterior lateral mesoderm
+TAO:0005041	anterior lateral plate mesoderm
+TAO:0000168	anterior macula
+TAO:0005052	anterior mesencephalic central artery
+TAO:0007024	anterior neural keel
+TAO:0007016	anterior neural plate
+TAO:0001369	anterior pancreatic bud
+BSPO:0000071^OBO_REL:part_of(TAO:0001094)	anterior region of body
+BSPO:0000071^OBO_REL:part_of(TAO:0000008)	anterior region of brain
+BSPO:0000071^OBO_REL:part_of(ZFA:0005606)	anterior region of cranial vault
+BSPO:0000071^OBO_REL:part_of(TAO:0000101)	anterior region of diencephalon
+BSPO:0000071^OBO_REL:part_of(TAO:0000107)	anterior region of eye
+BSPO:0000071^OBO_REL:part_of(TAO:0000109)	anterior region of forebrain
+BSPO:0000071^OBO_REL:part_of(TAO:0000110)	anterior region of fourth ventricle
+BSPO:0000071^OBO_REL:part_of(TAO:0001114)	anterior region of head
+BSPO:0000071^OBO_REL:part_of(TAO:0000029)	anterior region of hindbrain
+BSPO:0000071^OBO_REL:part_of(TAO:0005124)	anterior region of intestinal epithelium
+BSPO:0000071^OBO_REL:part_of(TAO:0001326)	anterior region of lens epithelium
+BSPO:0000071^OBO_REL:part_of(TAO:0001580)	anterior region of neurocranium
+BSPO:0000071^OBO_REL:part_of(TAO:0001120)	anterior region of neuroectoderm
+BSPO:0000071^OBO_REL:part_of(VSAO:0000032)	anterior region of notochord
+BSPO:0000071^OBO_REL:part_of(TAO:0000060)	anterior region of prechordal plate
+BSPO:0000071^OBO_REL:part_of(TAO:0001558)	anterior region of pronephric tubule
+BSPO:0000071^OBO_REL:part_of(TAO:0000151)	anterior region of pronephros
+BSPO:0000071^OBO_REL:part_of(TAO:0002289)	anterior region of sclera
+BSPO:0000071^OBO_REL:part_of(TAO:0000279)	anterior region of segmental plate
+BSPO:0000071^OBO_REL:part_of(TAO:0000155)	anterior region of somite
+BSPO:0000071^OBO_REL:part_of(TAO:0001115)	anterior region of trunk
+BSPO:0000071^OBO_REL:part_of(VSAO:0000185)	anterior region of vertebral column
+ZFA:0005566	anterior segment eye
+TAO:0000314	anterior semicircular canal
+TAO:0000469	anterior semicircular canal primordium
+BSPO:0000055^OBO_REL:part_of(TAO:0001205)	anterior side of Meckel's cartilage
+BSPO:0000055^OBO_REL:part_of(TAO:0001094)	anterior side of body
+BSPO:0000055^OBO_REL:part_of(TAO:0000144)	anterior side of retinal pigmented epithelium
+BSPO:0000055^OBO_REL:part_of(TAO:0001115)	anterior side of trunk
+BSPO:0000036^OBO_REL:part_of(TAO:0001114)	anterior-most of head
+BSPO:0000036^OBO_REL:part_of(TAO:0000079)	anterior-most of telencephalon
+BSPO:0000013^OBO_REL:part_of(TAO:0001094)	anterior/posterior axis of body
+BSPO:0000013^OBO_REL:part_of(TAO:0000008)	anterior/posterior axis of brain
+BSPO:0000013^OBO_REL:part_of(TAO:0000107)	anterior/posterior axis of eye
+BSPO:0000013^OBO_REL:part_of(TAO:0001114)	anterior/posterior axis of head
+BSPO:0000013^OBO_REL:part_of(TAO:0000029)	anterior/posterior axis of hindbrain
+BSPO:0000013^OBO_REL:part_of(TAO:0000051)	anterior/posterior axis of otic vesicle
+BSPO:0000013^OBO_REL:part_of(TAO:0000255)	anterior/posterior axis of paraxial mesoderm
+BSPO:0000013^OBO_REL:part_of(TAO:0000155)	anterior/posterior axis of somite
+BSPO:0000013^OBO_REL:part_of(TAO:0001115)	anterior/posterior axis of trunk
+GO:0009948	anterior/posterior axis specification
+GO:0033564	anterior/posterior axon guidance
+GO:0009952	anterior/posterior pattern specification
+GO:0034672	anterior/posterior pattern specification involved in pronephros development
+BSPO:0000026^OBO_REL:part_of(TAO:0007026)	antero-dorsal region of forebrain neural keel
+BSPO:0000029^OBO_REL:part_of(TAO:0000060)	antero-lateral region of prechordal plate
+BSPO:0000688^OBO_REL:part_of(TAO:0000250)	antero-ventral margin of opercle
+BSPO:0000027^OBO_REL:part_of(TAO:0001194)	antero-ventral region of cranial neural crest
+BSPO:0000027^OBO_REL:part_of(TAO:0000029)	antero-ventral region of hindbrain
+GO:0042891	antibiotic transport
+GO:0042895	antibiotic transporter activity
+TAO:0005004	aortic arch
+TAO:0005009	aortic arch 5
+TAO:0005016	aortic arch 6
+GO:0045179^OBO_REL:part_of(TAO:0009035)	apical cortex of ciliated epithelial cell
+TAO:0000085	apical ectodermal ridge pectoral fin bud
+TAO:0001385	apical ectodermal ridge pelvic fin bud
+GO:0043297	apical junction assembly
+GO:0043296^OBO_REL:part_of(TAO:0001357)	apical junction complex of alar plate midbrain
+GO:0043296^OBO_REL:part_of(TAO:0009316)	apical junction complex of cardiac muscle cell
+GO:0043296^OBO_REL:part_of(TAO:0001135)	apical junction complex of neural tube
+GO:0043296^OBO_REL:part_of(TAO:0000046)	apical junction complex of retinal neural layer
+GO:0045177^OBO_REL:part_of(TAO:0009306)	apical part of cell of neuroepithelial cell
+GO:0045176	apical protein localization
+BSPO:0000073^OBO_REL:part_of(TAO:0000046)	apical region of retinal neural layer
+BSPO:0000373^OBO_REL:part_of(CARO:0000013)	apical surface of cell
+BSPO:0000373^OBO_REL:part_of(TAO:0009306)	apical surface of neuroepithelial cell
+BSPO:0000014^OBO_REL:part_of(TAO:0001094)	apical/basal axis of body
+GO:0060561	apoptosis involved in morphogenesis
+GO:0030263	apoptotic chromosome condensation
+GO:0006915	apoptotic process
+TAO:0002288^OBO_REL:part_of(ZFA:0005566)	aqueous humor of anterior segment eye
+TAO:0005146	area postrema
+GO:0048844	artery morphogenesis
+TAO:0000005^OBO_REL:part_of(TAO:0000152)	artery of retina
+GO:0000244	assembly of spliceosomal tri-snRNP
+GO:0008306	associative learning
+GO:0055049	astral spindle assembly
+GO:0048143	astrocyte activation
+TAO:0009075^OBO_REL:part_of(TAO:0000029)	astrocyte of hindbrain
+TAO:0009075^OBO_REL:part_of(TAO:0001083)	astrocyte of ventricular zone
+GO:0055014	atrial cardiac muscle cell development
+GO:0055011	atrial cardiac muscle cell differentiation
+TAO:0002169	atrial endocardium
+TAO:0001374	atrial myocardium
+GO:0003294	atrial ventricular junction remodeling
+TAO:0001315	atrioventricular canal
+TAO:0002170	atrioventricular canal endocardium
+TAO:0005064	atrioventricular valve
+GO:0003171	atrioventricular valve development
+GO:0003190	atrioventricular valve formation
+GO:0003181	atrioventricular valve morphogenesis
+TAO:0005070	atriovetricular node
+TAO:0000471	atrium
+TAO:0001500	auditory capsule
+GO:0042491	auditory receptor cell differentiation
+GO:0042667	auditory receptor cell fate specification
+GO:0048483	autonomic nervous system development
+GO:0006914	autophagy
+TAO:0005295	axial blood vessel
+TAO:0000091	axial chorda mesoderm
+TAO:0001378	axial hypoblast
+TAO:0001204	axial mesoderm
+GO:0048318	axial mesoderm development
+GO:0048327	axial mesodermal cell fate specification
+TAO:0001073	axial vasculature
+TAO:0000092	axis
+GO:0003401	axis elongation
+GO:0009798	axis specification
+GO:0044303^OBO_REL:part_of(TAO:0000200)	axon collateral of dorsal root ganglion
+GO:0044303^OBO_REL:part_of(TAO:0009052)	axon collateral of motor neuron
+GO:0044303^OBO_REL:part_of(TAO:0009244)	axon collateral of primary motor neuron
+GO:0044303^OBO_REL:part_of(TAO:0009247)	axon collateral of secondary motor neuron
+GO:0044303^OBO_REL:part_of(TAO:0000295)	axon collateral of trigeminal ganglion
+GO:0048675	axon extension
+GO:0048846	axon extension involved in axon guidance
+GO:0048676	axon extension involved in development
+GO:0048677	axon extension involved in regeneration
+GO:0007411	axon guidance
+GO:0016199	axon midline choice point recognition
+GO:0030424^OBO_REL:part_of(TAO:0009243)	axon of CAP motoneuron
+GO:0030424^OBO_REL:part_of(TAO:0009149)	axon of Mauthner neuron
+GO:0030424^OBO_REL:part_of(TAO:0005179)	axon of MiP motor neuron
+GO:0030424^OBO_REL:part_of(TAO:0005180)	axon of RoP motor neuron
+GO:0030424^OBO_REL:part_of(TAO:0009150)	axon of Rohon-Beard neuron
+GO:0030424^OBO_REL:part_of(TAO:0005181)	axon of VaP motor neuron
+GO:0030424^OBO_REL:part_of(TAO:0001108)	axon of anterior commissure
+GO:0030424^OBO_REL:part_of(TAO:0000318)	axon of brain stem/spinal tract and commissures
+GO:0030424^OBO_REL:part_of(TAO:0000435)	axon of cranial nerve II
+GO:0030424^OBO_REL:part_of(TAO:0000668)	axon of cranial nerve IX
+GO:0030424^OBO_REL:part_of(TAO:0000697)	axon of cranial nerve V
+GO:0030424^OBO_REL:part_of(TAO:0000310)	axon of cranial nerve VI
+GO:0030424^OBO_REL:part_of(TAO:0000453)	axon of cranial nerve X
+GO:0030424^OBO_REL:part_of(TAO:0009301)	axon of dopaminergic neuron
+GO:0030424^OBO_REL:part_of(TAO:0000019)	axon of epiphysis
+GO:0030424^OBO_REL:part_of(TAO:0000107)	axon of eye
+GO:0030424^OBO_REL:part_of(TAO:0001291)	axon of facial ganglion
+GO:0030424^OBO_REL:part_of(TAO:0000109)	axon of forebrain
+GO:0030424^OBO_REL:part_of(TAO:0009070)	axon of granule cell
+GO:0030424^OBO_REL:part_of(TAO:0000213)	axon of habenula
+GO:0030424^OBO_REL:part_of(TAO:0000029)	axon of hindbrain
+GO:0030424^OBO_REL:part_of(TAO:0002199)	axon of hindbrain commissure
+GO:0030424^OBO_REL:part_of(TAO:0000032)	axon of hypothalamus
+GO:0030424^OBO_REL:part_of(TAO:0001479)	axon of lateral line nerve
+GO:0030424^OBO_REL:part_of(TAO:0000534)	axon of lateral longitudinal fasciculus
+GO:0030424^OBO_REL:part_of(TAO:0000543)	axon of medial longitudinal fasciculus
+GO:0030424^OBO_REL:part_of(TAO:0000128)	axon of midbrain
+GO:0030424^OBO_REL:part_of(TAO:0009052)	axon of motor neuron
+GO:0030424^OBO_REL:part_of(TAO:0009248)	axon of neuron
+GO:0030424^OBO_REL:part_of(TAO:0009125)	axon of olfactory receptor cell
+GO:0030424^OBO_REL:part_of(TAO:0009076)	axon of oligodendrocyte
+GO:0030424^OBO_REL:part_of(TAO:0000556)	axon of optic chiasm
+GO:0030424^OBO_REL:part_of(TAO:0002213)	axon of optic nerve head
+GO:0030424^OBO_REL:part_of(TAO:0000445)	axon of optic tectum
+GO:0030424^OBO_REL:part_of(ZFA:0005437)	axon of pectoral fin motor nerve
+GO:0030424^OBO_REL:part_of(TAO:0000944)	axon of posterior lateral line
+GO:0030424^OBO_REL:part_of(TAO:0000175)	axon of posterior lateral line nerve
+GO:0030424^OBO_REL:part_of(TAO:0009244)	axon of primary motor neuron
+GO:0030424^OBO_REL:part_of(TAO:0009242)	axon of primary neuron
+GO:0030424^OBO_REL:part_of(TAO:0000152)	axon of retina
+GO:0030424^OBO_REL:part_of(TAO:0009318)	axon of retinal bipolar neuron
+GO:0030424^OBO_REL:part_of(TAO:0009310)	axon of retinal ganglion cell
+GO:0030424^OBO_REL:part_of(TAO:0009247)	axon of secondary motor neuron
+GO:0030424^OBO_REL:part_of(TAO:0000075)	axon of spinal cord
+GO:0030424^OBO_REL:part_of(TAO:0001347)	axon of stratum fibrosum et griseum superficiale
+GO:0030424^OBO_REL:part_of(TAO:0001366)	axon of tract of the postoptic commissure
+GO:0030424^OBO_REL:part_of(TAO:0000295)	axon of trigeminal ganglion
+GO:0030424^OBO_REL:part_of(TAO:0001442)	axon of upper rhombic lip
+GO:0031103	axon regeneration
+GO:0007412	axon target recognition
+GO:0043679^OBO_REL:part_of(TAO:0009280)	axon terminus of Muller cell
+GO:0043679^OBO_REL:part_of(TAO:0009319)	axon terminus of ON-bipolar cell
+GO:0043679^OBO_REL:part_of(TAO:0009150)	axon terminus of Rohon-Beard neuron
+GO:0043679^OBO_REL:part_of(TAO:0009052)	axon terminus of motor neuron
+GO:0043679^OBO_REL:part_of(TAO:0009125)	axon terminus of olfactory receptor cell
+GO:0043679^OBO_REL:part_of(TAO:0009262)	axon terminus of retinal cone cell
+GO:0043679^OBO_REL:part_of(TAO:0000295)	axon terminus of trigeminal ganglion
+GO:0007414	axonal defasciculation
+GO:0007413	axonal fasciculation
+GO:0044295^OBO_REL:part_of(TAO:0009076)	axonal growth cone of oligodendrocyte
+GO:0005858^OBO_REL:part_of(TAO:0000001)	axonemal dynein complex of Kupffer's vesicle
+GO:0005858^OBO_REL:part_of(TAO:0000151)	axonemal dynein complex of pronephros
+GO:0005879^OBO_REL:part_of(TAO:0000150)	axonemal microtubule of pronephric duct
+GO:0005879^OBO_REL:part_of(TAO:0000151)	axonemal microtubule of pronephros
+GO:0005930^OBO_REL:part_of(TAO:0000554)	axoneme of olfactory epithelium
+GO:0007409	axonogenesis
+TAO:0000006	ball
+TAO:0005000	basal communicating artery
+GO:0005605^OBO_REL:part_of(VSAO:0000164)	basal lamina of caudal fin
+GO:0005605^OBO_REL:part_of(TAO:0000123)	basal lamina of liver
+GO:0005605^OBO_REL:part_of(VSAO:0000032)	basal lamina of notochord
+GO:0005605^OBO_REL:part_of(TAO:0001558)	basal lamina of pronephric tubule
+CARO:0000065^OBO_REL:part_of(TAO:0000152)	basal lamina of retina
+GO:0045178^OBO_REL:part_of(TAO:0009306)	basal part of cell of neuroepithelial cell
+TAO:0001425	basal plate cartilage
+TAO:0000761	basal plate midbrain
+GO:0045175	basal protein localization
+GO:0006284	base-excision repair
+GO:0070831	basement membrane assembly
+GO:0005604^OBO_REL:part_of(TAO:0001079)	basement membrane of blood vasculature
+GO:0005604^OBO_REL:part_of(CARO:0000066)	basement membrane of epithelium
+GO:0005604^OBO_REL:part_of(TAO:0000107)	basement membrane of eye
+GO:0005604^OBO_REL:part_of(VSAO:0000029)	basement membrane of integument
+GO:0005604^OBO_REL:part_of(ZFA:0005574)	basement membrane of lens capsule
+GO:0005604^OBO_REL:part_of(TAO:0000040)	basement membrane of median fin fold
+GO:0005604^OBO_REL:part_of(TAO:0001056)	basement membrane of myotome
+GO:0005604^OBO_REL:part_of(VSAO:0000032)	basement membrane of notochord
+GO:0005604^OBO_REL:part_of(TAO:0000445)	basement membrane of optic tectum
+GO:0005604^OBO_REL:part_of(TAO:0005128)	basement membrane of posterior intestine epithelium
+GO:0005604^OBO_REL:part_of(TAO:0001288)	basement membrane of renal glomeruli
+GO:0005604^OBO_REL:part_of(TAO:0000610)	basement membrane of vertical myoseptum
+GO:0071711	basement membrane organization
+TAO:0000170	basibranchial bone
+TAO:0000316	basihyal bone
+TAO:0001510	basihyal cartilage
+TAO:0005002	basilar artery
+TAO:0005236	basophilic erythroblast
+GO:0007610	behavior
+GO:0001662	behavioral fear response
+GO:0048149	behavioral response to ethanol
+GO:0035095	behavioral response to nicotine
+GO:0032782	bile acid secretion
+TAO:0005163	bile canaliculus
+TAO:0005164	bile ductule
+TAO:0005164^OBO_REL:part_of(TAO:0005169)	bile ductule of intrahepatic bile duct
+TAO:0005164^OBO_REL:part_of(TAO:0000036)	bile ductule of liver and biliary system
+TAO:0001270	blastema
+TAO:0001270^OBO_REL:part_of(VSAO:0000164)	blastema of caudal fin
+TAO:0001270^OBO_REL:part_of(TAO:0001269)	blastema of regenerating fin
+TAO:0001176	blastoderm
+TAO:0009177	blastoderm cell
+TAO:0009177^OBO_REL:part_of(TAO:0000711)	blastoderm cell of DEL
+TAO:0009177^OBO_REL:part_of(TAO:0000086)	blastoderm cell of EVL
+TAO:0009177^OBO_REL:part_of(TAO:0001176)	blastoderm cell of blastoderm
+TAO:0001175	blastodisc
+TAO:0000093	blastomere
+TAO:0000093^OBO_REL:part_of(TAO:0000071)	blastomere of shield
+GO:0032060	bleb assembly
+GO:0032059^OBO_REL:part_of(TAO:0000004)	bleb of anterior axial hypoblast
+GO:0032059^OBO_REL:part_of(TAO:0000117)	bleb of hypoblast
+GO:0032059^OBO_REL:part_of(TAO:0000038)	bleb of margin
+GO:0032059^OBO_REL:part_of(CL:0000222)	bleb of mesodermal cell
+TAO:0000007	blood
+TAO:0009044	blood cell
+GO:0008015	blood circulation
+GO:0007596	blood coagulation
+TAO:0000094	blood island
+TAO:0000007^OBO_REL:part_of(TAO:0002137)	blood of blood vessel
+TAO:0000007^OBO_REL:part_of(TAO:0000114)	blood of heart
+TAO:0000007^OBO_REL:part_of(TAO:0005091)	blood of hepatic sinusoid
+TAO:0001079	blood vasculature
+TAO:0001079^OBO_REL:part_of(TAO:0000112)	blood vasculature of gut
+TAO:0001079^OBO_REL:part_of(TAO:0001114)	blood vasculature of head
+TAO:0001079^OBO_REL:part_of(TAO:0000029)	blood vasculature of hindbrain
+TAO:0001079^OBO_REL:part_of(TAO:0000123)	blood vasculature of liver
+TAO:0001079^OBO_REL:part_of(VSAO:0000147)	blood vasculature of pectoral fin
+TAO:0001079^OBO_REL:part_of(TAO:0000084)	blood vasculature of yolk
+TAO:0002137	blood vessel
+GO:0001568	blood vessel development
+TAO:0009036	blood vessel endothelial cell
+GO:0043534	blood vessel endothelial cell migration
+TAO:0009036^OBO_REL:part_of(TAO:0005000)	blood vessel endothelial cell of basal communicating artery
+TAO:0009036^OBO_REL:part_of(TAO:0000180)	blood vessel endothelial cell of caudal vein
+TAO:0009036^OBO_REL:part_of(TAO:0001267)	blood vessel endothelial cell of cranial vasculature
+TAO:0009036^OBO_REL:part_of(TAO:0000014)	blood vessel endothelial cell of dorsal aorta
+TAO:0009036^OBO_REL:part_of(TAO:0001285)	blood vessel endothelial cell of intersegmental vessel
+TAO:0009036^OBO_REL:part_of(TAO:0000477)	blood vessel endothelial cell of posterior cardinal vein
+TAO:0009036^OBO_REL:part_of(TAO:0005001)	blood vessel endothelial cell of posterior communicating artery
+TAO:0009036^OBO_REL:part_of(TAO:0000084)	blood vessel endothelial cell of yolk
+GO:0072554	blood vessel lumenization
+GO:0048514	blood vessel morphogenesis
+TAO:0002137^OBO_REL:part_of(TAO:0005024)	blood vessel of trunk vasculature
+GO:0001974	blood vessel remodeling
+TAO:0009222	blue sensitive photoreceptor cell
+TAO:0001094	body
+TAO:0001514	bone
+GO:0060348	bone development
+GO:0030282	bone mineralization
+GO:0045453	bone resorption
+ZFA:0005621	bone tissue
+TAO:0000008	brain
+GO:0007420	brain development
+GO:0048854	brain morphogenesis
+GO:0035284	brain segmentation
+TAO:0000318	brain stem/spinal tract and commissures
+TAO:0000099	brain vasculature
+GO:0009081	branched chain family amino acid metabolic process
+TAO:0000172	branchial muscle
+GO:0048755	branching morphogenesis of a nerve
+GO:0014707	branchiomeric skeletal muscle development
+TAO:0000476	branchiostegal ray
+TAO:0001279	branchiostegal ray 1
+TAO:0001280	branchiostegal ray 3
+TAO:0009143^OBO_REL:part_of(TAO:0001558)	brush border epithelial cell of pronephric tubule
+GO:0005903^OBO_REL:part_of(TAO:0001094)	brush border of body
+GO:0005903^OBO_REL:part_of(TAO:0005124)	brush border of intestinal epithelium
+GO:0005903^OBO_REL:part_of(TAO:0000150)	brush border of pronephric duct
+TAO:0000173	bulbus arteriosus
+GO:0055074	calcium ion homeostasis
+GO:0070509	calcium ion import
+GO:0006816	calcium ion transport
+GO:0005954^OBO_REL:part_of(TAO:0000001)	calcium- and calmodulin-dependent protein kinase complex of Kupffer's vesicle
+GO:0016339	calcium-dependent cell-cell adhesion
+GO:0016338	calcium-independent cell-cell adhesion
+GO:0019722	calcium-mediated signaling
+GO:0004683	calmodulin-dependent protein kinase activity
+GO:0043010	camera-type eye development
+GO:0048593	camera-type eye morphogenesis
+GO:0060219	camera-type eye photoreceptor cell differentiation
+GO:0060070	canonical Wnt receptor signaling pathway
+GO:0004089	carbonate dehydratase activity
+GO:0003230	cardiac atrium development
+GO:0035051	cardiac cell differentiation
+GO:0060912	cardiac cell fate specification
+GO:0003207	cardiac chamber formation
+GO:0003206	cardiac chamber morphogenesis
+GO:0061337	cardiac conduction
+GO:0003161	cardiac conduction system development
+TAO:0001318	cardiac jelly
+TAO:0005280	cardiac muscle
+TAO:0009316	cardiac muscle cell
+GO:0055013	cardiac muscle cell development
+GO:0055007	cardiac muscle cell differentiation
+TAO:0009316^OBO_REL:part_of(TAO:0001374)	cardiac muscle cell of atrial myocardium
+TAO:0009316^OBO_REL:part_of(TAO:0001315)	cardiac muscle cell of atrioventricular canal
+TAO:0009316^OBO_REL:part_of(TAO:0000471)	cardiac muscle cell of atrium
+TAO:0009316^OBO_REL:part_of(TAO:0000009)	cardiac muscle cell of cardiac ventricle
+TAO:0009316^OBO_REL:part_of(TAO:0000114)	cardiac muscle cell of heart
+TAO:0009316^OBO_REL:part_of(TAO:0000115)	cardiac muscle cell of heart rudiment
+TAO:0009316^OBO_REL:part_of(TAO:0001319)	cardiac muscle cell of myocardium
+TAO:0009316^OBO_REL:part_of(TAO:0005061)	cardiac muscle cell of ventricular myocardium
+GO:0060038	cardiac muscle cell proliferation
+GO:0060048	cardiac muscle contraction
+TAO:0009234	cardiac muscle myoblast
+TAO:0009234^OBO_REL:part_of(TAO:0000028)	cardiac muscle myoblast of heart primordium
+TAO:0009234^OBO_REL:part_of(TAO:0002229)	cardiac muscle myoblast of presumptive atrium primitive heart tube
+GO:0003261	cardiac muscle progenitor cell migration to the midline involved in heart field formation
+GO:0048738	cardiac muscle tissue development
+GO:0055008	cardiac muscle tissue morphogenesis
+GO:0055003	cardiac myofibril assembly
+TAO:0000009	cardiac ventricle
+GO:0003231	cardiac ventricle development
+GO:0003208	cardiac ventricle morphogenesis
+GO:0042685	cardioblast cell fate specification
+GO:0010002	cardioblast differentiation
+GO:0003260	cardioblast migration
+GO:0060975	cardioblast migration to the midline involved in heart field formation
+TAO:0000010	cardiovascular system
+GO:0072358	cardiovascular system development
+GO:0001502	cartilage condensation
+GO:0051216	cartilage development
+GO:0060351	cartilage development involved in endochondral bone morphogenesis
+GO:0060536	cartilage morphogenesis
+VSAO:0000040	cartilage tissue
+VSAO:0000040^OBO_REL:part_of(TAO:0001227)	cartilage tissue of mandibular arch
+VSAO:0000040^OBO_REL:part_of(TAO:0001580)	cartilage tissue of neurocranium
+VSAO:0000040^OBO_REL:part_of(VSAO:0000147)	cartilage tissue of pectoral fin
+VSAO:0000040^OBO_REL:part_of(TAO:0000141)	cartilage tissue of pectoral fin bud
+VSAO:0000040^OBO_REL:part_of(TAO:0000692)	cartilage tissue of symplectic
+TAO:0005155^OBO_REL:part_of(TAO:0001227)	cartilaginous joint of mandibular arch
+TAO:0005155^OBO_REL:part_of(TAO:0000250)	cartilaginous joint of opercle
+GO:0016342^OBO_REL:part_of(TAO:0009306)	catenin complex of neuroepithelial cell
+GO:0006812	cation transport
+TAO:0000011	caudal artery
+TAO:0000320	caudal commissure
+VSAO:0000164	caudal fin
+TAO:0000437	caudal fin actinotrichium
+GO:0033336	caudal fin development
+VSAO:0000174	caudal fin lepidotrichium
+TAO:0001594	caudal fin lower lobe
+GO:0035143	caudal fin morphogenesis
+VSAO:0000167	caudal fin skeleton
+TAO:0001593	caudal fin upper lobe
+ZFA:0000634	caudal hypothalamic zone
+TAO:0000633	caudal tuberculum
+TAO:0000180	caudal vein
+TAO:0001286	caudal vein plexus
+TAO:0000326	caudal vertebra
+GO:0005901^OBO_REL:part_of(TAO:0000396)	caveola of nervous system
+GO:0005901^OBO_REL:part_of(VSAO:0000032)	caveola of notochord
+GO:0005901^OBO_REL:part_of(TAO:0009041)	caveola of peridermal cell
+GO:0005901^OBO_REL:part_of(TAO:0000155)	caveola of somite
+CARO:0000013	cell
+GO:0007155	cell adhesion
+GO:0007569	cell aging
+GO:0044297^OBO_REL:part_of(TAO:0009067)	cell body of CNS neuron (sensu Vertebrata)
+GO:0044297^OBO_REL:part_of(TAO:0000243)	cell body of neuromast
+GO:0044297^OBO_REL:part_of(TAO:0009310)	cell body of retinal ganglion cell
+GO:0044297^OBO_REL:part_of(TAO:0009247)	cell body of secondary motor neuron
+GO:0010644	cell communication by electrical coupling
+GO:0007049	cell cycle
+GO:0007050	cell cycle arrest
+GO:0022402	cell cycle process
+GO:0008219	cell death
+GO:0030154	cell differentiation
+GO:0021533	cell differentiation in hindbrain
+GO:0039014	cell differentiation involved in pronephros development
+GO:0051301	cell division
+GO:0045165	cell fate commitment
+GO:0001708	cell fate specification
+GO:0030054^OBO_REL:part_of(TAO:0000086)	cell junction of EVL
+GO:0030054^OBO_REL:part_of(TAO:0000678)	cell junction of hair cell anterior macula
+GO:0030054^OBO_REL:part_of(TAO:0005124)	cell junction of intestinal epithelium
+GO:0034330	cell junction organization
+GO:0016477	cell migration
+GO:0061381	cell migration in diencephalon
+GO:0021535	cell migration in hindbrain
+GO:0042074	cell migration involved in gastrulation
+GO:0060973	cell migration involved in heart development
+GO:0060974	cell migration involved in heart formation
+GO:0035787	cell migration involved in kidney development
+GO:0090134	cell migration involved in mesendoderm migration
+GO:0000902	cell morphogenesis
+CARO:0000013^OBO_REL:part_of(TAO:0000711)	cell of DEL
+CARO:0000013^OBO_REL:part_of(TAO:0000086)	cell of EVL
+GO:0005623^OBO_REL:part_of(TAO:0000086)	cell of EVL
+CARO:0000013^OBO_REL:part_of(TAO:0000086)	cell of EVL
+CARO:0000013^OBO_REL:part_of(TAO:0000001)	cell of Kupffer's vesicle
+CARO:0000013^OBO_REL:part_of(ZFA:0005566)	cell of anterior segment eye
+CARO:0000013^OBO_REL:part_of(TAO:0001094)	cell of body
+CARO:0000013^OBO_REL:part_of(TAO:0000008)	cell of brain
+CARO:0000013^OBO_REL:part_of(TAO:0001320)	cell of endocardium
+CARO:0000013^OBO_REL:part_of(TAO:0000105)	cell of epidermis
+CARO:0000013^OBO_REL:part_of(TAO:0000107)	cell of eye
+CARO:0000013^OBO_REL:part_of(VSAO:0000099)	cell of fin
+CARO:0000013^OBO_REL:part_of(TAO:0000022)	cell of floor plate
+CARO:0000013^OBO_REL:part_of(TAO:0000110)	cell of fourth ventricle
+CARO:0000013^OBO_REL:part_of(TAO:0000112)	cell of gut
+CARO:0000013^OBO_REL:part_of(TAO:0001114)	cell of head
+GO:0005623^OBO_REL:part_of(TAO:0001114)	cell of head
+CARO:0000013^OBO_REL:part_of(TAO:0000029)	cell of hindbrain
+CARO:0000013^OBO_REL:part_of(TAO:0000117)	cell of hypoblast
+CARO:0000013^OBO_REL:part_of(TAO:0000217)	cell of inner ear
+CARO:0000013^OBO_REL:part_of(VSAO:0000029)	cell of integument
+CARO:0000013^OBO_REL:part_of(TAO:0001285)	cell of intersegmental vessel
+GO:0005623^OBO_REL:part_of(TAO:0005124)	cell of intestinal epithelium
+CARO:0000013^OBO_REL:part_of(TAO:0005124)	cell of intestinal epithelium
+CARO:0000013^OBO_REL:part_of(TAO:0005169)	cell of intrahepatic bile duct
+CARO:0000013^OBO_REL:part_of(TAO:0000035)	cell of lens
+CARO:0000013^OBO_REL:part_of(TAO:0007000)	cell of macula saccule
+CARO:0000013^OBO_REL:part_of(TAO:0000040)	cell of median fin fold
+CARO:0000013^OBO_REL:part_of(TAO:0000128)	cell of midbrain
+CARO:0000013^OBO_REL:part_of(TAO:0001135)	cell of neural tube
+CARO:0000013^OBO_REL:part_of(VSAO:0000032)	cell of notochord
+CARO:0000013^OBO_REL:part_of(TAO:0000445)	cell of optic tectum
+GO:0005623^OBO_REL:part_of(TAO:0001360)	cell of parapineal organ
+CARO:0000013^OBO_REL:part_of(VSAO:0000147)	cell of pectoral fin
+CARO:0000013^OBO_REL:part_of(VSAO:0000036)	cell of perichondrium
+CARO:0000013^OBO_REL:part_of(TAO:0001306)	cell of pharyngeal arch
+CARO:0000013^OBO_REL:part_of(TAO:0001466)	cell of photoreceptor outer segment layer
+CARO:0000013^OBO_REL:part_of(TAO:0001117)	cell of post-vent region
+CARO:0000013^OBO_REL:part_of(TAO:0001218)	cell of presumptive floor plate
+CARO:0000013^OBO_REL:part_of(TAO:0000150)	cell of pronephric duct
+GO:0005623^OBO_REL:part_of(TAO:0000152)	cell of retina
+CARO:0000013^OBO_REL:part_of(TAO:0000152)	cell of retina
+GO:0005623^OBO_REL:part_of(TAO:0000152)	cell of retina
+CARO:0000013^OBO_REL:part_of(TAO:0000152)	cell of retina
+CARO:0000013^OBO_REL:part_of(TAO:0000024)	cell of retinal ganglion cell layer
+CARO:0000013^OBO_REL:part_of(TAO:0000119)	cell of retinal inner nuclear layer
+GO:0005623^OBO_REL:part_of(TAO:0000119)	cell of retinal inner nuclear layer
+CARO:0000013^OBO_REL:part_of(TAO:0000119)	cell of retinal inner nuclear layer
+CARO:0000013^OBO_REL:part_of(TAO:0001329)	cell of retinal inner plexiform layer
+CARO:0000013^OBO_REL:part_of(TAO:0000046)	cell of retinal neural layer
+CARO:0000013^OBO_REL:part_of(TAO:0001464)	cell of retinal outer nuclear layer
+CARO:0000013^OBO_REL:part_of(TAO:0000075)	cell of spinal cord
+CARO:0000013^OBO_REL:part_of(TAO:0000447)	cell of tela chorioidea
+CARO:0000013^OBO_REL:part_of(TAO:0001069)	cell of ventral fin fold
+CARO:0000013^OBO_REL:part_of(TAO:0001083)	cell of ventricular zone
+GO:0031253^OBO_REL:part_of(CL:0000138)	cell projection membrane of chondrocyte
+GO:0031253^OBO_REL:part_of(TAO:0009256)	cell projection membrane of nucleate erythrocyte
+GO:0042995^OBO_REL:part_of(TAO:0009036)	cell projection of blood vessel endothelial cell
+GO:0042995^OBO_REL:part_of(TAO:0009137)	cell projection of ectodermal cell
+GO:0042995^OBO_REL:part_of(TAO:0000018)	cell projection of epiblast
+GO:0042995^OBO_REL:part_of(TAO:0000117)	cell projection of hypoblast
+GO:0042995^OBO_REL:part_of(TAO:0009091)	cell projection of melanocyte
+GO:0042995^OBO_REL:part_of(TAO:0000243)	cell projection of neuromast
+GO:0042995^OBO_REL:part_of(TAO:0009076)	cell projection of oligodendrocyte
+GO:0042995^OBO_REL:part_of(TAO:0009285)	cell projection of podocyte
+GO:0042995^OBO_REL:part_of(TAO:0000060)	cell projection of prechordal plate
+GO:0042995^OBO_REL:part_of(TAO:0002237)	cell projection of pronephric podocyte
+GO:0042995^OBO_REL:part_of(TAO:0009292)	cell projection of radial glial cell
+GO:0008283	cell proliferation
+GO:0021846	cell proliferation in forebrain
+GO:0021534	cell proliferation in hindbrain
+GO:0021923	cell proliferation in hindbrain ventricular zone
+GO:0033278	cell proliferation in midbrain
+GO:0035736	cell proliferation involved in compound eye morphogenesis
+GO:0061323	cell proliferation involved in heart morphogenesis
+GO:0072111	cell proliferation involved in kidney development
+GO:0039015	cell proliferation involved in pronephros development
+GO:0009986^OBO_REL:part_of(TAO:0009158)	cell surface of keratinocyte
+GO:0005913^OBO_REL:part_of(TAO:0000086)	cell-cell adherens junction of EVL
+GO:0005913^OBO_REL:part_of(TAO:0001205)	cell-cell adherens junction of Meckel's cartilage
+GO:0005913^OBO_REL:part_of(CL:0000138)	cell-cell adherens junction of chondrocyte
+GO:0005913^OBO_REL:part_of(TAO:0000040)	cell-cell adherens junction of median fin fold
+GO:0016337	cell-cell adhesion
+GO:0070586	cell-cell adhesion involved in gastrulation
+GO:0003370	cell-cell adhesion involved in mesendodermal cell migration
+GO:0005911^OBO_REL:part_of(TAO:0002169)	cell-cell junction of atrial endocardium
+GO:0005911^OBO_REL:part_of(TAO:0009036)	cell-cell junction of blood vessel endothelial cell
+GO:0005911^OBO_REL:part_of(TAO:0009316)	cell-cell junction of cardiac muscle cell
+GO:0005911^OBO_REL:part_of(TAO:0009038)	cell-cell junction of columnar/cuboidal epithelial cell
+GO:0005911^OBO_REL:part_of(TAO:0001267)	cell-cell junction of cranial vasculature
+GO:0005911^OBO_REL:part_of(TAO:0009065)	cell-cell junction of endothelial cell
+GO:0005911^OBO_REL:part_of(TAO:0000114)	cell-cell junction of heart
+GO:0005911^OBO_REL:part_of(TAO:0009306)	cell-cell junction of neuroepithelial cell
+GO:0005911^OBO_REL:part_of(TAO:0000477)	cell-cell junction of posterior cardinal vein
+GO:0045216	cell-cell junction organization
+GO:0006874	cellular calcium ion homeostasis
+GO:0043482	cellular pigment accumulation
+GO:0033059	cellular pigmentation
+GO:0071485	cellular response to absence of light
+GO:0071257	cellular response to electrical stimulus
+GO:0071361	cellular response to ethanol
+GO:0034605	cellular response to heat
+GO:0071482	cellular response to light stimulus
+GO:0071260	cellular response to mechanical stimulus
+GO:0090398	cellular senescence
+GO:0006883	cellular sodium ion homeostasis
+TAO:0005020	central artery
+TAO:0000938	central canal
+TAO:0000012	central nervous system
+GO:0007417	central nervous system development
+GO:0032289	central nervous system myelin formation
+GO:0022010	central nervous system myelination
+GO:0021955	central nervous system neuron axonogenesis
+GO:0021953	central nervous system neuron differentiation
+GO:0021952	central nervous system projection neuron axonogenesis
+BSPO:0000075^OBO_REL:part_of(TAO:0000014)	central region of dorsal aorta
+BSPO:0000075^OBO_REL:part_of(TAO:0001114)	central region of head
+BSPO:0000075^OBO_REL:part_of(TAO:0009091)	central region of melanocyte
+BSPO:0000075^OBO_REL:part_of(TAO:0005301)	central region of pectoral fin blood vessel
+BSPO:0000075^OBO_REL:part_of(TAO:0000477)	central region of posterior cardinal vein
+BSPO:0000075^OBO_REL:part_of(TAO:0000150)	central region of pronephric duct
+BSPO:0000075^OBO_REL:part_of(TAO:0000152)	central region of retina
+BSPO:0000075^OBO_REL:part_of(TAO:0000046)	central region of retinal neural layer
+BSPO:0000075^OBO_REL:part_of(TAO:0005035)	central region of subintestinal vein
+GO:0005814^OBO_REL:part_of(TAO:0009154)	centriole of eye photoreceptor cell
+GO:0005814^OBO_REL:part_of(TAO:0009006)	centriole of sperm
+GO:0007099	centriole replication
+GO:0051298	centrosome duplication
+GO:0005813^OBO_REL:part_of(TAO:0000093)	centrosome of blastomere
+GO:0005813^OBO_REL:part_of(CARO:0000013)	centrosome of cell
+GO:0005813^OBO_REL:part_of(TAO:0007036)	centrosome of hindbrain neural rod
+GO:0005813^OBO_REL:part_of(TAO:0000133)	centrosome of neural rod
+GO:0005813^OBO_REL:part_of(TAO:0001135)	centrosome of neural tube
+GO:0005813^OBO_REL:part_of(TAO:0009306)	centrosome of neuroepithelial cell
+GO:0005813^OBO_REL:part_of(TAO:0001071)	centrosome of presumptive retina
+GO:0005813^OBO_REL:part_of(TAO:0000150)	centrosome of pronephric duct
+TAO:0000328	cephalic musculature
+TAO:0001237	ceratobranchial 1 bone
+TAO:0001520	ceratobranchial 1 cartilage
+TAO:0001242	ceratobranchial 2 bone
+TAO:0001517	ceratobranchial 2 cartilage
+TAO:0001241	ceratobranchial 3 bone
+TAO:0001518	ceratobranchial 3 cartilage
+TAO:0001240	ceratobranchial 4 bone
+TAO:0001519	ceratobranchial 4 cartilage
+TAO:0001239	ceratobranchial 5 bone
+TAO:0001521	ceratobranchial 5 cartilage
+TAO:0000694	ceratobranchial 5 tooth
+TAO:0000488	ceratobranchial bone
+TAO:0001516	ceratobranchial cartilage
+TAO:0001400	ceratohyal cartilage
+TAO:0001850	ceratohyal-branchiostegal ray joint
+GO:0021702	cerebellar Purkinje cell differentiation
+TAO:0005021	cerebellar central artery
+TAO:0002182	cerebellar granule cell
+GO:0021707	cerebellar granule cell differentiation
+TAO:0002182^OBO_REL:part_of(TAO:0000100)	cerebellar granule cell of cerebellum
+GO:0021930	cerebellar granule cell precursor proliferation
+TAO:0000100	cerebellum
+GO:0021549	cerebellum development
+GO:0021587	cerebellum morphogenesis
+GO:0021589	cerebellum structural organization
+TAO:0002184	cerebral spinal fluid
+TAO:0002184^OBO_REL:part_of(TAO:0001261)	cerebral spinal fluid of ventricular system
+GO:0005260	channel-conductance-controlling ATPase activity
+GO:0032602	chemokine production
+GO:0051026	chiasma assembly
+GO:0006821	chloride transport
+TAO:0009060^OBO_REL:part_of(TAO:0000046)	cholinergic neuron of retinal neural layer
+CL:0000058	chondroblast
+CL:0000058^OBO_REL:part_of(TAO:0000095)	chondroblast of gill arch 1-5 skeleton
+CL:0000058^OBO_REL:part_of(TAO:0001306)	chondroblast of pharyngeal arch
+CL:0000058^OBO_REL:part_of(TAO:0001595)	chondroblast of pharyngeal arch 1
+CL:0000058^OBO_REL:part_of(TAO:0001596)	chondroblast of pharyngeal arch 2
+CL:0000058^OBO_REL:part_of(TAO:0001460)	chondroblast of pharyngeal arch cartilage
+TAO:0001424	chondrocranium
+TAO:0001461	chondrocranium cartilage
+CL:0000138	chondrocyte
+GO:0002063	chondrocyte development
+GO:0002062	chondrocyte differentiation
+GO:0003415	chondrocyte hypertrophy
+GO:0003428	chondrocyte intercalation involved in growth plate cartilage morphogenesis
+GO:0090171	chondrocyte morphogenesis
+CL:0000138^OBO_REL:part_of(TAO:0001205)	chondrocyte of Meckel's cartilage
+CL:0000138^OBO_REL:part_of(TAO:0001516)	chondrocyte of ceratobranchial cartilage
+CL:0000138^OBO_REL:part_of(TAO:0001400)	chondrocyte of ceratohyal cartilage
+CL:0000138^OBO_REL:part_of(TAO:0001458)	chondrocyte of cranial cartilage
+CL:0000138^OBO_REL:part_of(TAO:0001405)	chondrocyte of ethmoid cartilage
+CL:0000138^OBO_REL:part_of(TAO:0001597)	chondrocyte of gill arch
+CL:0000138^OBO_REL:part_of(TAO:0000095)	chondrocyte of gill arch 1-5 skeleton
+CL:0000138^OBO_REL:part_of(TAO:0001422)	chondrocyte of hyosymplectic cartilage
+CL:0000138^OBO_REL:part_of(TAO:0001227)	chondrocyte of mandibular arch
+CL:0000138^OBO_REL:part_of(TAO:0001321)	chondrocyte of neurocranial trabecula
+CL:0000138^OBO_REL:part_of(TAO:0001580)	chondrocyte of neurocranium
+CL:0000138^OBO_REL:part_of(TAO:0001399)	chondrocyte of palatoquadrate cartilage
+CL:0000138^OBO_REL:part_of(TAO:0001595)	chondrocyte of pharyngeal arch 1
+CL:0000138^OBO_REL:part_of(TAO:0001596)	chondrocyte of pharyngeal arch 2
+CL:0000138^OBO_REL:part_of(TAO:0001460)	chondrocyte of pharyngeal arch cartilage
+CL:0000138^OBO_REL:part_of(TAO:0001507)	chondrocyte of trabecula cranii
+CL:0000138^OBO_REL:part_of(TAO:0005059)	chondrocyte of trabecular layer
+CL:0000138^OBO_REL:part_of(TAO:0001273)	chondrocyte of ventral mandibular arch
+GO:0035988	chondrocyte proliferation
+GO:0030206	chondroitin sulfate biosynthetic process
+GO:0050650	chondroitin sulfate proteoglycan biosynthetic process
+GO:0050653	chondroitin sulfate proteoglycan biosynthetic process, polysaccharide chain biosynthetic process
+GO:0043009	chordate embryonic development
+TAO:0001082	chordo neural hinge
+TAO:0000329	chorion
+TAO:0000329^OBO_REL:part_of(TAO:0001570)	chorion of unfertilized egg
+TAO:0005094	choroidal vascular plexus
+GO:0003682	chromatin binding
+GO:0000785^OBO_REL:part_of(TAO:0009177)	chromatin of blastoderm cell
+GO:0000785^OBO_REL:part_of(TAO:0000012)	chromatin of central nervous system
+GO:0000785^OBO_REL:part_of(TAO:0000035)	chromatin of lens
+GO:0000785^OBO_REL:part_of(TAO:0000046)	chromatin of retinal neural layer
+GO:0000785^OBO_REL:part_of(TAO:0000144)	chromatin of retinal pigmented epithelium
+GO:0000785^OBO_REL:part_of(TAO:0009005)	chromatin of spermatocyte
+GO:0031052	chromosome breakage
+GO:0030261	chromosome condensation
+GO:0005694^OBO_REL:part_of(TAO:0000088)	chromosome of YSL
+GO:0005694^OBO_REL:part_of(TAO:0009177)	chromosome of blastoderm cell
+GO:0005694^OBO_REL:part_of(TAO:0001094)	chromosome of body
+GO:0005694^OBO_REL:part_of(TAO:0000008)	chromosome of brain
+GO:0005694^OBO_REL:part_of(CARO:0000013)	chromosome of cell
+GO:0005694^OBO_REL:part_of(TAO:0001120)	chromosome of neuroectoderm
+GO:0005694^OBO_REL:part_of(TAO:0000142)	chromosome of peripheral nervous system
+GO:0005694^OBO_REL:part_of(TAO:0000075)	chromosome of spinal cord
+GO:0007059	chromosome segregation
+GO:0000781^OBO_REL:part_of(TAO:0001094)	chromosome, telomeric region of body
+TAO:0001203	ciliary body
+TAO:0001289	ciliary marginal zone
+GO:0001539	ciliary or flagellar motility
+GO:0035253^OBO_REL:part_of(TAO:0009032)	ciliary rootlet of ciliated cell
+TAO:0009032^OBO_REL:part_of(TAO:0000001)	ciliated cell of Kupffer's vesicle
+TAO:0009032^OBO_REL:part_of(TAO:0000330)	ciliated cell of cloacal chamber
+TAO:0009032^OBO_REL:part_of(TAO:0000150)	ciliated cell of pronephric duct
+TAO:0009032^OBO_REL:part_of(TAO:0000151)	ciliated cell of pronephros
+TAO:0009035^OBO_REL:part_of(TAO:0000001)	ciliated epithelial cell of Kupffer's vesicle
+TAO:0009358	ciliated olfactory receptor neuron
+GO:0042384	cilium assembly
+GO:0035083	cilium axoneme assembly
+GO:0035085^OBO_REL:part_of(TAO:0000001)	cilium axoneme of Kupffer's vesicle
+GO:0035085^OBO_REL:part_of(TAO:0001094)	cilium axoneme of body
+GO:0035085^OBO_REL:part_of(TAO:0000008)	cilium axoneme of brain
+GO:0035085^OBO_REL:part_of(TAO:0000938)	cilium axoneme of central canal
+GO:0035085^OBO_REL:part_of(TAO:0009154)	cilium axoneme of eye photoreceptor cell
+GO:0035085^OBO_REL:part_of(TAO:0000133)	cilium axoneme of neural rod
+GO:0035085^OBO_REL:part_of(TAO:0001135)	cilium axoneme of neural tube
+GO:0035085^OBO_REL:part_of(TAO:0000150)	cilium axoneme of pronephric duct
+GO:0035085^OBO_REL:part_of(TAO:0000151)	cilium axoneme of pronephros
+GO:0035085^OBO_REL:part_of(TAO:0000143)	cilium axoneme of retinal photoreceptor layer
+GO:0060271	cilium morphogenesis
+GO:0003341	cilium movement
+GO:0060294	cilium movement involved in cell motility
+GO:0005929^OBO_REL:part_of(TAO:0000001)	cilium of Kupffer's vesicle
+GO:0005929^OBO_REL:part_of(TAO:0000168)	cilium of anterior macula
+GO:0005929^OBO_REL:part_of(TAO:0001094)	cilium of body
+GO:0005929^OBO_REL:part_of(TAO:0000938)	cilium of central canal
+GO:0005929^OBO_REL:part_of(TAO:0009032)	cilium of ciliated cell
+GO:0005929^OBO_REL:part_of(TAO:0000330)	cilium of cloacal chamber
+GO:0005929^OBO_REL:part_of(TAO:0009033)	cilium of ependymal cell
+GO:0005929^OBO_REL:part_of(TAO:0009154)	cilium of eye photoreceptor cell
+GO:0005929^OBO_REL:part_of(TAO:0000022)	cilium of floor plate
+GO:0005929^OBO_REL:part_of(TAO:0000166)	cilium of lateral crista
+GO:0005929^OBO_REL:part_of(TAO:0007000)	cilium of macula saccule
+GO:0005929^OBO_REL:part_of(TAO:0005242)	cilium of multiciliated epithelial cell
+GO:0005929^OBO_REL:part_of(TAO:0001135)	cilium of neural tube
+GO:0005929^OBO_REL:part_of(TAO:0000243)	cilium of neuromast
+GO:0005929^OBO_REL:part_of(TAO:0000402)	cilium of olfactory bulb
+GO:0005929^OBO_REL:part_of(TAO:0000554)	cilium of olfactory epithelium
+GO:0005929^OBO_REL:part_of(TAO:0000130)	cilium of olfactory pit
+GO:0005929^OBO_REL:part_of(TAO:0000048)	cilium of olfactory placode
+GO:0005929^OBO_REL:part_of(TAO:0000051)	cilium of otic vesicle
+GO:0005929^OBO_REL:part_of(TAO:0000047)	cilium of peripheral olfactory organ
+GO:0005929^OBO_REL:part_of(TAO:0000940)	cilium of posterior lateral line neuromast
+GO:0005929^OBO_REL:part_of(TAO:0007037)	cilium of posterior neural tube
+GO:0005929^OBO_REL:part_of(TAO:0000150)	cilium of pronephric duct
+GO:0005929^OBO_REL:part_of(TAO:0001558)	cilium of pronephric tubule
+GO:0005929^OBO_REL:part_of(TAO:0000151)	cilium of pronephros
+GO:0005929^OBO_REL:part_of(TAO:0001287)	cilium of renal tubule
+GO:0005929^OBO_REL:part_of(TAO:0000075)	cilium of spinal cord
+GO:0032922	circadian regulation of gene expression
+GO:0050802	circadian sleep/wake cycle, sleep
+GO:0042746	circadian sleep/wake cycle, wakefulness
+TAO:0009043^OBO_REL:part_of(TAO:0000007)	circulating cell of blood
+GO:0003013	circulatory system process
+GO:0060200^OBO_REL:part_of(TAO:0000155)	clathrin sculpted acetylcholine transport vesicle of somite
+GO:0032154^OBO_REL:part_of(TAO:0001176)	cleavage furrow of blastoderm
+TAO:0000184	cleithrum
+GO:0035844	cloaca development
+TAO:0000330	cloacal chamber
+GO:0060197	cloacal septation
+GO:0061386	closure of optic fissure
+GO:0070073	clustering of voltage-gated calcium channels
+TAO:0001438	coelom
+GO:0032964	collagen biosynthetic process
+GO:0030199	collagen fibril organization
+GO:0032963	collagen metabolic process
+GO:0005581^OBO_REL:part_of(CL:0000138)	collagen of chondrocyte
+GO:0005581^OBO_REL:part_of(TAO:0001458)	collagen of cranial cartilage
+GO:0005581^OBO_REL:part_of(VSAO:0000032)	collagen of notochord
+GO:0005581^OBO_REL:part_of(TAO:0009115)	collagen of skeletal muscle cell
+GO:0005584^OBO_REL:part_of(TAO:0001458)	collagen type I of cranial cartilage
+GO:0005585^OBO_REL:part_of(VSAO:0000040)	collagen type II of cartilage tissue
+GO:0005585^OBO_REL:part_of(TAO:0001458)	collagen type II of cranial cartilage
+GO:0005587^OBO_REL:part_of(VSAO:0000032)	collagen type IV of notochord
+GO:0005589^OBO_REL:part_of(TAO:0001458)	collagen type VI of cranial cartilage
+GO:0048668	collateral sprouting
+GO:0048669	collateral sprouting in absence of injury
+TAO:0009038^OBO_REL:part_of(TAO:0001326)	columnar/cuboidal epithelial cell of lens epithelium
+TAO:0009038^OBO_REL:part_of(TAO:0000161)	columnar/cuboidal epithelial cell of third ventricle
+TAO:0000490	commissura cerebelli
+GO:0071679	commissural neuron axon guidance
+TAO:0000186	common cardinal vein
+TAO:0009023	common lymphocyte progenitor
+TAO:0009023^OBO_REL:part_of(TAO:0000669)	common lymphocyte progenitor of head kidney
+TAO:0009023^OBO_REL:part_of(TAO:0001077)	common lymphocyte progenitor of thymus primordium
+GO:0043218^OBO_REL:part_of(TAO:0000029)	compact myelin of hindbrain
+GO:0043218^OBO_REL:part_of(TAO:0007009)	compact myelin of nerve
+GO:0043218^OBO_REL:part_of(TAO:0000175)	compact myelin of posterior lateral line nerve
+GO:0043218^OBO_REL:part_of(TAO:0000075)	compact myelin of spinal cord
+BSPO:0000088^OBO_REL:part_of(TAO:0000024)	compartment boundary of retinal ganglion cell layer
+BSPO:0000088^OBO_REL:part_of(TAO:0001064)	compartment boundary of rhombomere
+BSPO:0000088^OBO_REL:part_of(TAO:0000161)	compartment boundary of third ventricle
+GO:0000793^OBO_REL:part_of(TAO:0001094)	condensed chromosome of body
+GO:0000793^OBO_REL:part_of(TAO:0009005)	condensed chromosome of spermatocyte
+TAO:0009322	cone retinal bipolar cell
+GO:0005922^OBO_REL:part_of(TAO:0009315)	connexon complex of horizontal cell
+TAO:0007050	constrictor dorsalis
+GO:0043292^OBO_REL:part_of(TAO:0009117)	contractile fiber of fast muscle cell
+GO:0043292^OBO_REL:part_of(TAO:0005145)	contractile fiber of muscle
+GO:0043292^OBO_REL:part_of(TAO:0001117)	contractile fiber of post-vent region
+GO:0043292^OBO_REL:part_of(TAO:0000155)	contractile fiber of somite
+GO:0043292^OBO_REL:part_of(TAO:0001115)	contractile fiber of trunk
+GO:0060026	convergent extension
+GO:0060028	convergent extension involved in axis elongation
+GO:0060027	convergent extension involved in gastrulation
+GO:0022007	convergent extension involved in neural plate elongation
+GO:0060029	convergent extension involved in organogenesis
+GO:0090246	convergent extension involved in somitogenesis
+VSAO:0000158	coracoid
+TAO:0000640	cornea
+TAO:0002186	corneal endothelium
+TAO:0009264	corneal epithelial cell
+TAO:0002187	corneal epithelium
+TAO:0002189	corneal stroma
+TAO:0001200	corpuscles of Stannius
+GO:0030864^OBO_REL:part_of(TAO:0001094)	cortical actin cytoskeleton of body
+GO:0030864^OBO_REL:part_of(TAO:0000018)	cortical actin cytoskeleton of epiblast
+GO:0030866	cortical actin cytoskeleton organization
+GO:0030863^OBO_REL:part_of(TAO:0000088)	cortical cytoskeleton of YSL
+GO:0060471	cortical granule exocytosis
+GO:0060473^OBO_REL:part_of(TAO:0001565)	cortical granule of oocyte stage II
+GO:0060473^OBO_REL:part_of(TAO:0001566)	cortical granule of oocyte stage III
+GO:0060128	corticotropin hormone secreting cell differentiation
+TAO:0005297	cranial blood vessel
+TAO:0001458	cranial cartilage
+TAO:0001458^OBO_REL:part_of(TAO:0001580)	cranial cartilage of neurocranium
+TAO:0001458^OBO_REL:part_of(TAO:0001306)	cranial cartilage of pharyngeal arch
+TAO:0000013	cranial ganglia
+TAO:0000641	cranial nerve
+TAO:0000249	cranial nerve I
+TAO:0000435	cranial nerve II
+TAO:0000435^OBO_REL:part_of(TAO:0000556)	cranial nerve II of optic chiasm
+TAO:0000405	cranial nerve III
+TAO:0000600	cranial nerve IV
+TAO:0000668	cranial nerve IX
+TAO:0000697	cranial nerve V
+TAO:0000310	cranial nerve VI
+TAO:0000664	cranial nerve VII
+TAO:0000247	cranial nerve VIII
+TAO:0000453	cranial nerve X
+GO:0021545	cranial nerve development
+TAO:0001194	cranial neural crest
+TAO:0001267	cranial vasculature
+TAO:0000737	cranium
+GO:0004693	cyclin-dependent protein kinase activity
+GO:0004197	cysteine-type endopeptidase activity
+GO:0004129	cytochrome-c oxidase activity
+GO:0001816	cytokine production
+GO:0000910	cytokinesis
+GO:0019835	cytolysis
+GO:0005737^OBO_REL:part_of(TAO:0009036)	cytoplasm of blood vessel endothelial cell
+GO:0005737^OBO_REL:part_of(TAO:0009269)	cytoplasm of enterocyte
+GO:0005737^OBO_REL:part_of(TAO:0005169)	cytoplasm of intrahepatic bile duct
+GO:0005737^OBO_REL:part_of(TAO:0000036)	cytoplasm of liver and biliary system
+GO:0005737^OBO_REL:part_of(TAO:0001570)	cytoplasm of unfertilized egg
+GO:0016023^OBO_REL:part_of(TAO:0009154)	cytoplasmic membrane-bounded vesicle of eye photoreceptor cell
+GO:0031122	cytoplasmic microtubule organization
+GO:0044444^OBO_REL:part_of(TAO:0001565)	cytoplasmic part of oocyte stage II
+GO:0031410^OBO_REL:part_of(TAO:0009114)	cytoplasmic vesicle of muscle cell
+GO:0007016	cytoskeletal anchoring at plasma membrane
+GO:0005856^OBO_REL:part_of(TAO:0009052)	cytoskeleton of motor neuron
+GO:0022627^OBO_REL:part_of(TAO:0001094)	cytosolic small ribosomal subunit of body
+GO:0016265	death
+TAO:0001473^OBO_REL:part_of(TAO:0001175)	deep blastomere of blastodisc
+GO:0030421	defecation
+GO:0050829	defense response to Gram-negative bacterium
+GO:0042742	defense response to bacterium
+GO:0060318	definitive erythrocyte differentiation
+GO:0060216	definitive hemopoiesis
+GO:0055112	delamination involved in gastrulation with mouth forming second
+GO:0030425^OBO_REL:part_of(TAO:0009150)	dendrite of Rohon-Beard neuron
+GO:0030425^OBO_REL:part_of(TAO:0000197)	dendrite of dorsal nucleus
+GO:0030425^OBO_REL:part_of(TAO:0000213)	dendrite of habenula
+GO:0030425^OBO_REL:part_of(TAO:0009310)	dendrite of retinal ganglion cell
+GO:0030425^OBO_REL:part_of(TAO:0000302)	dendrite of ventral nucleus
+GO:0030425^OBO_REL:part_of(TAO:0009198)	dendrite of xanthophore
+TAO:0000191	dentary
+VSAO:0000130	dermal bone
+TAO:0001119	dermis
+TAO:0001119^OBO_REL:part_of(TAO:0000102)	dermis of dorsal fin fold
+TAO:0001119^OBO_REL:part_of(TAO:0001115)	dermis of trunk
+TAO:0001513	dermomyotome
+GO:0002159	desmosome assembly
+GO:0030057^OBO_REL:part_of(TAO:0002187)	desmosome of corneal epithelium
+GO:0030057^OBO_REL:part_of(TAO:0009183)	desmosome of epidermal cell
+GO:0030057^OBO_REL:part_of(TAO:0000114)	desmosome of heart
+GO:0009583	detection of light stimulus
+GO:0050962	detection of light stimulus involved in sensory perception
+GO:0050908	detection of light stimulus involved in visual perception
+GO:0050973	detection of mechanical stimulus involved in equilibrioception
+GO:0050910	detection of mechanical stimulus involved in sensory perception of sound
+GO:0050976	detection of mechanical stimulus involved in sensory perception of touch
+GO:0035995	detection of muscle stretch
+GO:0009584	detection of visible light
+GO:0009855	determination of bilateral symmetry
+GO:0071907	determination of digestive tract left/right asymmetry
+GO:0061371	determination of heart left/right asymmetry
+GO:0071908	determination of intestine left/right asymmetry
+GO:0035462	determination of left/right asymmetry in diencephalon
+GO:0003140	determination of left/right asymmetry in lateral mesoderm
+GO:0007368	determination of left/right symmetry
+GO:0071910	determination of liver left/right asymmetry
+GO:0035469	determination of pancreatic left/right asymmetry
+GO:0048264	determination of ventral identity
+GO:0048589	developmental growth
+GO:0060560	developmental growth involved in morphogenesis
+GO:0048066	developmental pigmentation
+GO:0032502	developmental process
+GO:0010623	developmental programmed cell death
+TAO:0000338	diencephalic tracts and commissures
+TAO:0000101	diencephalon
+GO:0021536	diencephalon development
+TAO:0000339	digestive system
+GO:0055123	digestive system development
+GO:0022600	digestive system process
+GO:0048565	digestive tract development
+GO:0007502	digestive tract mesoderm development
+GO:0048546	digestive tract morphogenesis
+TAO:0000498	dilator operculi
+BSPO:0000078^OBO_REL:part_of(VSAO:0000147)	distal region of pectoral fin
+BSPO:0000078^OBO_REL:part_of(TAO:0005317)	distal region of pectoral fin fold
+BSPO:0000078^OBO_REL:part_of(TAO:0000150)	distal region of pronephric duct
+BSPO:0000378^OBO_REL:part_of(TAO:0000694)	distal surface of ceratobranchial 5 tooth
+GO:0006585	dopamine biosynthetic process from tyrosine
+GO:0042417	dopamine metabolic process
+TAO:0009301	dopaminergic neuron
+GO:0071542	dopaminergic neuron differentiation
+TAO:0009301^OBO_REL:part_of(TAO:0000008)	dopaminergic neuron of brain
+TAO:0009301^OBO_REL:part_of(TAO:0000633)	dopaminergic neuron of caudal tuberculum
+TAO:0009301^OBO_REL:part_of(TAO:0000012)	dopaminergic neuron of central nervous system
+TAO:0009301^OBO_REL:part_of(TAO:0000101)	dopaminergic neuron of diencephalon
+TAO:0009301^OBO_REL:part_of(TAO:0000109)	dopaminergic neuron of forebrain
+TAO:0009301^OBO_REL:part_of(TAO:0000032)	dopaminergic neuron of hypothalamus
+TAO:0009301^OBO_REL:part_of(TAO:0000402)	dopaminergic neuron of olfactory bulb
+TAO:0009301^OBO_REL:part_of(TAO:0000470)	dopaminergic neuron of preoptic area
+TAO:0009301^OBO_REL:part_of(TAO:0000418)	dopaminergic neuron of pretectum
+TAO:0009301^OBO_REL:part_of(TAO:0000079)	dopaminergic neuron of telencephalon
+TAO:0000052	dorsal actinotrichium
+TAO:0001312	dorsal anterior lateral line ganglion
+TAO:0000014	dorsal aorta
+GO:0035912	dorsal aorta morphogenesis
+BSPO:0000089^OBO_REL:part_of(TAO:0001128)	dorsal compartment of pharyngeal pouch 1
+GO:0060030	dorsal convergence
+VSAO:0000165	dorsal fin
+TAO:0000102	dorsal fin fold
+VSAO:0000177	dorsal fin lepidotrichium
+TAO:0001401	dorsal hyoid arch
+TAO:0005221	dorsal larval melanophore stripe
+TAO:0005025	dorsal longitudinal anastomotic vessel
+ZFA:0005266	dorsal longitudinal fasciculus
+TAO:0005320	dorsal longitudinal lymphatic vessel
+GO:0021744	dorsal motor nucleus of vagus nerve development
+TAO:0000197	dorsal nucleus
+TAO:0000738	dorsal oblique extraocular muscle
+TAO:0000345	dorsal rectus
+BSPO:0000079^OBO_REL:part_of(TAO:0000008)	dorsal region of brain
+BSPO:0000079^OBO_REL:part_of(TAO:0000100)	dorsal region of cerebellum
+BSPO:0000079^OBO_REL:part_of(TAO:0000101)	dorsal region of diencephalon
+BSPO:0000079^OBO_REL:part_of(TAO:0000109)	dorsal region of forebrain
+BSPO:0000079^OBO_REL:part_of(TAO:0000029)	dorsal region of hindbrain
+BSPO:0000079^OBO_REL:part_of(TAO:0001422)	dorsal region of hyosymplectic cartilage
+BSPO:0000079^OBO_REL:part_of(TAO:0000128)	dorsal region of midbrain
+BSPO:0000079^OBO_REL:part_of(TAO:0001056)	dorsal region of myotome
+BSPO:0000079^OBO_REL:part_of(TAO:0001135)	dorsal region of neural tube
+BSPO:0000079^OBO_REL:part_of(TAO:0000152)	dorsal region of retina
+BSPO:0000079^OBO_REL:part_of(TAO:0000144)	dorsal region of retinal pigmented epithelium
+BSPO:0000079^OBO_REL:part_of(TAO:0000075)	dorsal region of spinal cord
+BSPO:0000079^OBO_REL:part_of(TAO:0000076)	dorsal region of swim bladder
+BSPO:0000079^OBO_REL:part_of(TAO:0005222)	dorsal region of ventral larval melanophore stripe
+BSPO:0000079^OBO_REL:part_of(TAO:0000304)	dorsal region of ventral telencephalon
+TAO:0000200	dorsal root ganglion
+TAO:0000505	dorsal telencephalon
+TAO:0001140	dorsal tooth row
+BSPO:0000016^OBO_REL:part_of(TAO:0001094)	dorsal/ventral axis of body
+BSPO:0000016^OBO_REL:part_of(TAO:0000008)	dorsal/ventral axis of brain
+BSPO:0000016^OBO_REL:part_of(TAO:0000107)	dorsal/ventral axis of eye
+BSPO:0000016^OBO_REL:part_of(TAO:0001114)	dorsal/ventral axis of head
+BSPO:0000016^OBO_REL:part_of(TAO:0000250)	dorsal/ventral axis of opercle
+GO:0009950	dorsal/ventral axis specification
+GO:0021904	dorsal/ventral neural tube patterning
+GO:0009953	dorsal/ventral pattern formation
+BSPO:0000048^OBO_REL:part_of(TAO:0000725)	dorso-medial margin of somite 11
+BSPO:0000048^OBO_REL:part_of(TAO:0000851)	dorso-medial margin of somite 12
+BSPO:0000048^OBO_REL:part_of(TAO:0000975)	dorso-medial margin of somite 13
+BSPO:0000048^OBO_REL:part_of(TAO:0000726)	dorso-medial margin of somite 14
+BSPO:0000048^OBO_REL:part_of(TAO:0000852)	dorso-medial margin of somite 15
+TAO:0007001	dorso-rostral cluster
+TAO:0002192	dorsolateral motor nucleus of vagal nerve
+TAO:0002193	dorsolateral septum
+TAO:0000655	dorsomedial optic tract
+GO:0043583	ear development
+GO:0042471	ear morphogenesis
+GO:0005769^OBO_REL:part_of(TAO:0000150)	early endosome of pronephric duct
+TAO:0000016	ectoderm
+GO:0007398	ectoderm development
+TAO:0009137	ectodermal cell
+GO:0001712	ectodermal cell fate commitment
+TAO:0000656	ectopterygoid
+GO:0048929	efferent axon development in posterior lateral line nerve
+GO:0007343	egg activation
+GO:0007204	elevation of cytosolic calcium ion concentration
+GO:0009790	embryo development
+GO:0009792	embryo development ending in birth or egg hatching
+GO:0000578	embryonic axis specification
+GO:0031076	embryonic camera-type eye development
+GO:0060900	embryonic camera-type eye formation
+GO:0048596	embryonic camera-type eye morphogenesis
+GO:0040016	embryonic cleavage
+GO:0048701	embryonic cranial skeleton morphogenesis
+GO:0048557	embryonic digestive tract morphogenesis
+GO:0048048	embryonic eye morphogenesis
+GO:0035050	embryonic heart tube development
+GO:0003144	embryonic heart tube formation
+GO:0060971	embryonic heart tube left/right pattern formation
+GO:0003143	embryonic heart tube morphogenesis
+GO:0035162	embryonic hemopoiesis
+GO:0035122	embryonic medial fin morphogenesis
+GO:0048598	embryonic morphogenesis
+GO:0048702	embryonic neurocranium morphogenesis
+GO:0048568	embryonic organ development
+GO:0009880	embryonic pattern specification
+GO:0035118	embryonic pectoral fin morphogenesis
+GO:0060059	embryonic retina morphogenesis in camera-type eye
+GO:0060272	embryonic skeletal joint morphogenesis
+VSAO:0000178	embryonic structure
+GO:0048703	embryonic viscerocranium morphogenesis
+TAO:0001317	endocardial cushion
+GO:0003272	endocardial cushion formation
+GO:0003262	endocardial progenitor cell migration to the midline involved in heart field formation
+TAO:0005072	endocardial ring
+TAO:0001320	endocardium
+GO:0003157	endocardium development
+GO:0003160	endocardium morphogenesis
+VSAO:0000145	endochondral bone
+GO:0060350	endochondral bone morphogenesis
+VSAO:0000145^OBO_REL:part_of(VSAO:0000147)	endochondral bone of pectoral fin
+VSAO:0000145^OBO_REL:part_of(TAO:0005317)	endochondral bone of pectoral fin fold
+GO:0001958	endochondral ossification
+TAO:0009096	endocrine cell
+TAO:0009096^OBO_REL:part_of(TAO:0001260)	endocrine cell of endocrine pancreas
+TAO:0009096^OBO_REL:part_of(TAO:0000140)	endocrine cell of pancreas
+TAO:0009096^OBO_REL:part_of(TAO:0001370)	endocrine cell of posterior pancreatic bud
+TAO:0001260	endocrine pancreas
+GO:0031018	endocrine pancreas development
+GO:0006897	endocytosis
+TAO:0000017	endoderm
+GO:0007492	endoderm development
+GO:0001706	endoderm formation
+TAO:0000017^OBO_REL:part_of(VSAO:0000164)	endoderm of caudal fin
+TAO:0009139	endodermal cell
+GO:0001714	endodermal cell fate specification
+TAO:0009139^OBO_REL:part_of(TAO:0001094)	endodermal cell of body
+TAO:0009139^OBO_REL:part_of(TAO:0000017)	endodermal cell of endoderm
+TAO:0009139^OBO_REL:part_of(TAO:0000112)	endodermal cell of gut
+GO:0061031	endodermal digestive tract morphogenesis
+GO:0005788^OBO_REL:part_of(CL:0000138)	endoplasmic reticulum lumen of chondrocyte
+GO:0005783^OBO_REL:part_of(CL:0000138)	endoplasmic reticulum of chondrocyte
+GO:0005783^OBO_REL:part_of(TAO:0009094)	endoplasmic reticulum of goblet cell
+GO:0005783^OBO_REL:part_of(TAO:0009111)	endoplasmic reticulum of hepatocyte
+GO:0005783^OBO_REL:part_of(TAO:0005124)	endoplasmic reticulum of intestinal epithelium
+GO:0005783^OBO_REL:part_of(TAO:0009114)	endoplasmic reticulum of muscle cell
+GO:0005783^OBO_REL:part_of(VSAO:0000032)	endoplasmic reticulum of notochord
+GO:0005783^OBO_REL:part_of(TAO:0001567)	endoplasmic reticulum of oocyte stage I
+GO:0005783^OBO_REL:part_of(TAO:0001565)	endoplasmic reticulum of oocyte stage II
+GO:0005783^OBO_REL:part_of(TAO:0009115)	endoplasmic reticulum of skeletal muscle cell
+GO:0030968	endoplasmic reticulum unfolded protein response
+GO:0005768^OBO_REL:part_of(TAO:0000150)	endosome of pronephric duct
+TAO:0009065	endothelial cell
+GO:0001885	endothelial cell development
+GO:0043542	endothelial cell migration
+TAO:0009065^OBO_REL:part_of(TAO:0005004)	endothelial cell of aortic arch
+TAO:0009065^OBO_REL:part_of(TAO:0000005)	endothelial cell of artery
+TAO:0009065^OBO_REL:part_of(TAO:0000180)	endothelial cell of caudal vein
+TAO:0009065^OBO_REL:part_of(TAO:0000114)	endothelial cell of heart
+TAO:0009065^OBO_REL:part_of(TAO:0001306)	endothelial cell of pharyngeal arch
+TAO:0009065^OBO_REL:part_of(TAO:0000477)	endothelial cell of posterior cardinal vein
+TAO:0009065^OBO_REL:part_of(TAO:0005035)	endothelial cell of subintestinal vein
+TAO:0009065^OBO_REL:part_of(TAO:0001115)	endothelial cell of trunk
+TAO:0009065^OBO_REL:part_of(TAO:0001069)	endothelial cell of ventral fin fold
+GO:0001935	endothelial cell proliferation
+TAO:0009303^OBO_REL:part_of(TAO:0001286)	endothelial tip cell of caudal vein plexus
+GO:0061154	endothelial tube morphogenesis
+TAO:0001155	enteric nervous system
+GO:0048484	enteric nervous system development
+TAO:0009269	enterocyte
+TAO:0009269^OBO_REL:part_of(TAO:0001076)	enterocyte of intestinal bulb
+TAO:0009269^OBO_REL:part_of(TAO:0005126)	enterocyte of intestinal bulb epithelium
+TAO:0009269^OBO_REL:part_of(TAO:0005124)	enterocyte of intestinal epithelium
+TAO:0009097	enteroendocrine cell
+GO:0035883	enteroendocrine cell differentiation
+TAO:0009097^OBO_REL:part_of(TAO:0005124)	enteroendocrine cell of intestinal epithelium
+TAO:0000657	entopterygoid
+GO:0043153	entrainment of circadian clock by photoperiod
+GO:0046718	entry of virus into host cell
+TAO:0009033	ependymal cell
+TAO:0009033^OBO_REL:part_of(TAO:0000075)	ependymal cell of spinal cord
+GO:0055113	epiboly involved in gastrulation with mouth forming second
+TAO:0001555	epibranchial ganglion
+TAO:0001294	epibranchial placode
+TAO:0005057	epicardium
+TAO:0009183	epidermal cell
+GO:0009913	epidermal cell differentiation
+GO:0009957	epidermal cell fate specification
+TAO:0009183^OBO_REL:part_of(TAO:0000105)	epidermal cell of epidermis
+TAO:0009183^OBO_REL:part_of(TAO:0000040)	epidermal cell of median fin fold
+TAO:0000105	epidermis
+GO:0008544	epidermis development
+GO:0048730	epidermis morphogenesis
+TAO:0000105^OBO_REL:part_of(VSAO:0000164)	epidermis of caudal fin
+TAO:0000105^OBO_REL:part_of(TAO:0000040)	epidermis of median fin fold
+TAO:0000105^OBO_REL:part_of(TAO:0001117)	epidermis of post-vent region
+TAO:0000105^OBO_REL:part_of(TAO:0001115)	epidermis of trunk
+TAO:0000105^OBO_REL:part_of(TAO:0001069)	epidermis of ventral fin fold
+GO:0042414	epinephrine metabolic process
+TAO:0000019	epiphysis
+TAO:0000509	epithalamus
+GO:0021538	epithalamus development
+CARO:0000077	epithelial cell
+GO:0030855	epithelial cell differentiation
+GO:0003382	epithelial cell morphogenesis
+CARO:0000077^OBO_REL:part_of(VSAO:0000099)	epithelial cell of fin
+CARO:0000077^OBO_REL:part_of(TAO:0000112)	epithelial cell of gut
+CARO:0000077^OBO_REL:part_of(TAO:0000217)	epithelial cell of inner ear
+CARO:0000077^OBO_REL:part_of(VSAO:0000029)	epithelial cell of integument
+CARO:0000077^OBO_REL:part_of(TAO:0005124)	epithelial cell of intestinal epithelium
+CARO:0000077^OBO_REL:part_of(TAO:0005169)	epithelial cell of intrahepatic bile duct
+CARO:0000077^OBO_REL:part_of(TAO:0001326)	epithelial cell of lens epithelium
+CARO:0000077^OBO_REL:part_of(TAO:0000036)	epithelial cell of liver and biliary system
+CARO:0000077^OBO_REL:part_of(TAO:0005127)	epithelial cell of mid intestine epithelium
+CARO:0000077^OBO_REL:part_of(VSAO:0000032)	epithelial cell of notochord
+CARO:0000077^OBO_REL:part_of(TAO:0000051)	epithelial cell of otic vesicle
+TAO:0009045	epithelial cell of pancreas
+CARO:0000077^OBO_REL:part_of(TAO:0007055)	epithelial cell of pillar of the lateral semicircular canal
+CARO:0000077^OBO_REL:part_of(TAO:0005128)	epithelial cell of posterior intestine epithelium
+CARO:0000077^OBO_REL:part_of(TAO:0000150)	epithelial cell of pronephric duct
+CARO:0000077^OBO_REL:part_of(TAO:0000151)	epithelial cell of pronephros
+CARO:0000077^OBO_REL:part_of(TAO:0000155)	epithelial cell of somite
+CARO:0000077^OBO_REL:part_of(TAO:0001078)	epithelial cell of thymus
+GO:0050673	epithelial cell proliferation
+GO:0003351	epithelial cilium movement
+GO:0010669	epithelial structure maintenance
+GO:0001837	epithelial to mesenchymal transition
+CARO:0000066	epithelium
+CARO:0000066^OBO_REL:part_of(TAO:0000099)	epithelium of brain vasculature
+CARO:0000066^OBO_REL:part_of(TAO:0000029)	epithelium of hindbrain
+CARO:0000066^OBO_REL:part_of(TAO:0000040)	epithelium of median fin fold
+CARO:0000066^OBO_REL:part_of(TAO:0001135)	epithelium of neural tube
+CARO:0000066^OBO_REL:part_of(TAO:0000051)	epithelium of otic vesicle
+CARO:0000066^OBO_REL:part_of(VSAO:0000147)	epithelium of pectoral fin
+CARO:0000066^OBO_REL:part_of(TAO:0007055)	epithelium of pillar of the lateral semicircular canal
+CARO:0000066^OBO_REL:part_of(TAO:0001558)	epithelium of pronephric tubule
+CARO:0000066^OBO_REL:part_of(TAO:0000282)	epithelium of sensory system
+CARO:0000066^OBO_REL:part_of(TAO:0000155)	epithelium of somite
+CARO:0000066^OBO_REL:part_of(TAO:0000076)	epithelium of swim bladder
+CARO:0000066^OBO_REL:part_of(TAO:0000161)	epithelium of third ventricle
+CARO:0000066^OBO_REL:part_of(TAO:0001069)	epithelium of ventral fin fold
+CARO:0000066^OBO_REL:part_of(TAO:0002247)	epithelium of ventricular endocardium
+CARO:0000066^OBO_REL:part_of(TAO:0001261)	epithelium of ventricular system
+TAO:0000660	epural
+GO:0050957	equilibrioception
+TAO:0005237	erythroblast
+TAO:0005237^OBO_REL:part_of(TAO:0000033)	erythroblast of intermediate cell mass of mesoderm
+GO:0048821	erythrocyte development
+GO:0030218	erythrocyte differentiation
+GO:0043249	erythrocyte maturation
+TAO:0009325	erythroid lineage cell
+TAO:0009325^OBO_REL:part_of(TAO:0000094)	erythroid lineage cell of blood island
+TAO:0009325^OBO_REL:part_of(TAO:0000669)	erythroid lineage cell of head kidney
+TAO:0009325^OBO_REL:part_of(TAO:0000033)	erythroid lineage cell of intermediate cell mass of mesoderm
+TAO:0009015	erythroid progenitor cell
+TAO:0009015^OBO_REL:part_of(TAO:0000121)	erythroid progenitor cell of lateral plate mesoderm
+TAO:0001499	esophageal epithelium
+TAO:0000204	esophagus
+GO:0048560	establishment of anatomical structure orientation
+GO:0035089	establishment of apical/basal cell polarity
+GO:0030010	establishment of cell polarity
+GO:0014045	establishment of endothelial blood-brain barrier
+GO:0045198	establishment of epithelial cell apical/basal polarity
+GO:0032401	establishment of melanosome localization
+GO:0000132	establishment of mitotic spindle orientation
+GO:0040023	establishment of nucleus localization
+GO:0090002	establishment of protein localization in plasma membrane
+GO:0051294	establishment of spindle orientation
+GO:0035088	establishment or maintenance of apical/basal cell polarity
+GO:0045197	establishment or maintenance of epithelial cell apical/basal polarity
+GO:0006067	ethanol metabolic process
+TAO:0001405	ethmoid cartilage
+GO:0007588	excretion
+GO:0010458	exit from mitosis
+TAO:0009092	exocrine cell
+TAO:0009092^OBO_REL:part_of(TAO:0001249)	exocrine cell of exocrine pancreas
+TAO:0001249	exocrine pancreas
+GO:0031017	exocrine pancreas development
+TAO:0000106	extension
+GO:0085029	extracellular matrix assembly
+GO:0070278	extracellular matrix constituent secretion
+GO:0031012^OBO_REL:part_of(TAO:0000471)	extracellular matrix of atrium
+GO:0031012^OBO_REL:part_of(CL:0000058)	extracellular matrix of chondroblast
+GO:0031012^OBO_REL:part_of(CL:0000138)	extracellular matrix of chondrocyte
+GO:0031012^OBO_REL:part_of(TAO:0001458)	extracellular matrix of cranial cartilage
+GO:0031012^OBO_REL:part_of(TAO:0000737)	extracellular matrix of cranium
+GO:0031012^OBO_REL:part_of(TAO:0005255)	extracellular matrix of frontal-parietal joint
+GO:0031012^OBO_REL:part_of(TAO:0000115)	extracellular matrix of heart rudiment
+GO:0031012^OBO_REL:part_of(TAO:0001922)	extracellular matrix of inter-frontal joint
+GO:0031012^OBO_REL:part_of(TAO:0005245)	extracellular matrix of inter-parietal joint
+GO:0031012^OBO_REL:part_of(TAO:0001227)	extracellular matrix of mandibular arch
+GO:0031012^OBO_REL:part_of(TAO:0001056)	extracellular matrix of myotome
+GO:0031012^OBO_REL:part_of(VSAO:0000032)	extracellular matrix of notochord
+GO:0031012^OBO_REL:part_of(TAO:0000445)	extracellular matrix of optic tectum
+GO:0031012^OBO_REL:part_of(TAO:0001460)	extracellular matrix of pharyngeal arch cartilage
+GO:0030198	extracellular matrix organization
+GO:0044420^OBO_REL:part_of(TAO:0001458)	extracellular matrix part of cranial cartilage
+GO:0005615^OBO_REL:part_of(TAO:0000711)	extracellular space of DEL
+TAO:0005170	extrahepatic duct
+TAO:0000511	extraocular musculature
+TAO:0005346	extrapancreatic duct
+TAO:0000107	eye
+GO:0001654	eye development
+GO:0048592	eye morphogenesis
+TAO:0009154	eye photoreceptor cell
+GO:0042462	eye photoreceptor cell development
+GO:0001754	eye photoreceptor cell differentiation
+TAO:0009154^OBO_REL:part_of(TAO:0001464)	eye photoreceptor cell of retinal outer nuclear layer
+TAO:0009154^OBO_REL:part_of(TAO:0000143)	eye photoreceptor cell of retinal photoreceptor layer
+GO:0008057	eye pigment granule organization
+GO:0048069	eye pigmentation
+GO:0060324	face development
+GO:0060325	face morphogenesis
+TAO:0001291	facial ganglion
+GO:0021561	facial nerve development
+TAO:0000206	facial nerve motor nucleus
+TAO:0001295	facial placode
+TAO:0009117	fast muscle cell
+TAO:0009117^OBO_REL:part_of(TAO:0001056)	fast muscle cell of myotome
+TAO:0009117^OBO_REL:part_of(TAO:0001117)	fast muscle cell of post-vent region
+TAO:0009117^OBO_REL:part_of(TAO:0000155)	fast muscle cell of somite
+TAO:0009117^OBO_REL:part_of(TAO:0000473)	fast muscle cell of trunk musculature
+TAO:0009369	fast muscle myoblast
+GO:0031443	fast-twitch skeletal muscle fiber contraction
+TAO:0009082	fat cell
+GO:0045444	fat cell differentiation
+GO:0007631	feeding behavior
+TAO:0000303	female
+GO:0008585	female gonad development
+GO:0001939^OBO_REL:part_of(TAO:0000093)	female pronucleus of blastomere
+GO:0030237	female sex determination
+GO:0043205^OBO_REL:part_of(TAO:0001516)	fibril of ceratobranchial cartilage
+GO:0043205^OBO_REL:part_of(TAO:0002189)	fibril of corneal stroma
+GO:0043206	fibril organization
+GO:0005583^OBO_REL:part_of(CL:0000138)	fibrillar collagen of chondrocyte
+GO:0005583^OBO_REL:part_of(TAO:0001458)	fibrillar collagen of cranial cartilage
+GO:0005583^OBO_REL:part_of(TAO:0001119)	fibrillar collagen of dermis
+GO:0005583^OBO_REL:part_of(VSAO:0000099)	fibrillar collagen of fin
+GO:0005583^OBO_REL:part_of(VSAO:0000183)	fibrillar collagen of vertebral centrum
+TAO:0009026^OBO_REL:part_of(TAO:0002289)	fibroblast of sclera
+GO:0031941^OBO_REL:part_of(TAO:0000309)	filamentous actin of E-YSL
+GO:0031941^OBO_REL:part_of(TAO:0000088)	filamentous actin of YSL
+GO:0031941^OBO_REL:part_of(TAO:0009035)	filamentous actin of ciliated epithelial cell
+GO:0031941^OBO_REL:part_of(TAO:0000018)	filamentous actin of epiblast
+GO:0031941^OBO_REL:part_of(TAO:0009117)	filamentous actin of fast muscle cell
+GO:0031941^OBO_REL:part_of(TAO:0000114)	filamentous actin of heart
+GO:0031941^OBO_REL:part_of(TAO:0000038)	filamentous actin of margin
+GO:0031941^OBO_REL:part_of(TAO:0009306)	filamentous actin of neuroepithelial cell
+GO:0031941^OBO_REL:part_of(TAO:0009115)	filamentous actin of skeletal muscle cell
+GO:0031941^OBO_REL:part_of(TAO:0009116)	filamentous actin of slow muscle cell
+GO:0031941^OBO_REL:part_of(TAO:0005061)	filamentous actin of ventricular myocardium
+GO:0046847	filopodium assembly
+GO:0030175^OBO_REL:part_of(TAO:0000004)	filopodium of anterior axial hypoblast
+GO:0030175^OBO_REL:part_of(CARO:0000013)	filopodium of cell
+GO:0030175^OBO_REL:part_of(TAO:0009073)	filopodium of glial cell
+GO:0030175^OBO_REL:part_of(ZFA:0005559)	filopodium of vascular sprouts
+VSAO:0000099	fin
+VSAO:0000179	fin bud
+GO:0033333	fin development
+TAO:0005316	fin fold pectoral fin bud
+GO:0033334	fin morphogenesis
+TAO:0000207	fin musculature
+GO:0031101	fin regeneration
+TAO:0005095	fin vasculature
+TAO:0005095^OBO_REL:part_of(TAO:0001269)	fin vasculature of regenerating fin
+TAO:0000022	floor plate
+GO:0021508	floor plate formation
+TAO:0001258	floor plate hindbrain
+TAO:0001434	floor plate neural tube
+TAO:0000890	floor plate spinal cord
+GO:0042044	fluid transport
+TAO:0000109	forebrain
+GO:0021797	forebrain anterior/posterior pattern specification
+GO:0021885	forebrain cell migration
+GO:0030900	forebrain development
+GO:0021798	forebrain dorsal/ventral pattern formation
+TAO:0001367	forebrain midbrain boundary
+GO:0048853	forebrain morphogenesis
+TAO:0007026	forebrain neural keel
+GO:0021884	forebrain neuron development
+GO:0021879	forebrain neuron differentiation
+GO:0021871	forebrain regionalization
+TAO:0001259	forebrain ventricle
+GO:0007440	foregut morphogenesis
+TAO:0000023	forerunner cell group
+TAO:0000023^OBO_REL:part_of(TAO:0001094)	forerunner cell group of body
+GO:0048859	formation of anatomical boundary
+GO:0001704	formation of primary germ layer
+TAO:0000110	fourth ventricle
+GO:0021592	fourth ventricle development
+TAO:0000110^OBO_REL:part_of(TAO:0000029)	fourth ventricle of hindbrain
+TAO:0000110^OBO_REL:part_of(TAO:0000128)	fourth ventricle of midbrain
+TAO:0000514	frontal bone
+TAO:0005255	frontal-parietal joint
+GO:0042353	fucose biosynthetic process
+TAO:0000208	gall bladder
+GO:0000930^OBO_REL:part_of(CARO:0000013)	gamma-tubulin complex of cell
+GO:0055077	gap junction hemi-channel activity
+GO:0005921^OBO_REL:part_of(TAO:0009315)	gap junction of horizontal cell
+GO:0007369	gastrulation
+GO:0001702	gastrulation with mouth forming second
+GO:0048699	generation of neurons
+GO:0007281	germ cell development
+GO:0008354	germ cell migration
+TAO:0009016	germ line cell
+TAO:0009016^OBO_REL:part_of(TAO:0000598)	germ line cell of testis
+GO:0060293^OBO_REL:part_of(TAO:0000093)	germ plasm of blastomere
+TAO:0000111	germ ring
+TAO:0000354	gill
+TAO:0001597	gill arch
+TAO:0001598	gill arch 1
+TAO:0001228	gill arch 1 skeleton
+TAO:0000095	gill arch 1-5 skeleton
+TAO:0001599	gill arch 2
+TAO:0001231	gill arch 2 skeleton
+TAO:0001600	gill arch 3
+TAO:0001232	gill arch 3 skeleton
+TAO:0001601	gill arch 4
+TAO:0001230	gill arch 4 skeleton
+TAO:0001229	gill arch 5 skeleton
+TAO:0000356	gill raker
+GO:0002068	glandular epithelial cell development
+TAO:0009073	glial cell
+TAO:0009147	glial cell (sensu Vertebrata)
+GO:0008347	glial cell migration
+TAO:0009073^OBO_REL:part_of(TAO:0000101)	glial cell of diencephalon
+TAO:0009073^OBO_REL:part_of(TAO:0001155)	glial cell of enteric nervous system
+TAO:0009073^OBO_REL:part_of(TAO:0000029)	glial cell of hindbrain
+TAO:0009073^OBO_REL:part_of(TAO:0001469)	glial cell of lateral line
+TAO:0009073^OBO_REL:part_of(TAO:0000944)	glial cell of posterior lateral line
+TAO:0009073^OBO_REL:part_of(TAO:0001314)	glial cell of posterior lateral line ganglion
+TAO:0009073^OBO_REL:part_of(TAO:0000075)	glial cell of spinal cord
+TAO:0009073^OBO_REL:part_of(TAO:0000295)	glial cell of trigeminal ganglion
+GO:0014009	glial cell proliferation
+TAO:0009169	glioblast (sensu Vertebrata)
+GO:0042063	gliogenesis
+TAO:0005285	glomerular basement membrane
+TAO:0005284^OBO_REL:part_of(TAO:0000151)	glomerular capillary of pronephros
+GO:0003094	glomerular filtration
+TAO:0000357	glomerular layer
+TAO:0001301	glossopharyngeal ganglion
+TAO:0001296	glossopharyngeal placode
+TAO:0009103	glucagon secreting cell
+TAO:0009103^OBO_REL:part_of(TAO:0001260)	glucagon secreting cell of endocrine pancreas
+GO:0042593	glucose homeostasis
+GO:0046323	glucose import
+TAO:0009290	glutamatergic neuron
+GO:0072579	glycine receptor clustering
+GO:0016935^OBO_REL:part_of(TAO:0000075)	glycine-gated chloride channel complex of spinal cord
+GO:0005980	glycogen catabolic process
+GO:0042587^OBO_REL:part_of(TAO:0009111)	glycogen granule of hepatocyte
+GO:0006096	glycolysis
+GO:0030203	glycosaminoglycan metabolic process
+GO:0070085	glycosylation
+TAO:0009094	goblet cell
+TAO:0009094^OBO_REL:part_of(TAO:0001076)	goblet cell of intestinal bulb
+TAO:0009094^OBO_REL:part_of(TAO:0005126)	goblet cell of intestinal bulb epithelium
+TAO:0009094^OBO_REL:part_of(TAO:0005124)	goblet cell of intestinal epithelium
+TAO:0009094^OBO_REL:part_of(TAO:0001338)	goblet cell of intestine
+TAO:0009094^OBO_REL:part_of(TAO:0001323)	goblet cell of mid intestine
+TAO:0009094^OBO_REL:part_of(TAO:0005127)	goblet cell of mid intestine epithelium
+TAO:0009094^OBO_REL:part_of(TAO:0000056)	goblet cell of pharynx
+TAO:0009094^OBO_REL:part_of(TAO:0000706)	goblet cell of posterior intestine
+TAO:0009094^OBO_REL:part_of(TAO:0005128)	goblet cell of posterior intestine epithelium
+TAO:0000413	gonad
+GO:0008406	gonad development
+TAO:0000358	granular layer corpus cerebelli
+TAO:0000766	granular layer valvula cerebelli
+TAO:0009070^OBO_REL:part_of(TAO:0000100)	granule cell of cerebellum
+TAO:0009048	granulocyte
+GO:0002432	granuloma formation
+TAO:0009223	green sensitive photoreceptor cell
+TAO:0002197^OBO_REL:part_of(TAO:0000445)	grey matter of optic tectum
+TAO:0002197^OBO_REL:part_of(TAO:0000075)	grey matter of spinal cord
+GO:0040007	growth
+GO:0030426^OBO_REL:part_of(TAO:0009243)	growth cone of CAP motoneuron
+GO:0003419	growth plate cartilage chondrocyte proliferation
+TAO:0000112	gut
+TAO:0009078	gut endothelial cell
+TAO:0009078^OBO_REL:part_of(TAO:0005124)	gut endothelial cell of intestinal epithelium
+TAO:0005123	gut epithelium
+TAO:0000213	habenula
+GO:0021986	habenula development
+TAO:0000359	habenular commissure
+GO:0046959	habituation
+TAO:0009366	hair cell
+TAO:0000678	hair cell anterior macula
+TAO:0009366^OBO_REL:part_of(TAO:0000619)	hair cell of anterior crista
+TAO:0009366^OBO_REL:part_of(TAO:0000168)	hair cell of anterior macula
+TAO:0009366^OBO_REL:part_of(TAO:0000217)	hair cell of inner ear
+TAO:0009366^OBO_REL:part_of(TAO:0000166)	hair cell of lateral crista
+TAO:0009366^OBO_REL:part_of(TAO:0000386)	hair cell of macula
+TAO:0009366^OBO_REL:part_of(TAO:0007000)	hair cell of macula saccule
+TAO:0009366^OBO_REL:part_of(TAO:0000030)	hair cell of macula utricle
+TAO:0009366^OBO_REL:part_of(TAO:0000051)	hair cell of otic vesicle
+TAO:0009366^OBO_REL:part_of(TAO:0000566)	hair cell of posterior crista
+TAO:0009366^OBO_REL:part_of(TAO:0000431)	hair cell of semicircular canal
+TAO:0000281	hair cell posterior macula
+GO:0035188	hatching
+TAO:0000026	hatching gland
+TAO:0009151	hatching gland cell
+GO:0048785	hatching gland development
+TAO:0001114	head
+GO:0060322	head development
+TAO:0000669	head kidney
+TAO:0000113	head mesenchyme
+GO:0060323	head morphogenesis
+TAO:0002198	head muscle
+TAO:0000114	heart
+GO:0060047	heart contraction
+GO:0007507	heart development
+GO:0003128	heart field specification
+GO:0060914	heart formation
+GO:0003146	heart jogging
+GO:0001947	heart looping
+GO:0003007	heart morphogenesis
+TAO:0000028	heart primordium
+TAO:0000115	heart rudiment
+GO:0060347	heart trabecula formation
+TAO:0000360	heart tube
+TAO:0005065	heart valve
+GO:0003179	heart valve morphogenesis
+TAO:0000519	hemal arch
+TAO:0001364	hemal spine
+TAO:0001364^OBO_REL:part_of(TAO:0000326)	hemal spine of caudal vertebra
+GO:0060217	hemangioblast cell differentiation
+TAO:0009354	hematopoietic progenitor cell
+TAO:0009354^OBO_REL:part_of(TAO:0000094)	hematopoietic progenitor cell of blood island
+TAO:0009354^OBO_REL:part_of(TAO:0000033)	hematopoietic progenitor cell of intermediate cell mass of mesoderm
+TAO:0009354^OBO_REL:part_of(TAO:0005028)	hematopoietic progenitor cell of ventral wall of dorsal aorta
+TAO:0009014	hematopoietic stem cell
+GO:0035701	hematopoietic stem cell migration
+TAO:0009014^OBO_REL:part_of(TAO:0000094)	hematopoietic stem cell of blood island
+TAO:0009014^OBO_REL:part_of(TAO:0000014)	hematopoietic stem cell of dorsal aorta
+TAO:0009014^OBO_REL:part_of(TAO:0005028)	hematopoietic stem cell of ventral wall of dorsal aorta
+TAO:0005023	hematopoietic system
+GO:0006783	heme biosynthetic process
+GO:0030056^OBO_REL:part_of(TAO:0000105)	hemidesmosome of epidermis
+GO:0030492	hemoglobin binding
+GO:0042541	hemoglobin biosynthetic process
+GO:0005833^OBO_REL:part_of(TAO:0000007)	hemoglobin complex of blood
+GO:0005833^OBO_REL:part_of(TAO:0009044)	hemoglobin complex of blood cell
+GO:0005833^OBO_REL:part_of(TAO:0001094)	hemoglobin complex of body
+GO:0005833^OBO_REL:part_of(TAO:0009015)	hemoglobin complex of erythroid progenitor cell
+GO:0005833^OBO_REL:part_of(TAO:0000033)	hemoglobin complex of intermediate cell mass of mesoderm
+GO:0005833^OBO_REL:part_of(TAO:0009256)	hemoglobin complex of nucleate erythrocyte
+GO:0030097	hemopoiesis
+GO:0060218	hemopoietic stem cell differentiation
+GO:0007599	hemostasis
+GO:0015012	heparan sulfate proteoglycan biosynthetic process
+TAO:0001100	hepatic duct
+TAO:0005091	hepatic sinusoid
+GO:0061008	hepaticobiliary system development
+GO:0061007	hepaticobiliary system process
+GO:0061017	hepatoblast differentiation
+TAO:0009111	hepatocyte
+GO:0070365	hepatocyte differentiation
+TAO:0009111^OBO_REL:part_of(TAO:0000123)	hepatocyte of liver
+GO:0072574	hepatocyte proliferation
+GO:0005834^OBO_REL:part_of(TAO:0009222)	heterotrimeric G-protein complex of blue sensitive photoreceptor cell
+GO:0005834^OBO_REL:part_of(TAO:0009224)	heterotrimeric G-protein complex of red sensitive photoreceptor cell
+TAO:0000029	hindbrain
+TAO:0002199	hindbrain commissure
+GO:0030902	hindbrain development
+TAO:0005209	hindbrain interneuron
+GO:0021575	hindbrain morphogenesis
+TAO:0007029	hindbrain neural keel
+TAO:0007036	hindbrain neural rod
+GO:0021934	hindbrain tangential cell migration
+GO:0021906	hindbrain-spinal cord boundary formation
+GO:0035518	histone H2A monoubiquitination
+GO:0010452	histone H3-K36 methylation
+GO:0051567	histone H3-K9 methylation
+GO:0034770	histone H4-K20 methylation
+GO:0043985	histone H4-R3 methylation
+GO:0046974	histone methyltransferase activity (H3-K9 specific)
+GO:0048873	homeostasis of number of cells within a tissue
+GO:0034109	homotypic cell-cell adhesion
+TAO:0009315	horizontal cell
+TAO:0000671	horizontal myoseptum
+GO:0005179	hormone activity
+TAO:0005045	hyaloid artery
+TAO:0005047	hyaloid vein
+TAO:0005046	hyaloid vessel
+GO:0030213	hyaluronan biosynthetic process
+GO:0050665	hydrogen peroxide biosynthetic process
+TAO:0001276	hyoid arch
+TAO:0000672	hyomandibula
+TAO:0001422	hyosymplectic cartilage
+CL:0000743	hypertrophic chondrocyte
+GO:0030448	hyphal growth
+TAO:0000117	hypoblast
+TAO:0001524	hypobranchial 1 cartilage
+TAO:0001525	hypobranchial 2 cartilage
+TAO:0000363	hypobranchial bone
+TAO:0001522	hypobranchial cartilage
+TAO:0002200	hypobranchial muscle
+TAO:0000031	hypochord
+GO:0055016	hypochord development
+TAO:0000118	hypophysis
+TAO:0000032	hypothalamus
+GO:0021979	hypothalamus cell differentiation
+GO:0021854	hypothalamus development
+TAO:0000364	hypural
+TAO:0002201	immature eye
+TAO:0005272	immature gonad
+TAO:0001097	immature posterior macula
+GO:0006955	immune response
+TAO:0001159	immune system
+GO:0071707	immunoglobulin heavy chain V-D-J recombination
+GO:0006917	induction of apoptosis
+GO:0012502	induction of programmed cell death
+GO:0006954	inflammatory response
+GO:0002437	inflammatory response to antigenic stimulus
+TAO:0000813	infraorbital lateral line neuromast
+TAO:0000217	inner ear
+GO:0048839	inner ear development
+GO:0042472	inner ear morphogenesis
+GO:0060119	inner ear receptor cell development
+TAO:0001029	inner limiting membrane
+TAO:0005054	inner optic circle
+GO:0060384	innervation
+GO:0030070	insulin processing
+TAO:0009101	insulin secreting cell
+VSAO:0000029	integument
+TAO:0005325	integument ionocyte
+TAO:0005325^OBO_REL:part_of(VSAO:0000029)	integument ionocyte of integument
+VSAO:0000029^OBO_REL:part_of(TAO:0000006)	integument of ball
+VSAO:0000029^OBO_REL:part_of(TAO:0000106)	integument of extension
+VSAO:0000029^OBO_REL:part_of(TAO:0000354)	integument of gill
+VSAO:0000029^OBO_REL:part_of(TAO:0001114)	integument of head
+VSAO:0000029^OBO_REL:part_of(TAO:0001117)	integument of post-vent region
+VSAO:0000029^OBO_REL:part_of(TAO:0000077)	integument of tail bud
+VSAO:0000029^OBO_REL:part_of(TAO:0001115)	integument of trunk
+TAO:0001922	inter-frontal joint
+TAO:0005245	inter-parietal joint
+GO:0014704^OBO_REL:part_of(TAO:0009316)	intercalated disc of cardiac muscle cell
+GO:0014704^OBO_REL:part_of(TAO:0001319)	intercalated disc of myocardium
+GO:0045171^OBO_REL:part_of(TAO:0001567)	intercellular bridge of oocyte stage I
+TAO:0001511	interhyal cartilage
+TAO:0001841	interhyal-epihyal joint
+GO:0022027	interkinetic nuclear migration
+TAO:0000033	intermediate cell mass of mesoderm
+TAO:0001206	intermediate mesoderm
+GO:0048392	intermediate mesodermal cell differentiation
+TAO:0009051^OBO_REL:part_of(TAO:0000029)	interneuron of hindbrain
+TAO:0000778	interneuron spinal cord
+TAO:0000674	interopercle
+TAO:0000903	interpeduncular nucleus tegmentum
+TAO:0005101^OBO_REL:part_of(VSAO:0000164)	interray vessel of caudal fin
+TAO:0001346	interrenal primordium
+TAO:0001061	intersegmental artery
+TAO:0005319	intersegmental lymph vessel
+TAO:0001057	intersegmental vein
+TAO:0001285	intersegmental vessel
+TAO:0001076	intestinal bulb
+TAO:0005126	intestinal bulb epithelium
+GO:0060575	intestinal epithelial cell differentiation
+GO:0060729	intestinal epithelial structure maintenance
+TAO:0005124	intestinal epithelium
+TAO:0005125	intestinal villus
+TAO:0005125^OBO_REL:part_of(TAO:0005123)	intestinal villus of gut epithelium
+TAO:0005125^OBO_REL:part_of(TAO:0005126)	intestinal villus of intestinal bulb epithelium
+TAO:0005125^OBO_REL:part_of(TAO:0001323)	intestinal villus of mid intestine
+TAO:0001338	intestine
+GO:0014827	intestine smooth muscle contraction
+GO:0008298	intracellular mRNA localization
+GO:0042073	intraflagellar transport
+GO:0030990^OBO_REL:part_of(TAO:0009127)	intraflagellar transport particle of photoreceptor cell
+TAO:0005169	intrahepatic bile duct
+GO:0035622	intrahepatic bile duct development
+TAO:0005169^OBO_REL:part_of(TAO:0000036)	intrahepatic bile duct of liver and biliary system
+TAO:0001644	intramembranous bone
+GO:0001957	intramembranous ossification
+GO:0097193	intrinsic apoptotic signaling pathway
+GO:0055109	invagination involved in gastrulation with mouth forming second
+GO:0055110	involution involved in gastrulation with mouth forming second
+GO:0050801	ion homeostasis
+TAO:0009199	iridophore
+TAO:0009199^OBO_REL:part_of(TAO:0000107)	iridophore of eye
+TAO:0009199^OBO_REL:part_of(TAO:0001136)	iridophore of hypodermis
+TAO:0009199^OBO_REL:part_of(VSAO:0000029)	iridophore of integument
+TAO:0009199^OBO_REL:part_of(TAO:0001117)	iridophore of post-vent region
+TAO:0009199^OBO_REL:part_of(TAO:0001115)	iridophore of trunk
+TAO:0009199^OBO_REL:part_of(TAO:0005224)	iridophore of yolk larval melanophore stripe
+TAO:0001238	iris
+VSAO:0000101^OBO_REL:part_of(TAO:0001205)	joint of Meckel's cartilage
+VSAO:0000101^OBO_REL:part_of(VSAO:0000174)	joint of caudal fin lepidotrichium
+VSAO:0000101^OBO_REL:part_of(TAO:0001400)	joint of ceratohyal cartilage
+VSAO:0000101^OBO_REL:part_of(VSAO:0000099)	joint of fin
+VSAO:0000101^OBO_REL:part_of(TAO:0001276)	joint of hyoid arch
+VSAO:0000101^OBO_REL:part_of(VSAO:0000172)	joint of lepidotrichium
+VSAO:0000101^OBO_REL:part_of(TAO:0001227)	joint of mandibular arch
+VSAO:0000101^OBO_REL:part_of(VSAO:0000175)	joint of pectoral fin lepidotrichium
+VSAO:0000101^OBO_REL:part_of(TAO:0001595)	joint of pharyngeal arch 1
+VSAO:0000101^OBO_REL:part_of(TAO:0001596)	joint of pharyngeal arch 2
+TAO:0009158	keratinocyte
+GO:0030216	keratinocyte differentiation
+TAO:0009158^OBO_REL:part_of(TAO:0001180)	keratinocyte of epidermal basal stratum
+TAO:0009158^OBO_REL:part_of(TAO:0000105)	keratinocyte of epidermis
+GO:0043616	keratinocyte proliferation
+TAO:0000529	kidney
+TAO:0001406	kinethmoid bone
+GO:0060091^OBO_REL:part_of(TAO:0009121)	kinocilium of auditory receptor cell
+GO:0060091^OBO_REL:part_of(TAO:0000678)	kinocilium of hair cell anterior macula
+GO:0060091^OBO_REL:part_of(TAO:0000281)	kinocilium of hair cell posterior macula
+GO:0060091^OBO_REL:part_of(TAO:0000217)	kinocilium of inner ear
+GO:0060091^OBO_REL:part_of(TAO:0001469)	kinocilium of lateral line
+GO:0060091^OBO_REL:part_of(TAO:0009367)	kinocilium of neuromast hair cell
+GO:0060091^OBO_REL:part_of(TAO:0000051)	kinocilium of otic vesicle
+GO:0060091^OBO_REL:part_of(TAO:0000940)	kinocilium of posterior lateral line neuromast
+TAO:0000374	lagena
+GO:0030027^OBO_REL:part_of(TAO:0000086)	lamellipodium of EVL
+GO:0030027^OBO_REL:part_of(TAO:0000004)	lamellipodium of anterior axial hypoblast
+GO:0030027^OBO_REL:part_of(CARO:0000013)	lamellipodium of cell
+GO:0030027^OBO_REL:part_of(CARO:0000077)	lamellipodium of epithelial cell
+GO:0030027^OBO_REL:part_of(TAO:0000117)	lamellipodium of hypoblast
+GO:0030027^OBO_REL:part_of(CL:0000222)	lamellipodium of mesodermal cell
+GO:0008003^OBO_REL:part_of(TAO:0001288)	lamina densa of renal glomeruli
+GO:0043236^OBO_REL:part_of(TAO:0001094)	laminin binding of body
+GO:0043256^OBO_REL:part_of(TAO:0000155)	laminin complex of somite
+TAO:0000530	lapillus
+GO:0002164	larval development
+GO:0008345	larval locomotory behavior
+TAO:0005220	larval melanophore stripe
+TAO:0005220^OBO_REL:part_of(TAO:0001115)	larval melanophore stripe of trunk
+TAO:0000166	lateral crista
+TAO:0000225	lateral crista primordium
+TAO:0001054	lateral dorsal aorta
+TAO:0001256	lateral floor plate
+TAO:0005223	lateral larval melanophore stripe
+TAO:0001469	lateral line
+GO:0048882	lateral line development
+TAO:0001479	lateral line nerve
+GO:0048896	lateral line nerve glial cell migration
+TAO:0000034	lateral line system
+TAO:0000534	lateral longitudinal fasciculus
+TAO:0001065	lateral mesoderm
+GO:0048368	lateral mesoderm development
+GO:0048371	lateral mesodermal cell differentiation
+TAO:0000121	lateral plate mesoderm
+TAO:0000383	lateral rectus
+BSPO:0000082^OBO_REL:part_of(TAO:0000197)	lateral region of dorsal nucleus
+TAO:0000220	lateral semicircular canal
+TAO:0000232	lateral semicircular canal primordium
+BSPO:0000000^OBO_REL:part_of(TAO:0000213)	left side of habenula
+BSPO:0000000^OBO_REL:part_of(TAO:0000028)	left side of heart primordium
+BSPO:0000000^OBO_REL:part_of(TAO:0000255)	left side of paraxial mesoderm
+BSPO:0000000^OBO_REL:part_of(TAO:0000948)	left side of rhombomere 3
+BSPO:0000000^OBO_REL:part_of(TAO:0000823)	left side of rhombomere 5
+BSPO:0000017^OBO_REL:part_of(TAO:0001094)	left/right axis of body
+GO:0070986	left/right axis specification
+GO:0060972	left/right pattern formation
+TAO:0000035	lens
+ZFA:0005574	lens capsule
+GO:0002088	lens development in camera-type eye
+GO:0097166	lens epithelial cell proliferation
+TAO:0001326	lens epithelium
+GO:0070307	lens fiber cell development
+GO:0070306	lens fiber cell differentiation
+GO:0070308	lens fiber cell fate commitment
+GO:0002089	lens morphogenesis in camera-type eye
+TAO:0002205	lens vesicle
+VSAO:0000172	lepidotrichium
+VSAO:0000172^OBO_REL:part_of(VSAO:0000163)	lepidotrichium of anal fin
+VSAO:0000172^OBO_REL:part_of(VSAO:0000164)	lepidotrichium of caudal fin
+VSAO:0000172^OBO_REL:part_of(VSAO:0000165)	lepidotrichium of dorsal fin
+VSAO:0000172^OBO_REL:part_of(TAO:0001269)	lepidotrichium of regenerating fin
+GO:0000237	leptotene
+GO:0006551	leucine metabolic process
+TAO:0009309	leukocyte
+GO:0030595	leukocyte chemotaxis
+GO:0002521	leukocyte differentiation
+GO:0050900	leukocyte migration
+GO:0002522	leukocyte migration involved in immune response
+GO:0002523	leukocyte migration involved in inflammatory response
+TAO:0009309^OBO_REL:part_of(TAO:0001069)	leukocyte of ventral fin fold
+TAO:0000384	levator arcus palatini
+TAO:0000537	levator operculi
+GO:0036022	limb joint morphogenesis
+TAO:0007006	lip
+GO:0010876	lipid localization
+GO:0006629	lipid metabolic process
+GO:0005811^OBO_REL:part_of(TAO:0009111)	lipid particle of hepatocyte
+GO:0005811^OBO_REL:part_of(TAO:0000123)	lipid particle of liver
+GO:0042577	lipid phosphatase activity
+GO:0019915	lipid storage
+TAO:0000123	liver
+TAO:0000036	liver and biliary system
+GO:0001889	liver development
+GO:0072576	liver morphogenesis
+TAO:0000124	liver primordium
+GO:0040011	locomotion
+GO:0031987	locomotion involved in locomotory behavior
+GO:0007626	locomotory behavior
+GO:0035641	locomotory exploration behavior
+GO:0021703	locus ceruleus development
+TAO:0000539	locus coeruleus
+GO:0014801^OBO_REL:part_of(TAO:0005277)	longitudinal sarcoplasmic reticulum of skeletal muscle
+TAO:0005105	lymph vessel
+GO:0001945	lymph vessel development
+TAO:0005258	lymph vessel endothelium
+TAO:0005105^OBO_REL:part_of(TAO:0001115)	lymph vessel of trunk
+ZFA:0005605	lymphangioblast cord
+GO:0001946	lymphangiogenesis
+GO:0060836	lymphatic endothelial cell differentiation
+TAO:0000385	lymphatic system
+TAO:0009250	lymphocyte
+GO:0030098	lymphocyte differentiation
+TAO:0009250^OBO_REL:part_of(TAO:0000007)	lymphocyte of blood
+TAO:0009250^OBO_REL:part_of(TAO:0001094)	lymphocyte of body
+TAO:0009250^OBO_REL:part_of(TAO:0000669)	lymphocyte of head kidney
+GO:0046651	lymphocyte proliferation
+TAO:0009355	lymphoid progenitor cell
+TAO:0009355^OBO_REL:part_of(TAO:0001094)	lymphoid progenitor cell of body
+GO:0005764^OBO_REL:part_of(TAO:0009067)	lysosome of CNS neuron (sensu Vertebrata)
+GO:0005764^OBO_REL:part_of(TAO:0009367)	lysosome of neuromast hair cell
+GO:0005764^OBO_REL:part_of(TAO:0009363)	lysosome of neuromast support cell
+GO:0006402	mRNA catabolic process
+GO:0006406	mRNA export from nucleus
+GO:0006378	mRNA polyadenylation
+GO:0070054	mRNA splicing, via endonucleolytic cleavage and ligation
+TAO:0009141	macrophage
+GO:0002281	macrophage activation involved in immune response
+GO:0048246	macrophage chemotaxis
+GO:0030225	macrophage differentiation
+TAO:0000386	macula
+TAO:0007000	macula saccule
+TAO:0000030	macula utricle
+GO:0010960	magnesium ion homeostasis
+GO:0015693	magnesium ion transport
+GO:0043570	maintenance of DNA repeat elements
+GO:0035633	maintenance of blood-brain barrier
+GO:0045199	maintenance of epithelial cell apical/basal polarity
+TAO:0000242	male
+GO:0008584	male gonad development
+GO:0007140	male meiosis
+GO:0007141	male meiosis I
+TAO:0001227	mandibular arch
+TAO:0000236	mandibular muscle
+TAO:0007064	mandibular neural crest
+TAO:0000038	margin
+TAO:0000038^OBO_REL:part_of(TAO:0001176)	margin of blastoderm
+TAO:0000541	marginal blastomere
+TAO:0009049	mature neutrophil
+TAO:0000270	maxilla
+GO:0007638	mechanosensory behavior
+BSPO:0001001^OBO_REL:part_of(TAO:0001094)	medial axis of body
+BSPO:0001001^OBO_REL:part_of(TAO:0000107)	medial axis of eye
+BSPO:0001001^OBO_REL:part_of(TAO:0000279)	medial axis of segmental plate
+BSPO:0001001^OBO_REL:part_of(TAO:0000155)	medial axis of somite
+GO:0033338	medial fin development
+GO:0035141	medial fin morphogenesis
+TAO:0001257	medial floor plate
+TAO:0005341	medial longitudinal catecholaminergic tract
+TAO:0000543	medial longitudinal fasciculus
+TAO:0000301	medial rectus
+BSPO:0000083^OBO_REL:part_of(TAO:0000008)	medial region of brain
+BSPO:0000083^OBO_REL:part_of(TAO:0000197)	medial region of dorsal nucleus
+BSPO:0000083^OBO_REL:part_of(TAO:0000109)	medial region of forebrain
+BSPO:0000083^OBO_REL:part_of(TAO:0000155)	medial region of somite
+BSPO:0000067^OBO_REL:part_of(TAO:0000150)	medial side of pronephric duct
+BSPO:0000067^OBO_REL:part_of(TAO:0000155)	medial side of somite
+VSAO:0000162	median fin
+TAO:0000040	median fin fold
+VSAO:0000170	median fin skeleton
+TAO:0001139	mediodorsal tooth row
+GO:0060031	mediolateral intercalation
+GO:0043060	meiotic metaphase I plate congression
+GO:0007128	meiotic prophase I
+GO:0042438	melanin biosynthetic process
+TAO:0009249	melanoblast
+TAO:0009249^OBO_REL:part_of(TAO:0000092)	melanoblast of axis
+TAO:0009249^OBO_REL:part_of(TAO:0001114)	melanoblast of head
+TAO:0009249^OBO_REL:part_of(TAO:0001115)	melanoblast of trunk
+TAO:0009091	melanocyte
+GO:0030318	melanocyte differentiation
+TAO:0009091^OBO_REL:part_of(VSAO:0000164)	melanocyte of caudal fin
+TAO:0009091^OBO_REL:part_of(TAO:0001119)	melanocyte of dermis
+TAO:0009091^OBO_REL:part_of(TAO:0005221)	melanocyte of dorsal larval melanophore stripe
+TAO:0009091^OBO_REL:part_of(TAO:0001114)	melanocyte of head
+TAO:0009091^OBO_REL:part_of(TAO:0001136)	melanocyte of hypodermis
+TAO:0009091^OBO_REL:part_of(VSAO:0000029)	melanocyte of integument
+TAO:0009091^OBO_REL:part_of(TAO:0005220)	melanocyte of larval melanophore stripe
+TAO:0009091^OBO_REL:part_of(TAO:0005223)	melanocyte of lateral larval melanophore stripe
+TAO:0009091^OBO_REL:part_of(TAO:0001463)	melanocyte of melanophore stripe
+TAO:0009091^OBO_REL:part_of(TAO:0001089)	melanocyte of myoseptum
+TAO:0009091^OBO_REL:part_of(TAO:0001117)	melanocyte of post-vent region
+TAO:0009091^OBO_REL:part_of(TAO:0000144)	melanocyte of retinal pigmented epithelium
+TAO:0009091^OBO_REL:part_of(VSAO:0000048)	melanocyte of scale
+TAO:0009091^OBO_REL:part_of(TAO:0001115)	melanocyte of trunk
+TAO:0009091^OBO_REL:part_of(TAO:0005222)	melanocyte of ventral larval melanophore stripe
+TAO:0009091^OBO_REL:part_of(TAO:0000084)	melanocyte of yolk
+TAO:0009205	melanocyte stimulating hormone secreting cell
+TAO:0001463	melanophore stripe
+TAO:0001463^OBO_REL:part_of(VSAO:0000163)	melanophore stripe of anal fin
+TAO:0001463^OBO_REL:part_of(VSAO:0000164)	melanophore stripe of caudal fin
+TAO:0001463^OBO_REL:part_of(TAO:0001117)	melanophore stripe of post-vent region
+TAO:0001463^OBO_REL:part_of(TAO:0001115)	melanophore stripe of trunk
+TAO:0001463^OBO_REL:part_of(TAO:0000084)	melanophore stripe of yolk
+GO:0032400	melanosome localization
+GO:0042470^OBO_REL:part_of(VSAO:0000029)	melanosome of integument
+GO:0042470^OBO_REL:part_of(TAO:0009091)	melanosome of melanocyte
+GO:0042470^OBO_REL:part_of(TAO:0001117)	melanosome of post-vent region
+GO:0042470^OBO_REL:part_of(TAO:0000144)	melanosome of retinal pigmented epithelium
+GO:0042470^OBO_REL:part_of(TAO:0001115)	melanosome of trunk
+GO:0032438	melanosome organization
+GO:0032402	melanosome transport
+GO:0030187	melatonin biosynthetic process
+GO:0030186	melatonin metabolic process
+GO:0051899	membrane depolarization
+GO:0086009	membrane repolarization
+TAO:0005092	mesencephalic vein
+CL:0000134^OBO_REL:part_of(TAO:0000102)	mesenchymal cell of dorsal fin fold
+CL:0000134^OBO_REL:part_of(TAO:0001117)	mesenchymal cell of post-vent region
+CL:0000134^OBO_REL:part_of(TAO:0000706)	mesenchymal cell of posterior intestine
+GO:0010463	mesenchymal cell proliferation
+TAO:0000393	mesenchyme
+TAO:0009166^OBO_REL:part_of(TAO:0001306)	mesenchyme condensation cell of pharyngeal arch
+TAO:0000912	mesenchyme median fin fold
+TAO:0000393^OBO_REL:part_of(TAO:0000112)	mesenchyme of gut
+TAO:0000393^OBO_REL:part_of(TAO:0001306)	mesenchyme of pharyngeal arch
+TAO:0000393^OBO_REL:part_of(TAO:0001595)	mesenchyme of pharyngeal arch 1
+TAO:0000393^OBO_REL:part_of(TAO:0000706)	mesenchyme of posterior intestine
+TAO:0000393^OBO_REL:part_of(TAO:0000076)	mesenchyme of swim bladder
+GO:0048382	mesendoderm development
+TAO:0000041	mesoderm
+GO:0007498	mesoderm development
+GO:0001707	mesoderm formation
+TAO:0000041^OBO_REL:part_of(VSAO:0000163)	mesoderm of anal fin
+TAO:0000041^OBO_REL:part_of(VSAO:0000164)	mesoderm of caudal fin
+TAO:0000041^OBO_REL:part_of(TAO:0001114)	mesoderm of head
+TAO:0000041^OBO_REL:part_of(TAO:0001117)	mesoderm of post-vent region
+TAO:0000041^OBO_REL:part_of(TAO:0001115)	mesoderm of trunk
+TAO:0001386	mesoderm pelvic fin bud
+CL:0000222	mesodermal cell
+GO:0007501	mesodermal cell fate specification
+GO:0008078	mesodermal cell migration
+CL:0000222^OBO_REL:part_of(TAO:0001204)	mesodermal cell of axial mesoderm
+CL:0000222^OBO_REL:part_of(TAO:0000028)	mesodermal cell of heart primordium
+CL:0000222^OBO_REL:part_of(TAO:0000117)	mesodermal cell of hypoblast
+CL:0000222^OBO_REL:part_of(TAO:0001065)	mesodermal cell of lateral mesoderm
+CL:0000222^OBO_REL:part_of(TAO:0000121)	mesodermal cell of lateral plate mesoderm
+CL:0000222^OBO_REL:part_of(TAO:0000255)	mesodermal cell of paraxial mesoderm
+GO:0060809	mesodermal to mesenchymal transition involved in gastrulation
+TAO:0000546	mesonephric duct
+TAO:0002208	mesonephric podocyte
+TAO:0009040	mesothelial cell
+TAO:0009040^OBO_REL:part_of(TAO:0000076)	mesothelial cell of swim bladder
+GO:0008152	metabolic process
+GO:0008237	metallopeptidase activity
+TAO:0000240	metapterygoid
+GO:0001527^OBO_REL:part_of(TAO:0000102)	microfibril of dorsal fin fold
+TAO:0009077	microglial cell
+GO:0046844	micropyle formation
+GO:0005932^OBO_REL:part_of(TAO:0000001)	microtubule basal body of Kupffer's vesicle
+GO:0005932^OBO_REL:part_of(TAO:0000938)	microtubule basal body of central canal
+GO:0005932^OBO_REL:part_of(TAO:0000330)	microtubule basal body of cloacal chamber
+GO:0005932^OBO_REL:part_of(TAO:0000107)	microtubule basal body of eye
+GO:0005932^OBO_REL:part_of(TAO:0000022)	microtubule basal body of floor plate
+GO:0005932^OBO_REL:part_of(TAO:0001135)	microtubule basal body of neural tube
+GO:0005932^OBO_REL:part_of(TAO:0000051)	microtubule basal body of otic vesicle
+GO:0005932^OBO_REL:part_of(TAO:0000255)	microtubule basal body of paraxial mesoderm
+GO:0005932^OBO_REL:part_of(TAO:0000150)	microtubule basal body of pronephric duct
+GO:0005932^OBO_REL:part_of(TAO:0000151)	microtubule basal body of pronephros
+GO:0015630^OBO_REL:part_of(TAO:0009149)	microtubule cytoskeleton of Mauthner neuron
+GO:0015630^OBO_REL:part_of(TAO:0001155)	microtubule cytoskeleton of enteric nervous system
+GO:0015630^OBO_REL:part_of(TAO:0009248)	microtubule cytoskeleton of neuron
+GO:0015630^OBO_REL:part_of(TAO:0001071)	microtubule cytoskeleton of presumptive retina
+GO:0000226	microtubule cytoskeleton organization
+GO:0005874^OBO_REL:part_of(TAO:0000309)	microtubule of E-YSL
+GO:0005874^OBO_REL:part_of(TAO:0009149)	microtubule of Mauthner neuron
+GO:0005874^OBO_REL:part_of(TAO:0000088)	microtubule of YSL
+GO:0005874^OBO_REL:part_of(TAO:0000093)	microtubule of blastomere
+GO:0005874^OBO_REL:part_of(TAO:0007036)	microtubule of hindbrain neural rod
+GO:0005874^OBO_REL:part_of(TAO:0000541)	microtubule of marginal blastomere
+GO:0005874^OBO_REL:part_of(TAO:0009367)	microtubule of neuromast hair cell
+GO:0005874^OBO_REL:part_of(TAO:0009256)	microtubule of nucleate erythrocyte
+GO:0005874^OBO_REL:part_of(TAO:0001567)	microtubule of oocyte stage I
+GO:0005874^OBO_REL:part_of(TAO:0000150)	microtubule of pronephric duct
+GO:0005874^OBO_REL:part_of(TAO:0000084)	microtubule of yolk
+GO:0046785	microtubule polymerization
+GO:0051013	microtubule severing
+TAO:0009359	microvillous olfactory receptor neuron
+GO:0005902^OBO_REL:part_of(TAO:0000309)	microvillus of E-YSL
+GO:0005902^OBO_REL:part_of(TAO:0009269)	microvillus of enterocyte
+GO:0005902^OBO_REL:part_of(TAO:0005124)	microvillus of intestinal epithelium
+GO:0005902^OBO_REL:part_of(TAO:0001558)	microvillus of pronephric tubule
+GO:0005902^OBO_REL:part_of(TAO:0000144)	microvillus of retinal pigmented epithelium
+TAO:0005010	mid cerebral vein
+TAO:0005127	mid intestine epithelium
+GO:0030496^OBO_REL:part_of(CARO:0000013)	midbody of cell
+TAO:0000128	midbrain
+GO:0030901	midbrain development
+TAO:0000042	midbrain hindbrain boundary
+TAO:0007045	midbrain hindbrain boundary neural keel
+TAO:0007044	midbrain hindbrain boundary neural plate
+TAO:0007046	midbrain hindbrain boundary neural rod
+TAO:0007047	midbrain hindbrain boundary neural tube
+TAO:0007025	midbrain neural keel
+TAO:0007032	midbrain neural rod
+GO:0030917	midbrain-hindbrain boundary development
+GO:0021547	midbrain-hindbrain boundary initiation
+GO:0021732	midbrain-hindbrain boundary maturation
+GO:0021555	midbrain-hindbrain boundary morphogenesis
+GO:0021552	midbrain-hindbrain boundary structural organization
+TAO:0000939	middle lateral line neuromast
+TAO:0005078	middle mesencephalic central artery
+CL:0000008	migratory cranial neural crest cell
+CL:0000008^OBO_REL:part_of(TAO:0000069)	migratory cranial neural crest cell of rhombomere 6
+CL:0000333	migratory neural crest cell
+CL:0000333^OBO_REL:part_of(TAO:0000092)	migratory neural crest cell of axis
+CL:0000333^OBO_REL:part_of(TAO:0001094)	migratory neural crest cell of body
+CL:0000333^OBO_REL:part_of(TAO:0001597)	migratory neural crest cell of gill arch
+CL:0000333^OBO_REL:part_of(TAO:0000029)	migratory neural crest cell of hindbrain
+CL:0000333^OBO_REL:part_of(TAO:0000128)	migratory neural crest cell of midbrain
+CL:0000333^OBO_REL:part_of(TAO:0001595)	migratory neural crest cell of pharyngeal arch 1
+CL:0000333^OBO_REL:part_of(TAO:0001596)	migratory neural crest cell of pharyngeal arch 2
+CL:0000333^OBO_REL:part_of(TAO:0001117)	migratory neural crest cell of post-vent region
+GO:0000262^OBO_REL:part_of(TAO:0001094)	mitochondrial chromosome of body
+GO:0032019^OBO_REL:part_of(TAO:0001109)	mitochondrial cloud of oocyte
+GO:0032019^OBO_REL:part_of(TAO:0001567)	mitochondrial cloud of oocyte stage I
+GO:0030061^OBO_REL:part_of(TAO:0009117)	mitochondrial crista of fast muscle cell
+GO:0030061^OBO_REL:part_of(TAO:0009111)	mitochondrial crista of hepatocyte
+GO:0030061^OBO_REL:part_of(TAO:0009115)	mitochondrial crista of skeletal muscle cell
+GO:0006120	mitochondrial electron transport, NADH to ubiquinone
+GO:0005759^OBO_REL:part_of(TAO:0000473)	mitochondrial matrix of trunk musculature
+GO:0005739^OBO_REL:part_of(TAO:0001094)	mitochondrion of body
+GO:0005739^OBO_REL:part_of(TAO:0009316)	mitochondrion of cardiac muscle cell
+GO:0005739^OBO_REL:part_of(TAO:0009154)	mitochondrion of eye photoreceptor cell
+GO:0005739^OBO_REL:part_of(TAO:0009117)	mitochondrion of fast muscle cell
+GO:0005739^OBO_REL:part_of(TAO:0009111)	mitochondrion of hepatocyte
+GO:0005739^OBO_REL:part_of(TAO:0009052)	mitochondrion of motor neuron
+GO:0005739^OBO_REL:part_of(TAO:0009367)	mitochondrion of neuromast hair cell
+GO:0005739^OBO_REL:part_of(TAO:0001567)	mitochondrion of oocyte stage I
+GO:0005739^OBO_REL:part_of(TAO:0001565)	mitochondrion of oocyte stage II
+GO:0005739^OBO_REL:part_of(TAO:0009115)	mitochondrion of skeletal muscle cell
+GO:0005739^OBO_REL:part_of(TAO:0000075)	mitochondrion of spinal cord
+GO:0007067	mitosis
+GO:0000278	mitotic cell cycle
+GO:0071850	mitotic cell cycle arrest
+GO:0045448	mitotic cell cycle, embryonic
+GO:0007100	mitotic centrosome separation
+GO:0007076	mitotic chromosome condensation
+GO:0007079	mitotic chromosome movement towards spindle pole
+GO:0007080	mitotic metaphase plate congression
+GO:0000236	mitotic prometaphase
+GO:0000088	mitotic prophase
+GO:0007064	mitotic sister chromatid cohesion
+GO:0051306	mitotic sister chromatid separation
+GO:0072686^OBO_REL:part_of(CARO:0000013)	mitotic spindle of cell
+GO:0072686^OBO_REL:part_of(TAO:0009032)	mitotic spindle of ciliated cell
+GO:0072686^OBO_REL:part_of(TAO:0000132)	mitotic spindle of neural plate
+GO:0072686^OBO_REL:part_of(TAO:0009306)	mitotic spindle of neuroepithelial cell
+GO:0007052	mitotic spindle organization
+TAO:0000394	molecular layer corpus cerebelli
+TAO:0000913	molecular layer valvula cerebelli
+GO:0008028	monocarboxylic acid transmembrane transporter activity
+TAO:0009265	monocyte
+GO:0030224	monocyte differentiation
+TAO:0009064^OBO_REL:part_of(TAO:0005029)	mononuclear phagocyte of rostral blood island
+GO:0002011	morphogenesis of an epithelial sheet
+GO:0016331	morphogenesis of embryonic epithelium
+GO:0044458	motile cilium assembly
+GO:0031514^OBO_REL:part_of(TAO:0000001)	motile cilium of Kupffer's vesicle
+GO:0031514^OBO_REL:part_of(TAO:0000938)	motile cilium of central canal
+GO:0031514^OBO_REL:part_of(TAO:0000022)	motile cilium of floor plate
+GO:0031514^OBO_REL:part_of(TAO:0000554)	motile cilium of olfactory epithelium
+GO:0031514^OBO_REL:part_of(TAO:0000051)	motile cilium of otic vesicle
+GO:0031514^OBO_REL:part_of(TAO:0000150)	motile cilium of pronephric duct
+GO:0031514^OBO_REL:part_of(TAO:0000151)	motile cilium of pronephros
+GO:0031512^OBO_REL:part_of(TAO:0000001)	motile primary cilium of Kupffer's vesicle
+GO:0031512^OBO_REL:part_of(TAO:0001094)	motile primary cilium of body
+GO:0008045	motor axon guidance
+TAO:0009052	motor neuron
+TAO:0009052^OBO_REL:part_of(TAO:0000713)	motor neuron of abducens motor nucleus
+TAO:0009052^OBO_REL:part_of(TAO:0000641)	motor neuron of cranial nerve
+TAO:0009052^OBO_REL:part_of(TAO:0000206)	motor neuron of facial nerve motor nucleus
+TAO:0009052^OBO_REL:part_of(TAO:0001114)	motor neuron of head
+TAO:0009052^OBO_REL:part_of(TAO:0000075)	motor neuron of spinal cord
+GO:0035765	motor neuron precursor migration involved in dorsal motor nucleus of vagus nerve formation
+TAO:0000547	mouth
+TAO:0009159	mucus secreting cell
+GO:0035264	multicellular organism growth
+GO:0007275	multicellular organismal development
+GO:0071965	multicellular organismal locomotion
+GO:0033555	multicellular organismal response to stress
+TAO:0005242^OBO_REL:part_of(TAO:0000151)	multiciliated epithelial cell of pronephros
+TAO:0005145	muscle
+GO:0016203	muscle attachment
+TAO:0009114	muscle cell
+GO:0055001	muscle cell development
+GO:0042692	muscle cell differentiation
+GO:0042694	muscle cell fate specification
+GO:0046716	muscle cell homeostasis
+GO:0014812	muscle cell migration
+TAO:0009114^OBO_REL:part_of(TAO:0001056)	muscle cell of myotome
+TAO:0009114^OBO_REL:part_of(TAO:0001117)	muscle cell of post-vent region
+TAO:0009114^OBO_REL:part_of(TAO:0000155)	muscle cell of somite
+GO:0006936	muscle contraction
+GO:0048747	muscle fiber development
+GO:0005859^OBO_REL:part_of(TAO:0009114)	muscle myosin complex of muscle cell
+TAO:0005145^OBO_REL:part_of(TAO:0001076)	muscle of intestinal bulb
+TAO:0005145^OBO_REL:part_of(TAO:0001323)	muscle of mid intestine
+TAO:0005145^OBO_REL:part_of(TAO:0001306)	muscle of pharyngeal arch
+TAO:0005145^OBO_REL:part_of(TAO:0001115)	muscle of trunk
+GO:0007517	muscle organ development
+GO:0048644	muscle organ morphogenesis
+TAO:0001086	muscle pioneer
+TAO:0001086^OBO_REL:part_of(TAO:0001056)	muscle pioneer of myotome
+TAO:0001086^OBO_REL:part_of(TAO:0000155)	muscle pioneer of somite
+GO:0005927^OBO_REL:part_of(TAO:0005145)	muscle tendon junction of muscle
+GO:0005927^OBO_REL:part_of(TAO:0001056)	muscle tendon junction of myotome
+GO:0071689	muscle thin filament assembly
+GO:0005862^OBO_REL:part_of(TAO:0009117)	muscle thin filament tropomyosin of fast muscle cell
+GO:0060537	muscle tissue development
+VSAO:0000033	muscular system
+GO:0050881	musculoskeletal movement
+GO:0050883	musculoskeletal movement, spinal reflex action
+GO:0032288	myelin assembly
+GO:0043209^OBO_REL:part_of(TAO:0009149)	myelin sheath of Mauthner neuron
+GO:0043209^OBO_REL:part_of(TAO:0000175)	myelin sheath of posterior lateral line nerve
+TAO:0009324	myeloid cell
+GO:0033028	myeloid cell apoptosis
+GO:0030099	myeloid cell differentiation
+TAO:0009324^OBO_REL:part_of(TAO:0000094)	myeloid cell of blood island
+TAO:0009324^OBO_REL:part_of(TAO:0005028)	myeloid cell of ventral wall of dorsal aorta
+TAO:0009356	myeloid progenitor cell
+TAO:0009356^OBO_REL:part_of(TAO:0000669)	myeloid progenitor cell of head kidney
+GO:0007520	myoblast fusion
+TAO:0009025^OBO_REL:part_of(TAO:0000465)	myoblast of adductor operculi
+TAO:0009025^OBO_REL:part_of(TAO:0000498)	myoblast of dilator operculi
+TAO:0009025^OBO_REL:part_of(TAO:0007053)	myoblast of dorsal adductor hyomandibulae
+TAO:0009025^OBO_REL:part_of(TAO:0000384)	myoblast of levator arcus palatini
+TAO:0009025^OBO_REL:part_of(TAO:0000537)	myoblast of levator operculi
+GO:0051450	myoblast proliferation
+ZFA:0005490	myocardial precursor
+ZFA:0005490^OBO_REL:part_of(TAO:0000028)	myocardial precursor of heart primordium
+TAO:0001319	myocardium
+TAO:0001319^OBO_REL:part_of(TAO:0000154)	myocardium of sinus venosus
+GO:0030239	myofibril assembly
+GO:0030016^OBO_REL:part_of(TAO:0000471)	myofibril of atrium
+GO:0030016^OBO_REL:part_of(TAO:0009316)	myofibril of cardiac muscle cell
+GO:0030016^OBO_REL:part_of(TAO:0000009)	myofibril of cardiac ventricle
+GO:0030016^OBO_REL:part_of(TAO:0009117)	myofibril of fast muscle cell
+GO:0030016^OBO_REL:part_of(TAO:0000114)	myofibril of heart
+GO:0030016^OBO_REL:part_of(TAO:0000301)	myofibril of medial rectus
+GO:0030016^OBO_REL:part_of(TAO:0005145)	myofibril of muscle
+GO:0030016^OBO_REL:part_of(TAO:0009114)	myofibril of muscle cell
+GO:0030016^OBO_REL:part_of(TAO:0001086)	myofibril of muscle pioneer
+GO:0030016^OBO_REL:part_of(TAO:0001319)	myofibril of myocardium
+GO:0030016^OBO_REL:part_of(TAO:0001056)	myofibril of myotome
+GO:0030016^OBO_REL:part_of(TAO:0005277)	myofibril of skeletal muscle
+GO:0030016^OBO_REL:part_of(TAO:0009115)	myofibril of skeletal muscle cell
+GO:0030016^OBO_REL:part_of(TAO:0009116)	myofibril of slow muscle cell
+GO:0030016^OBO_REL:part_of(TAO:0000155)	myofibril of somite
+GO:0030016^OBO_REL:part_of(TAO:0000473)	myofibril of trunk musculature
+GO:0030016^OBO_REL:part_of(TAO:0005061)	myofibril of ventricular myocardium
+TAO:0001089	myoseptum
+TAO:0001089^OBO_REL:part_of(TAO:0001056)	myoseptum of myotome
+GO:0016459^OBO_REL:part_of(TAO:0005274)	myosin complex of smooth muscle
+GO:0016459^OBO_REL:part_of(TAO:0001462)	myosin complex of somite border
+GO:0032982^OBO_REL:part_of(TAO:0009117)	myosin filament of fast muscle cell
+GO:0032982^OBO_REL:part_of(TAO:0001056)	myosin filament of myotome
+GO:0032982^OBO_REL:part_of(TAO:0009116)	myosin filament of slow muscle cell
+TAO:0001056	myotome
+GO:0061055	myotome development
+TAO:0000365	nasal bone
+GO:0070265	necrotic cell death
+GO:0045746	negative regulation of Notch signaling pathway
+GO:0032007	negative regulation of TOR signaling cascade
+GO:0030178	negative regulation of Wnt receptor signaling pathway
+GO:0016525	negative regulation of angiogenesis
+GO:0090090	negative regulation of canonical Wnt receptor signaling pathway
+GO:0050680	negative regulation of epithelial cell proliferation
+GO:0010719	negative regulation of epithelial to mesenchymal transition
+GO:0010459	negative regulation of heart rate
+GO:0050768	negative regulation of neurogenesis
+GO:0000122	negative regulation of transcription from RNA polymerase II promoter
+GO:0045892	negative regulation of transcription, DNA-dependent
+TAO:0007009^OBO_REL:part_of(TAO:0000142)	nerve of peripheral nervous system
+TAO:0000396	nervous system
+GO:0007399	nervous system development
+TAO:0001066	neural arch
+TAO:0000045	neural crest
+GO:0014032	neural crest cell development
+GO:0014033	neural crest cell differentiation
+GO:0014036	neural crest cell fate specification
+GO:0001755	neural crest cell migration
+GO:0014029	neural crest formation
+GO:0021505	neural fold folding
+TAO:0000131	neural keel
+TAO:0000132	neural plate
+GO:0021999	neural plate anterior/posterior regionalization
+GO:0001840	neural plate development
+GO:0001839	neural plate morphogenesis
+GO:0061351	neural precursor cell proliferation
+GO:0003407	neural retina development
+TAO:0000133	neural rod
+TAO:0001336	neural spine
+TAO:0001135	neural tube
+GO:0001843	neural tube closure
+GO:0021915	neural tube development
+GO:0001841	neural tube formation
+GO:0021532	neural tube patterning
+TAO:0009080	neurectodermal cell
+TAO:0009168	neuroblast (sensu Vertebrata)
+TAO:0009168^OBO_REL:part_of(TAO:0001135)	neuroblast (sensu Vertebrata) of neural tube
+TAO:0009168^OBO_REL:part_of(TAO:0000075)	neuroblast (sensu Vertebrata) of spinal cord
+GO:0014019	neuroblast development
+GO:0007405	neuroblast proliferation
+TAO:0001321	neurocranial trabecula
+TAO:0001580	neurocranium
+TAO:0001120	neuroectoderm
+TAO:0009098	neuroendocrine cell
+TAO:0009306	neuroepithelial cell
+TAO:0009306^OBO_REL:part_of(TAO:0000029)	neuroepithelial cell of hindbrain
+TAO:0009306^OBO_REL:part_of(TAO:0000396)	neuroepithelial cell of nervous system
+TAO:0009306^OBO_REL:part_of(TAO:0000131)	neuroepithelial cell of neural keel
+TAO:0009306^OBO_REL:part_of(TAO:0000133)	neuroepithelial cell of neural rod
+TAO:0009306^OBO_REL:part_of(TAO:0001135)	neuroepithelial cell of neural tube
+TAO:0009306^OBO_REL:part_of(TAO:0000075)	neuroepithelial cell of spinal cord
+TAO:0009306^OBO_REL:part_of(TAO:0001261)	neuroepithelial cell of ventricular system
+GO:0022008	neurogenesis
+TAO:0001309	neurogenic placode
+TAO:0001271	neurohypophysis
+TAO:0000243	neuromast
+GO:0048884	neuromast development
+TAO:0009367	neuromast hair cell
+GO:0070658	neuromast hair cell differentiation involved in neuromast regeneration
+TAO:0009367^OBO_REL:part_of(TAO:0001470)	neuromast hair cell of anterior lateral line
+TAO:0009367^OBO_REL:part_of(TAO:0000386)	neuromast hair cell of macula
+TAO:0009367^OBO_REL:part_of(TAO:0000944)	neuromast hair cell of posterior lateral line
+TAO:0009367^OBO_REL:part_of(TAO:0000940)	neuromast hair cell of posterior lateral line neuromast
+TAO:0000243^OBO_REL:part_of(TAO:0001470)	neuromast of anterior lateral line
+TAO:0000243^OBO_REL:part_of(TAO:0001469)	neuromast of lateral line
+TAO:0000243^OBO_REL:part_of(TAO:0000944)	neuromast of posterior lateral line
+GO:0048883	neuromast primordium migration
+TAO:0009363	neuromast support cell
+TAO:0001328^OBO_REL:part_of(TAO:0000109)	neuromere of forebrain
+GO:0007528	neuromuscular junction development
+GO:0031594^OBO_REL:part_of(TAO:0001094)	neuromuscular junction of body
+GO:0031594^OBO_REL:part_of(TAO:0001056)	neuromuscular junction of myotome
+GO:0031594^OBO_REL:part_of(TAO:0005277)	neuromuscular junction of skeletal muscle
+GO:0050885	neuromuscular process controlling balance
+GO:0050884	neuromuscular process controlling posture
+GO:0007274	neuromuscular synaptic transmission
+TAO:0009248	neuron
+GO:0051402	neuron apoptosis
+GO:0070997	neuron death
+GO:0048666	neuron development
+GO:0030182	neuron differentiation
+GO:0048663	neuron fate commitment
+GO:0001764	neuron migration
+TAO:0009009^OBO_REL:part_of(TAO:0001155)	neuron neural crest derived of enteric nervous system
+TAO:0009009^OBO_REL:part_of(TAO:0001334)	neuron neural crest derived of presumptive enteric nervous system
+TAO:0009248^OBO_REL:part_of(TAO:0000008)	neuron of brain
+TAO:0009248^OBO_REL:part_of(TAO:0000633)	neuron of caudal tuberculum
+TAO:0009248^OBO_REL:part_of(TAO:0000012)	neuron of central nervous system
+TAO:0009248^OBO_REL:part_of(TAO:0000013)	neuron of cranial ganglia
+TAO:0009248^OBO_REL:part_of(TAO:0000197)	neuron of dorsal nucleus
+TAO:0009248^OBO_REL:part_of(TAO:0000200)	neuron of dorsal root ganglion
+TAO:0009248^OBO_REL:part_of(TAO:0001155)	neuron of enteric nervous system
+TAO:0009248^OBO_REL:part_of(TAO:0000019)	neuron of epiphysis
+TAO:0009248^OBO_REL:part_of(TAO:0000109)	neuron of forebrain
+TAO:0009248^OBO_REL:part_of(TAO:0000112)	neuron of gut
+TAO:0009248^OBO_REL:part_of(TAO:0000213)	neuron of habenula
+TAO:0009248^OBO_REL:part_of(TAO:0001114)	neuron of head
+TAO:0009248^OBO_REL:part_of(TAO:0000029)	neuron of hindbrain
+TAO:0009248^OBO_REL:part_of(TAO:0002199)	neuron of hindbrain commissure
+TAO:0009248^OBO_REL:part_of(TAO:0000032)	neuron of hypothalamus
+TAO:0009248^OBO_REL:part_of(TAO:0001338)	neuron of intestine
+TAO:0009248^OBO_REL:part_of(TAO:0000539)	neuron of locus coeruleus
+TAO:0009248^OBO_REL:part_of(TAO:0000128)	neuron of midbrain
+TAO:0009248^OBO_REL:part_of(TAO:0001202)	neuron of optic cup
+TAO:0009248^OBO_REL:part_of(TAO:0000445)	neuron of optic tectum
+TAO:0009248^OBO_REL:part_of(TAO:0000142)	neuron of peripheral nervous system
+TAO:0009248^OBO_REL:part_of(TAO:0000706)	neuron of posterior intestine
+TAO:0009248^OBO_REL:part_of(TAO:0000944)	neuron of posterior lateral line
+TAO:0009248^OBO_REL:part_of(TAO:0000152)	neuron of retina
+TAO:0009248^OBO_REL:part_of(TAO:0000024)	neuron of retinal ganglion cell layer
+TAO:0009248^OBO_REL:part_of(TAO:0000119)	neuron of retinal inner nuclear layer
+TAO:0009248^OBO_REL:part_of(TAO:0001064)	neuron of rhombomere
+TAO:0009248^OBO_REL:part_of(TAO:0000822)	neuron of rhombomere 2
+TAO:0009248^OBO_REL:part_of(TAO:0001032)	neuron of rhombomere 4
+TAO:0009248^OBO_REL:part_of(TAO:0000075)	neuron of spinal cord
+TAO:0009248^OBO_REL:part_of(TAO:0007035)	neuron of spinal cord neural rod
+TAO:0009248^OBO_REL:part_of(TAO:0000588)	neuron of statoacoustic (VIII) ganglion
+TAO:0009248^OBO_REL:part_of(TAO:0001576)	neuron of sympathetic nervous system
+TAO:0009248^OBO_REL:part_of(TAO:0000079)	neuron of telencephalon
+TAO:0009248^OBO_REL:part_of(TAO:0000295)	neuron of trigeminal ganglion
+TAO:0009248^OBO_REL:part_of(TAO:0000162)	neuron of trigeminal placode
+GO:0031175	neuron projection development
+GO:0048812	neuron projection morphogenesis
+GO:0043005^OBO_REL:part_of(TAO:0009150)	neuron projection of Rohon-Beard neuron
+GO:0043005^OBO_REL:part_of(TAO:0009255)	neuron projection of amacrine cell
+GO:0043005^OBO_REL:part_of(TAO:0007024)	neuron projection of anterior neural keel
+GO:0043005^OBO_REL:part_of(TAO:0000013)	neuron projection of cranial ganglia
+GO:0043005^OBO_REL:part_of(TAO:0009052)	neuron projection of motor neuron
+GO:0043005^OBO_REL:part_of(TAO:0000445)	neuron projection of optic tectum
+GO:0043005^OBO_REL:part_of(TAO:0009244)	neuron projection of primary motor neuron
+GO:0043005^OBO_REL:part_of(TAO:0009310)	neuron projection of retinal ganglion cell
+GO:0043005^OBO_REL:part_of(TAO:0000024)	neuron projection of retinal ganglion cell layer
+GO:0043005^OBO_REL:part_of(TAO:0001083)	neuron projection of ventricular zone
+GO:0016322	neuron remodeling
+GO:0007270	neuron-neuron synaptic transmission
+GO:0043025^OBO_REL:part_of(TAO:0000664)	neuronal cell body of cranial nerve VII
+GO:0043025^OBO_REL:part_of(TAO:0009052)	neuronal cell body of motor neuron
+GO:0043025^OBO_REL:part_of(TAO:0001032)	neuronal cell body of rhombomere 4
+GO:0043025^OBO_REL:part_of(TAO:0000823)	neuronal cell body of rhombomere 5
+GO:0043025^OBO_REL:part_of(TAO:0000949)	neuronal cell body of rhombomere 7
+GO:0097150	neuronal stem cell maintenance
+TAO:0009019^OBO_REL:part_of(TAO:0001289)	neuronal stem cell of ciliary marginal zone
+TAO:0009019^OBO_REL:part_of(TAO:0000013)	neuronal stem cell of cranial ganglia
+TAO:0009019^OBO_REL:part_of(TAO:0000075)	neuronal stem cell of spinal cord
+TAO:0009186^OBO_REL:part_of(TAO:0000633)	neurosecretory neuron of caudal tuberculum
+TAO:0009186^OBO_REL:part_of(TAO:0000101)	neurosecretory neuron of diencephalon
+TAO:0009186^OBO_REL:part_of(TAO:0000032)	neurosecretory neuron of hypothalamus
+TAO:0009186^OBO_REL:part_of(TAO:0000470)	neurosecretory neuron of preoptic area
+GO:0042136	neurotransmitter biosynthetic process
+GO:0007269	neurotransmitter secretion
+GO:0006638	neutral lipid metabolic process
+TAO:0009327	neutrophil
+GO:0002283	neutrophil activation involved in immune response
+GO:0070488	neutrophil aggregation
+GO:0030593	neutrophil chemotaxis
+GO:0030223	neutrophil differentiation
+GO:0001780	neutrophil homeostasis
+GO:0002446	neutrophil mediated immunity
+TAO:0009327^OBO_REL:part_of(TAO:0005039)	neutrophil of anterior lateral mesoderm
+TAO:0009327^OBO_REL:part_of(TAO:0000094)	neutrophil of blood island
+TAO:0009327^OBO_REL:part_of(TAO:0000102)	neutrophil of dorsal fin fold
+TAO:0009327^OBO_REL:part_of(TAO:0000105)	neutrophil of epidermis
+TAO:0009327^OBO_REL:part_of(TAO:0000033)	neutrophil of intermediate cell mass of mesoderm
+TAO:0009327^OBO_REL:part_of(TAO:0001269)	neutrophil of regenerating fin
+TAO:0009327^OBO_REL:part_of(TAO:0005029)	neutrophil of rostral blood island
+TAO:0009327^OBO_REL:part_of(TAO:0005277)	neutrophil of skeletal muscle
+TAO:0009327^OBO_REL:part_of(TAO:0001069)	neutrophil of ventral fin fold
+GO:0033268^OBO_REL:part_of(TAO:0000175)	node of Ranvier of posterior lateral line nerve
+TAO:0001178	non neural ectoderm
+GO:0004715	non-membrane spanning protein tyrosine kinase activity
+GO:0031513^OBO_REL:part_of(TAO:0001094)	nonmotile primary cilium of body
+GO:0031513^OBO_REL:part_of(TAO:0001135)	nonmotile primary cilium of neural tube
+GO:0031513^OBO_REL:part_of(TAO:0000554)	nonmotile primary cilium of olfactory epithelium
+GO:0031513^OBO_REL:part_of(TAO:0000130)	nonmotile primary cilium of olfactory pit
+GO:0043584	nose development
+VSAO:0000032	notochord
+GO:0060035	notochord cell development
+GO:0060034	notochord cell differentiation
+GO:0060036	notochord cell vacuolation
+GO:0030903	notochord development
+GO:0014028	notochord formation
+GO:0048570	notochord morphogenesis
+VSAO:0000032^OBO_REL:part_of(TAO:0001117)	notochord of post-vent region
+VSAO:0000032^OBO_REL:part_of(TAO:0001115)	notochord of trunk
+TAO:0001821	notochord posterior region
+TAO:0001640	notochordal ossification
+GO:0000790^OBO_REL:part_of(TAO:0009154)	nuclear chromatin of eye photoreceptor cell
+GO:0000280	nuclear division
+GO:0005635^OBO_REL:part_of(TAO:0000473)	nuclear envelope of trunk musculature
+GO:0045292	nuclear mRNA cis splicing, via spliceosome
+GO:0000398	nuclear mRNA splicing, via spliceosome
+GO:0007097	nuclear migration
+GO:0031081	nuclear pore distribution
+GO:0005643^OBO_REL:part_of(TAO:0005126)	nuclear pore of intestinal bulb epithelium
+GO:0005643^OBO_REL:part_of(TAO:0005124)	nuclear pore of intestinal epithelium
+GO:0005643^OBO_REL:part_of(TAO:0001338)	nuclear pore of intestine
+GO:0005643^OBO_REL:part_of(TAO:0005145)	nuclear pore of muscle
+GO:0005643^OBO_REL:part_of(TAO:0000445)	nuclear pore of optic tectum
+GO:0005643^OBO_REL:part_of(TAO:0009041)	nuclear pore of peridermal cell
+GO:0005643^OBO_REL:part_of(TAO:0001306)	nuclear pore of pharyngeal arch
+GO:0005643^OBO_REL:part_of(TAO:0000706)	nuclear pore of posterior intestine
+GO:0005643^OBO_REL:part_of(TAO:0000152)	nuclear pore of retina
+GO:0005643^OBO_REL:part_of(TAO:0009115)	nuclear pore of skeletal muscle cell
+TAO:0009256	nucleate erythrocyte
+GO:0048823	nucleate erythrocyte development
+GO:0043362	nucleate erythrocyte maturation
+TAO:0009256^OBO_REL:part_of(TAO:0000007)	nucleate erythrocyte of blood
+TAO:0009256^OBO_REL:part_of(TAO:0000094)	nucleate erythrocyte of blood island
+TAO:0009256^OBO_REL:part_of(TAO:0000010)	nucleate erythrocyte of cardiovascular system
+TAO:0009256^OBO_REL:part_of(TAO:0000529)	nucleate erythrocyte of kidney
+TAO:0009256^OBO_REL:part_of(TAO:0000123)	nucleate erythrocyte of liver
+GO:0005730^OBO_REL:part_of(TAO:0001289)	nucleolus of ciliary marginal zone
+GO:0005730^OBO_REL:part_of(TAO:0000123)	nucleolus of liver
+GO:0005730^OBO_REL:part_of(TAO:0009310)	nucleolus of retinal ganglion cell
+GO:0005634^OBO_REL:part_of(TAO:0000712)	nucleus of I-YSL
+GO:0005634^OBO_REL:part_of(TAO:0000088)	nucleus of YSL
+GO:0005634^OBO_REL:part_of(TAO:0009177)	nucleus of blastoderm cell
+GO:0005634^OBO_REL:part_of(TAO:0000093)	nucleus of blastomere
+GO:0005634^OBO_REL:part_of(TAO:0001094)	nucleus of body
+GO:0005634^OBO_REL:part_of(TAO:0000008)	nucleus of brain
+GO:0005634^OBO_REL:part_of(CARO:0000013)	nucleus of cell
+GO:0005634^OBO_REL:part_of(TAO:0000012)	nucleus of central nervous system
+GO:0005634^OBO_REL:part_of(CL:0000138)	nucleus of chondrocyte
+GO:0005634^OBO_REL:part_of(TAO:0009269)	nucleus of enterocyte
+GO:0005634^OBO_REL:part_of(TAO:0005237)	nucleus of erythroblast
+GO:0005634^OBO_REL:part_of(TAO:0001249)	nucleus of exocrine pancreas
+GO:0005634^OBO_REL:part_of(TAO:0009154)	nucleus of eye photoreceptor cell
+GO:0005634^OBO_REL:part_of(TAO:0000035)	nucleus of lens
+GO:0005634^OBO_REL:part_of(TAO:0001326)	nucleus of lens epithelium
+GO:0005634^OBO_REL:part_of(TAO:0000123)	nucleus of liver
+GO:0005634^OBO_REL:part_of(TAO:0009091)	nucleus of melanocyte
+GO:0005634^OBO_REL:part_of(TAO:0009011)	nucleus of neuroblast
+GO:0005634^OBO_REL:part_of(TAO:0009367)	nucleus of neuromast hair cell
+GO:0005634^OBO_REL:part_of(VSAO:0000032)	nucleus of notochord
+GO:0005634^OBO_REL:part_of(TAO:0009256)	nucleus of nucleate erythrocyte
+GO:0005634^OBO_REL:part_of(TAO:0001567)	nucleus of oocyte stage I
+GO:0005634^OBO_REL:part_of(TAO:0001565)	nucleus of oocyte stage II
+GO:0005634^OBO_REL:part_of(TAO:0001465)	nucleus of photoreceptor inner segment layer
+GO:0005634^OBO_REL:part_of(TAO:0001466)	nucleus of photoreceptor outer segment layer
+GO:0005634^OBO_REL:part_of(TAO:0000152)	nucleus of retina
+GO:0005634^OBO_REL:part_of(TAO:0009318)	nucleus of retinal bipolar neuron
+GO:0005634^OBO_REL:part_of(TAO:0009262)	nucleus of retinal cone cell
+GO:0005634^OBO_REL:part_of(TAO:0009310)	nucleus of retinal ganglion cell
+GO:0005634^OBO_REL:part_of(TAO:0000119)	nucleus of retinal inner nuclear layer
+GO:0005634^OBO_REL:part_of(TAO:0000046)	nucleus of retinal neural layer
+GO:0005634^OBO_REL:part_of(TAO:0001464)	nucleus of retinal outer nuclear layer
+GO:0005634^OBO_REL:part_of(TAO:0009275)	nucleus of retinal rod cell
+GO:0005634^OBO_REL:part_of(TAO:0009115)	nucleus of skeletal muscle cell
+GO:0005634^OBO_REL:part_of(TAO:0009236)	nucleus of skeletal muscle myoblast
+GO:0005634^OBO_REL:part_of(TAO:0009116)	nucleus of slow muscle cell
+GO:0005634^OBO_REL:part_of(TAO:0000155)	nucleus of somite
+GO:0005634^OBO_REL:part_of(TAO:0000075)	nucleus of spinal cord
+TAO:0001340	nucleus of the tract of the postoptic commissure
+TAO:0001504	occipital arch cartilage
+TAO:0007057	ocular blood vessel
+TAO:0007057^OBO_REL:part_of(TAO:0001329)	ocular blood vessel of retinal inner plexiform layer
+TAO:0000553	oculomotor nucleus
+GO:0042476	odontogenesis
+TAO:0000402	olfactory bulb
+GO:0021772	olfactory bulb development
+TAO:0000554	olfactory epithelium
+TAO:0000130	olfactory pit
+TAO:0000048	olfactory placode
+TAO:0009125	olfactory receptor cell
+TAO:0009125^OBO_REL:part_of(TAO:0000048)	olfactory receptor cell of olfactory placode
+TAO:0000351	olfactory region
+TAO:0001149	olfactory system
+TAO:0009076	oligodendrocyte
+GO:0021778	oligodendrocyte cell fate specification
+GO:0014003	oligodendrocyte development
+GO:0048709	oligodendrocyte differentiation
+TAO:0009076^OBO_REL:part_of(TAO:0000029)	oligodendrocyte of hindbrain
+TAO:0009076^OBO_REL:part_of(TAO:0000075)	oligodendrocyte of spinal cord
+GO:0070444	oligodendrocyte progenitor proliferation
+GO:0070267	oncosis
+TAO:0001109	oocyte
+GO:0060832	oocyte animal/vegetal axis specification
+GO:0007314	oocyte anterior/posterior axis specification
+GO:0048599	oocyte development
+GO:0009994	oocyte differentiation
+GO:0001556	oocyte maturation
+GO:0048601	oocyte morphogenesis
+TAO:0001567	oocyte stage I
+TAO:0001565	oocyte stage II
+TAO:0001566	oocyte stage III
+TAO:0001568	oocyte stage IV
+GO:0048477	oogenesis
+TAO:0000250	opercle
+TAO:0000555	opercular flap
+TAO:0000814	opercular lateral line neuromast
+TAO:0005044	optic artery
+TAO:0000556	optic chiasm
+TAO:0001202	optic cup
+GO:0002072	optic cup morphogenesis involved in camera-type eye development
+TAO:0001284	optic fissure
+ZFA:0005491	optic furrow
+GO:0021554	optic nerve development
+GO:0021634	optic nerve formation
+TAO:0002213	optic nerve head
+TAO:0000570	optic primordium
+TAO:0000137	optic stalk
+TAO:0000445	optic tectum
+TAO:0000252	optic tract
+TAO:0000050	optic vesicle
+GO:0003404	optic vesicle morphogenesis
+GO:0007634	optokinetic behavior
+GO:0071632	optomotor response
+TAO:0001027	oral cavity
+ZFA:0005463	oral ectoderm
+TAO:0001410	orbital region
+GO:0048513	organ development
+GO:0009887	organ morphogenesis
+GO:0031100	organ regeneration
+GO:0043226^OBO_REL:part_of(TAO:0009154)	organelle of eye photoreceptor cell
+GO:0043226^OBO_REL:part_of(TAO:0009262)	organelle of retinal cone cell
+TAO:0001125	organizer inducing center
+GO:0001503	ossification
+GO:0043931	ossification involved in bone maturation
+CL:0000062	osteoblast
+GO:0001649	osteoblast differentiation
+CL:0000062^OBO_REL:part_of(TAO:0001205)	osteoblast of Meckel's cartilage
+CL:0000062^OBO_REL:part_of(TAO:0000476)	osteoblast of branchiostegal ray
+CL:0000062^OBO_REL:part_of(VSAO:0000164)	osteoblast of caudal fin
+CL:0000062^OBO_REL:part_of(TAO:0001400)	osteoblast of ceratohyal cartilage
+CL:0000062^OBO_REL:part_of(TAO:0000184)	osteoblast of cleithrum
+CL:0000062^OBO_REL:part_of(TAO:0005255)	osteoblast of frontal-parietal joint
+CL:0000062^OBO_REL:part_of(TAO:0001922)	osteoblast of inter-frontal joint
+CL:0000062^OBO_REL:part_of(TAO:0005245)	osteoblast of inter-parietal joint
+CL:0000062^OBO_REL:part_of(TAO:0001227)	osteoblast of mandibular arch
+CL:0000062^OBO_REL:part_of(TAO:0000250)	osteoblast of opercle
+CL:0000062^OBO_REL:part_of(TAO:0000555)	osteoblast of opercular flap
+GO:0033687	osteoblast proliferation
+GO:0030316	osteoclast differentiation
+TAO:0009047^OBO_REL:part_of(TAO:0001205)	osteoclast of Meckel's cartilage
+TAO:0009047^OBO_REL:part_of(VSAO:0000167)	osteoclast of caudal fin skeleton
+TAO:0009047^OBO_REL:part_of(TAO:0001229)	osteoclast of gill arch 5 skeleton
+TAO:0009047^OBO_REL:part_of(TAO:0000519)	osteoclast of hemal arch
+TAO:0009047^OBO_REL:part_of(TAO:0001066)	osteoclast of neural arch
+TAO:0009047^OBO_REL:part_of(TAO:0000555)	osteoclast of opercular flap
+ZFA:0007068	otic epithelium
+TAO:0000136	otic lateral line neuromast
+TAO:0000138	otic placode
+GO:0043049	otic placode formation
+TAO:0000051	otic vesicle
+GO:0071599	otic vesicle development
+GO:0030916	otic vesicle formation
+GO:0071600	otic vesicle morphogenesis
+TAO:0002215	otic vesicle protrusion
+TAO:0002216	otic vesicle ventral protrusion
+TAO:0001621	otolith
+GO:0048840	otolith development
+GO:0032475	otolith formation
+GO:0045299	otolith mineralization
+GO:0032474	otolith morphogenesis
+TAO:0001621^OBO_REL:part_of(TAO:0000217)	otolith of inner ear
+TAO:0000559	otolith organ
+TAO:0001331	outer limiting membrane
+TAO:0001110	ovarian follicle
+GO:0001541	ovarian follicle development
+TAO:0001263	ovarian follicle stage I
+TAO:0000403	ovary
+TAO:0002093	palate
+GO:0060021	palate development
+TAO:0001272	palatoquadrate arch
+TAO:0001399	palatoquadrate cartilage
+TAO:0000140	pancreas
+GO:0031016	pancreas development
+TAO:0000254	pancreas primordium
+TAO:0009104	pancreatic A cell
+TAO:0009104^OBO_REL:part_of(TAO:0000140)	pancreatic A cell of pancreas
+TAO:0009102	pancreatic B cell
+TAO:0009102^OBO_REL:part_of(TAO:0001260)	pancreatic B cell of endocrine pancreas
+TAO:0009102^OBO_REL:part_of(TAO:0000140)	pancreatic B cell of pancreas
+TAO:0001390	pancreatic bud
+TAO:0001372	pancreatic duct
+ZFA:0005598	pancreatic epsilon cell
+TAO:0001423	parachordal cartilage
+TAO:0005034	parachordal vessel
+GO:0033270^OBO_REL:part_of(TAO:0000175)	paranode region of axon of posterior lateral line nerve
+TAO:0001360	parapineal organ
+TAO:0001396	parapophysis + rib of vertebra 4
+TAO:0000561	parasphenoid
+GO:0048486	parasympathetic nervous system development
+TAO:0000255	paraxial mesoderm
+GO:0048341	paraxial mesoderm formation
+TAO:0000255^OBO_REL:part_of(TAO:0000077)	paraxial mesoderm of tail bud
+GO:0048348	paraxial mesodermal cell fate specification
+TAO:0000486	parietal bone
+TAO:0001195	pars anterior
+TAO:0005409	pars superior ear
+GO:0009405	pathogenesis
+GO:0007389	pattern specification process
+GO:0001569	patterning of blood vessels
+VSAO:0000147	pectoral fin
+TAO:0000141	pectoral fin bud
+TAO:0000257	pectoral fin cartilage
+GO:0033339	pectoral fin development
+TAO:0001588	pectoral fin distal radial
+TAO:0001456	pectoral fin endoskeletal disc
+TAO:0001453	pectoral fin field
+TAO:0005317	pectoral fin fold
+VSAO:0000175	pectoral fin lepidotrichium
+GO:0035138	pectoral fin morphogenesis
+TAO:0000563	pectoral fin musculature
+VSAO:0000153	pectoral fin skeleton
+VSAO:0000156	pectoral girdle skeleton
+VSAO:0000129	pelvic fin
+GO:0033340	pelvic fin development
+VSAO:0000173	pelvic fin lepidotrichium
+VSAO:0000154	pelvic fin skeleton
+GO:0008233	peptidase activity
+TAO:0009100	peptide hormone secreting cell
+TAO:0009100^OBO_REL:part_of(TAO:0001260)	peptide hormone secreting cell of endocrine pancreas
+GO:0018026	peptidyl-lysine monomethylation
+GO:0018023	peptidyl-lysine trimethylation
+GO:0018105	peptidyl-serine phosphorylation
+TAO:0002220	pericardial cavity
+TAO:0000054	pericardial sac
+VSAO:0000308	perichondral bone
+VSAO:0000308^OBO_REL:part_of(TAO:0000737)	perichondral bone of cranium
+VSAO:0000036	perichondrium
+VSAO:0000054	perichordal tissue
+TAO:0001185	periderm
+GO:0043204^OBO_REL:part_of(TAO:0009280)	perikaryon of Muller cell
+TAO:0009237^OBO_REL:part_of(TAO:0000013)	perineuronal satellite cell of cranial ganglia
+GO:0048471^OBO_REL:part_of(TAO:0009115)	perinuclear region of cytoplasm of skeletal muscle cell
+ZFA:0005572	periocular mesenchyme
+TAO:0000142	peripheral nervous system
+GO:0007422	peripheral nervous system development
+GO:0032290	peripheral nervous system myelin formation
+GO:0032287	peripheral nervous system myelin maintenance
+GO:0048936	peripheral nervous system neuron axonogenesis
+TAO:0009063	peripheral neuron
+TAO:0009063^OBO_REL:part_of(TAO:0001114)	peripheral neuron of head
+TAO:0000047	peripheral olfactory organ
+GO:0030432	peristalsis
+TAO:0000408	periventricular nucleus of caudal tuberculum
+GO:0004601	peroxidase activity
+GO:0005777^OBO_REL:part_of(TAO:0009111)	peroxisome of hepatocyte
+GO:0005777^OBO_REL:part_of(TAO:0000150)	peroxisome of pronephric duct
+GO:0005777^OBO_REL:part_of(TAO:0000084)	peroxisome of yolk
+TAO:0009140^OBO_REL:part_of(TAO:0001114)	phagocyte of head
+TAO:0009140^OBO_REL:part_of(TAO:0001117)	phagocyte of post-vent region
+GO:0006911	phagocytosis, engulfment
+GO:0001845	phagolysosome assembly
+TAO:0001306	pharyngeal arch
+TAO:0001595	pharyngeal arch 1
+TAO:0001596	pharyngeal arch 2
+TAO:0001460	pharyngeal arch cartilage
+TAO:0001379	pharyngeal ectoderm
+TAO:0001104	pharyngeal endoderm
+TAO:0001174	pharyngeal epithelium
+GO:0043282	pharyngeal muscle development
+TAO:0001307	pharyngeal musculature
+TAO:0001106	pharyngeal pouch
+TAO:0001130	pharyngeal pouch 2
+TAO:0001131	pharyngeal pouch 3
+TAO:0001134	pharyngeal pouch 4
+TAO:0001133	pharyngeal pouch 5
+TAO:0001132	pharyngeal pouch 6
+GO:0060037	pharyngeal system development
+TAO:0005003	pharyngeal vasculature
+TAO:0000056	pharynx
+GO:0060465	pharynx development
+GO:0047173	phosphatidylcholine-retinol O-acyltransferase activity
+GO:0046856	phosphatidylinositol dephosphorylation
+GO:0004439	phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity
+GO:0004620	phospholipase activity
+GO:0009648	photoperiodism
+TAO:0009220^OBO_REL:part_of(TAO:0000152)	photopic photoreceptor cell of retina
+TAO:0009127	photoreceptor cell
+GO:0042461	photoreceptor cell development
+GO:0046530	photoreceptor cell differentiation
+GO:0008594	photoreceptor cell morphogenesis
+TAO:0009127^OBO_REL:part_of(TAO:0000019)	photoreceptor cell of epiphysis
+TAO:0009127^OBO_REL:part_of(TAO:0000152)	photoreceptor cell of retina
+TAO:0009127^OBO_REL:part_of(TAO:0001464)	photoreceptor cell of retinal outer nuclear layer
+TAO:0009127^OBO_REL:part_of(TAO:0000143)	photoreceptor cell of retinal photoreceptor layer
+GO:0035845	photoreceptor cell outer segment organization
+GO:0032391^OBO_REL:part_of(TAO:0009154)	photoreceptor connecting cilium of eye photoreceptor cell
+GO:0032391^OBO_REL:part_of(TAO:0009127)	photoreceptor connecting cilium of photoreceptor cell
+GO:0032391^OBO_REL:part_of(TAO:0001466)	photoreceptor connecting cilium of photoreceptor outer segment layer
+TAO:0001465	photoreceptor inner segment layer
+GO:0060342^OBO_REL:part_of(TAO:0009154)	photoreceptor inner segment membrane of eye photoreceptor cell
+GO:0001917^OBO_REL:part_of(TAO:0009154)	photoreceptor inner segment of eye photoreceptor cell
+GO:0001917^OBO_REL:part_of(TAO:0009262)	photoreceptor inner segment of retinal cone cell
+GO:0001917^OBO_REL:part_of(TAO:0009275)	photoreceptor inner segment of retinal rod cell
+TAO:0001466	photoreceptor outer segment layer
+TAO:0001466^OBO_REL:part_of(TAO:0000152)	photoreceptor outer segment layer of retina
+GO:0042622^OBO_REL:part_of(TAO:0009154)	photoreceptor outer segment membrane of eye photoreceptor cell
+GO:0042622^OBO_REL:part_of(TAO:0009127)	photoreceptor outer segment membrane of photoreceptor cell
+GO:0042622^OBO_REL:part_of(TAO:0001466)	photoreceptor outer segment membrane of photoreceptor outer segment layer
+GO:0001750^OBO_REL:part_of(TAO:0001094)	photoreceptor outer segment of body
+GO:0001750^OBO_REL:part_of(TAO:0009154)	photoreceptor outer segment of eye photoreceptor cell
+GO:0001750^OBO_REL:part_of(TAO:0009127)	photoreceptor outer segment of photoreceptor cell
+GO:0001750^OBO_REL:part_of(TAO:0001466)	photoreceptor outer segment of photoreceptor outer segment layer
+GO:0001750^OBO_REL:part_of(TAO:0000152)	photoreceptor outer segment of retina
+GO:0001750^OBO_REL:part_of(TAO:0009262)	photoreceptor outer segment of retinal cone cell
+GO:0001750^OBO_REL:part_of(TAO:0009275)	photoreceptor outer segment of retinal rod cell
+GO:0042331	phototaxis
+GO:0043476	pigment accumulation
+TAO:0009090	pigment cell
+TAO:0009170	pigment cell (sensu Vertebrata)
+TAO:0009170^OBO_REL:part_of(TAO:0001115)	pigment cell (sensu Vertebrata) of trunk
+GO:0070285	pigment cell development
+GO:0050931	pigment cell differentiation
+TAO:0009090^OBO_REL:part_of(VSAO:0000164)	pigment cell of caudal fin
+TAO:0009090^OBO_REL:part_of(TAO:0000107)	pigment cell of eye
+TAO:0009090^OBO_REL:part_of(TAO:0001114)	pigment cell of head
+TAO:0009090^OBO_REL:part_of(TAO:0001117)	pigment cell of post-vent region
+TAO:0009090^OBO_REL:part_of(TAO:0001115)	pigment cell of trunk
+GO:0051877	pigment granule aggregation in cell center
+GO:0051876	pigment granule dispersal
+GO:0048757	pigment granule maturation
+GO:0048770^OBO_REL:part_of(TAO:0001094)	pigment granule of body
+GO:0048770^OBO_REL:part_of(TAO:0009199)	pigment granule of iridophore
+GO:0048770^OBO_REL:part_of(TAO:0009091)	pigment granule of melanocyte
+GO:0048770^OBO_REL:part_of(TAO:0009241)	pigment granule of pigmented epithelial cell
+GO:0048770^OBO_REL:part_of(TAO:0000144)	pigment granule of retinal pigmented epithelium
+GO:0048770^OBO_REL:part_of(TAO:0009198)	pigment granule of xanthophore
+GO:0043473	pigmentation
+TAO:0009241	pigmented epithelial cell
+TAO:0007054	pillar of the anterior semicircular canal
+TAO:0007055	pillar of the lateral semicircular canal
+ZFA:0007056	pillar of the posterior semicircular canal
+TAO:0002223	pillar of the semicircular canal
+TAO:0001359	pineal complex
+GO:0021982	pineal gland development
+GO:0005886^OBO_REL:part_of(CL:0000138)	plasma membrane of chondrocyte
+GO:0005886^OBO_REL:part_of(TAO:0005123)	plasma membrane of gut epithelium
+GO:0005886^OBO_REL:part_of(TAO:0009367)	plasma membrane of neuromast hair cell
+GO:0005886^OBO_REL:part_of(TAO:0009256)	plasma membrane of nucleate erythrocyte
+GO:0005886^OBO_REL:part_of(TAO:0009076)	plasma membrane of oligodendrocyte
+GO:0005886^OBO_REL:part_of(TAO:0001558)	plasma membrane of pronephric tubule
+GO:0070527	platelet aggregation
+TAO:0002224	pleuroperitoneal cavity
+TAO:0001430	pneumatic duct
+TAO:0009285	podocyte
+GO:0009951	polarity specification of dorsal/ventral axis
+GO:0007315	pole plasm assembly
+GO:0019094	pole plasm mRNA localization
+TAO:0000058	polster
+GO:0005844^OBO_REL:part_of(TAO:0001094)	polysome of body
+GO:0046930^OBO_REL:part_of(TAO:0000105)	pore complex of epidermis
+GO:0006778	porphyrin-containing compound metabolic process
+CARO:0000004^OBO_REL:part_of(TAO:0000001)	portion of organism substance of Kupffer's vesicle
+GO:0046956	positive phototaxis
+GO:0030177	positive regulation of Wnt receptor signaling pathway
+GO:0043065	positive regulation of apoptotic process
+GO:0060472	positive regulation of cortical granule exocytosis by elevation of cytosolic calcium ion concentration
+GO:0010628	positive regulation of gene expression
+GO:0045944	positive regulation of transcription from RNA polymerase II promoter
+GO:0036003	positive regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0045893	positive regulation of transcription, DNA-dependent
+TAO:0001117	post-vent region
+VSAO:0000093	postcranial axial skeleton
+TAO:0000477	posterior cardinal vein
+TAO:0000627	posterior ceratohyal
+GO:0021961	posterior commissure morphogenesis
+TAO:0005001	posterior communicating artery
+TAO:0000566	posterior crista
+TAO:0000411	posterior crista primordium
+TAO:0000706	posterior intestine
+TAO:0005128	posterior intestine epithelium
+TAO:0001293	posterior kidney
+TAO:0000944	posterior lateral line
+GO:0048916	posterior lateral line development
+TAO:0000175	posterior lateral line nerve
+GO:0048918	posterior lateral line nerve development
+TAO:0000940	posterior lateral line neuromast
+GO:0048922	posterior lateral line neuromast deposition
+GO:0048919	posterior lateral line neuromast development
+GO:0035677	posterior lateral line neuromast hair cell development
+GO:0048920	posterior lateral line neuromast primordium migration
+TAO:0001156	posterior lateral line placode
+TAO:0001157	posterior lateral line primordium
+TAO:0005040	posterior lateral mesoderm
+TAO:0000558	posterior macula
+TAO:0005079	posterior mesencephalic central artery
+TAO:0007023	posterior neural keel
+TAO:0007037	posterior neural tube
+TAO:0001370	posterior pancreatic bud
+TAO:0002225	posterior pronephric duct
+BSPO:0000072^OBO_REL:part_of(TAO:0001094)	posterior region of body
+BSPO:0000072^OBO_REL:part_of(TAO:0000112)	posterior region of gut
+BSPO:0000072^OBO_REL:part_of(TAO:0000029)	posterior region of hindbrain
+BSPO:0000072^OBO_REL:part_of(TAO:0000032)	posterior region of hypothalamus
+BSPO:0000072^OBO_REL:part_of(TAO:0005124)	posterior region of intestinal epithelium
+BSPO:0000072^OBO_REL:part_of(TAO:0001089)	posterior region of myoseptum
+BSPO:0000072^OBO_REL:part_of(TAO:0000403)	posterior region of ovary
+BSPO:0000072^OBO_REL:part_of(TAO:0000060)	posterior region of prechordal plate
+BSPO:0000072^OBO_REL:part_of(TAO:0002289)	posterior region of sclera
+BSPO:0000072^OBO_REL:part_of(TAO:0001462)	posterior region of somite border
+BSPO:0000072^OBO_REL:part_of(TAO:0001115)	posterior region of trunk
+ZFA:0005567	posterior segment eye
+TAO:0000262	posterior semicircular canal
+TAO:0000412	posterior semicircular canal primordium
+BSPO:0000056^OBO_REL:part_of(TAO:0000032)	posterior side of hypothalamus
+BSPO:0000056^OBO_REL:part_of(VSAO:0000032)	posterior side of notochord
+BSPO:0000037^OBO_REL:part_of(TAO:0000217)	posterior-most of inner ear
+BSPO:0000037^OBO_REL:part_of(TAO:0000940)	posterior-most of posterior lateral line neuromast
+BSPO:0000037^OBO_REL:part_of(TAO:0000155)	posterior-most of somite
+BSPO:0000030^OBO_REL:part_of(TAO:0000445)	postero-dorsal  region of optic tectum
+BSPO:0000030^OBO_REL:part_of(TAO:0000079)	postero-dorsal  region of telencephalon
+BSPO:0000028^OBO_REL:part_of(TAO:0001423)	postero-lateral region of parachordal cartilage
+BSPO:0000689^OBO_REL:part_of(TAO:0000250)	postero-ventral margin of opercle
+BSPO:0000035^OBO_REL:part_of(TAO:0001595)	postero-ventral region of pharyngeal arch 1
+BSPO:0000035^OBO_REL:part_of(TAO:0005037)	postero-ventral region of tail vasculature
+BSPO:0000035^OBO_REL:part_of(TAO:0001069)	postero-ventral region of ventral fin fold
+TAO:0000059	postoptic commissure
+GO:0097107	postsynaptic density assembly
+GO:0014069^OBO_REL:part_of(TAO:0000175)	postsynaptic density of posterior lateral line nerve
+GO:0005267	potassium channel activity
+GO:0034705^OBO_REL:part_of(TAO:0005277)	potassium channel complex of skeletal muscle
+GO:0031054	pre-miRNA processing
+TAO:0000263	precaudal vertebra
+TAO:0000060	prechordal plate
+GO:0021501	prechordal plate formation
+TAO:0000567	premaxilla
+TAO:0000470	preoptic area
+TAO:0005344	preopticohypothalamic tract
+GO:0060134	prepulse inhibition
+TAO:0002228	presumptive atrium heart tube
+TAO:0000568	presumptive blood
+TAO:0002231	presumptive cardiac ventricle heart tube
+TAO:0000574	presumptive diencephalon
+TAO:0000265	presumptive dorsal mesoderm
+TAO:0002233^OBO_REL:part_of(TAO:0000028)	presumptive endocardium of heart primordium
+TAO:0000416	presumptive endoderm
+TAO:0001334	presumptive enteric nervous system
+TAO:0001377	presumptive mesoderm
+TAO:0000063	presumptive neural plate
+TAO:0000591	presumptive paraxial mesoderm
+TAO:0001070	presumptive pronephric mesoderm
+TAO:0001071	presumptive retina
+TAO:0001213	presumptive rhombomere 3
+TAO:0001211	presumptive rhombomere 5
+TAO:0000571	presumptive telencephalon
+GO:0048786^OBO_REL:part_of(TAO:0009052)	presynaptic active zone of motor neuron
+GO:0048788^OBO_REL:part_of(TAO:0009154)	presynaptic cytoskeletal matrix assembled at active zones of eye photoreceptor cell
+GO:0048788^OBO_REL:part_of(TAO:0009367)	presynaptic cytoskeletal matrix assembled at active zones of neuromast hair cell
+GO:0048788^OBO_REL:part_of(TAO:0009318)	presynaptic cytoskeletal matrix assembled at active zones of retinal bipolar neuron
+GO:0048788^OBO_REL:part_of(TAO:0009262)	presynaptic cytoskeletal matrix assembled at active zones of retinal cone cell
+GO:0097105	presynaptic membrane assembly
+TAO:0000418	pretectum
+GO:0072372^OBO_REL:part_of(TAO:0001094)	primary cilium of body
+GO:0072372^OBO_REL:part_of(TAO:0000100)	primary cilium of cerebellum
+GO:0072372^OBO_REL:part_of(TAO:0001135)	primary cilium of neural tube
+GO:0072372^OBO_REL:part_of(TAO:0000051)	primary cilium of otic vesicle
+GO:0072372^OBO_REL:part_of(TAO:0000155)	primary cilium of somite
+TAO:0001122	primary germ layer
+TAO:0005026	primary head sinus
+TAO:0009244	primary motor neuron
+TAO:0009244^OBO_REL:part_of(TAO:0000075)	primary motor neuron of spinal cord
+TAO:0009244^OBO_REL:part_of(TAO:0001115)	primary motor neuron of trunk
+TAO:0009242	primary neuron
+TAO:0009242^OBO_REL:part_of(TAO:0001064)	primary neuron of rhombomere
+TAO:0009242^OBO_REL:part_of(TAO:0001366)	primary neuron of tract of the postoptic commissure
+GO:0060319	primitive erythrocyte differentiation
+TAO:0000149	primitive heart tube
+GO:0060215	primitive hemopoiesis
+TAO:0009288	primordial germ cell
+TAO:0001052	primordial hindbrain channel
+TAO:0005017	primordial midbrain channel
+TAO:0009350	pro-T cell
+TAO:0001834^OBO_REL:part_of(TAO:0001399)	process of palatoquadrate cartilage
+TAO:0000066	proctodeum
+GO:0012501	programmed cell death
+TAO:0009204	prolactin secreting cell
+GO:0060127	prolactin secreting cell differentiation
+TAO:0000098^OBO_REL:part_of(TAO:0001286)	proliferative region of caudal vein plexus
+TAO:0000098^OBO_REL:part_of(TAO:0000107)	proliferative region of eye
+TAO:0000098^OBO_REL:part_of(TAO:0001135)	proliferative region of neural tube
+TAO:0000098^OBO_REL:part_of(TAO:0000077)	proliferative region of tail bud
+TAO:0005312	pronephric capsular space
+TAO:0002236	pronephric distal early tubule
+ZFA:0001624	pronephric distal late tubule
+TAO:0000150	pronephric duct
+GO:0039022	pronephric duct development
+TAO:0001055	pronephric duct opening
+TAO:0005313	pronephric glomerular basement membrane
+TAO:0005309	pronephric glomerular capillary
+TAO:0005310	pronephric glomerular capsule
+TAO:0001557	pronephric glomerulus
+GO:0035775	pronephric glomerulus morphogenesis
+TAO:0002237	pronephric podocyte
+TAO:0002238	pronephric proximal convoluted tubule
+TAO:0002239	pronephric proximal straight tubule
+TAO:0001558	pronephric tubule
+TAO:0000151	pronephros
+GO:0048793	pronephros development
+GO:0072114	pronephros morphogenesis
+TAO:0000068	proneural cluster
+GO:0007344	pronuclear fusion
+GO:0035046	pronuclear migration
+GO:0045120^OBO_REL:part_of(CARO:0000013)	pronucleus of cell
+TAO:0005049	prosencephalic artery
+GO:0043161	proteasomal ubiquitin-dependent protein catabolic process
+GO:0006487	protein N-linked glycosylation
+GO:0046777	protein autophosphorylation
+GO:0006486	protein glycosylation
+GO:0004672	protein kinase activity
+GO:0019887	protein kinase regulator activity
+GO:0006497	protein lipidation
+GO:0008104	protein localization
+GO:0034394	protein localization at cell surface
+GO:0071896	protein localization to adherens junction
+GO:0071539	protein localization to centrosome
+GO:0019538	protein metabolic process
+GO:0018158	protein oxidation
+GO:0006468	protein phosphorylation
+GO:0018342	protein prenylation
+GO:0009306	protein secretion
+GO:0004674^OBO_REL:part_of(TAO:0000008)	protein serine/threonine kinase activity of brain
+GO:0004674^OBO_REL:part_of(TAO:0000107)	protein serine/threonine kinase activity of eye
+GO:0004674^OBO_REL:part_of(TAO:0001338)	protein serine/threonine kinase activity of intestine
+GO:0004674^OBO_REL:part_of(TAO:0000529)	protein serine/threonine kinase activity of kidney
+GO:0004674^OBO_REL:part_of(TAO:0000123)	protein serine/threonine kinase activity of liver
+GO:0004674^OBO_REL:part_of(TAO:0000075)	protein serine/threonine kinase activity of spinal cord
+GO:0016925	protein sumoylation
+GO:0030166	proteoglycan biosynthetic process
+GO:0015992	proton transport
+TAO:0005227^OBO_REL:part_of(TAO:0001157)	protoneuromast of posterior lateral line primordium
+ZFA:0005581	proximal pars anterior
+BSPO:0000077^OBO_REL:part_of(TAO:0001238)	proximal region of iris
+BSPO:0000077^OBO_REL:part_of(TAO:0001321)	proximal region of neurocranial trabecula
+BSPO:0000077^OBO_REL:part_of(TAO:0000150)	proximal region of pronephric duct
+GO:0043700^OBO_REL:part_of(TAO:0001114)	pterinosome of head
+GO:0043700^OBO_REL:part_of(TAO:0001115)	pterinosome of trunk
+GO:0043700^OBO_REL:part_of(TAO:0009198)	pterinosome of xanthophore
+TAO:0001283	pupil
+TAO:0000621	quadrate
+GO:0016075	rRNA catabolic process
+GO:0006364	rRNA processing
+TAO:0009292	radial glial cell
+TAO:0009292^OBO_REL:part_of(TAO:0000029)	radial glial cell of hindbrain
+TAO:0009292^OBO_REL:part_of(TAO:0000445)	radial glial cell of optic tectum
+GO:0043113	receptor clustering
+GO:0006898	receptor-mediated endocytosis
+GO:0005713^OBO_REL:part_of(TAO:0009005)	recombination nodule of spermatocyte
+GO:0055038^OBO_REL:part_of(TAO:0000150)	recycling endosome membrane of pronephric duct
+TAO:0009224	red sensitive photoreceptor cell
+TAO:0001269	regenerating fin
+TAO:0001269^OBO_REL:part_of(VSAO:0000164)	regenerating fin of caudal fin
+TAO:0001269^OBO_REL:part_of(VSAO:0000165)	regenerating fin of dorsal fin
+TAO:0005147^OBO_REL:part_of(TAO:0000123)	regenerating tissue of liver
+TAO:0005147^OBO_REL:part_of(TAO:0001269)	regenerating tissue of regenerating fin
+GO:0031099	regeneration
+GO:0003002	regionalization
+GO:0043484	regulation of RNA splicing
+GO:2000298	regulation of Rho-dependent protein serine/threonine kinase activity
+GO:2000249	regulation of actin cytoskeleton reorganization
+GO:0001508	regulation of action potential
+GO:0019228	regulation of action potential in neuron
+GO:0000381	regulation of alternative nuclear mRNA splicing, via spliceosome
+GO:0045765	regulation of angiogenesis
+GO:0042981	regulation of apoptotic process
+GO:0008217	regulation of blood pressure
+GO:0046850	regulation of bone remodeling
+GO:0031548	regulation of brain-derived neurotrophic factor receptor signaling pathway
+GO:0031413	regulation of buoyancy
+GO:0060828	regulation of canonical Wnt receptor signaling pathway
+GO:0055117	regulation of cardiac muscle contraction
+GO:0010882	regulation of cardiac muscle contraction by calcium ion signaling
+GO:0051726	regulation of cell cycle
+GO:0071156	regulation of cell cycle arrest
+GO:0010564	regulation of cell cycle process
+GO:0030334	regulation of cell migration
+GO:0060491	regulation of cell projection assembly
+GO:0042127	regulation of cell proliferation
+GO:0060784	regulation of cell proliferation involved in tissue homeostasis
+GO:0032847	regulation of cellular pH reduction
+GO:0003356	regulation of cilium beat frequency
+GO:0042752	regulation of circadian rhythm
+GO:0032965	regulation of collagen biosynthetic process
+GO:0048814	regulation of dendrite morphogenesis
+GO:0042663	regulation of endodermal cell fate specification
+GO:0040036	regulation of fibroblast growth factor receptor signaling pathway
+GO:0010468	regulation of gene expression
+GO:0010906	regulation of glucose metabolic process
+GO:0060123	regulation of growth hormone secretion
+GO:0008016	regulation of heart contraction
+GO:0002027	regulation of heart rate
+GO:0010310	regulation of hydrogen peroxide metabolic process
+GO:0060080	regulation of inhibitory postsynaptic membrane potential
+GO:0070507	regulation of microtubule cytoskeleton organization
+GO:0007346	regulation of mitotic cell cycle
+GO:0009794	regulation of mitotic cell cycle, embryonic
+GO:0002761	regulation of myeloid leukocyte differentiation
+GO:0061074	regulation of neural retina development
+GO:0050767	regulation of neurogenesis
+GO:0030278	regulation of ossification
+GO:0006885	regulation of pH
+GO:0014066	regulation of phosphatidylinositol 3-kinase cascade
+GO:0090313	regulation of protein targeting to membrane
+GO:0010849	regulation of proton-transporting ATPase activity, rotational mechanism
+GO:0014861	regulation of skeletal muscle contraction via membrane action potential
+GO:0008589	regulation of smoothened signaling pathway
+GO:0050803	regulation of synapse structure and activity
+GO:0051966	regulation of synaptic transmission, glutamatergic
+GO:0060092	regulation of synaptic transmission, glycinergic
+GO:0051972	regulation of telomerase activity
+GO:0006357	regulation of transcription from RNA polymerase II promoter
+GO:0043618	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0006355	regulation of transcription, DNA-dependent
+GO:0051969	regulation of transmission of nerve impulse
+GO:0042516	regulation of tyrosine phosphorylation of Stat3 protein
+GO:0030947	regulation of vascular endothelial growth factor receptor signaling pathway
+GO:0060307	regulation of ventricular cardiomyocyte membrane repolarization
+GO:0051209	release of sequestered calcium ion into cytosol
+GO:0070293	renal absorption
+TAO:0005289	renal duct
+GO:0097205	renal filtration
+TAO:0001288	renal glomeruli
+TAO:0001288^OBO_REL:part_of(TAO:0000529)	renal glomeruli of kidney
+TAO:0000163	renal system
+GO:0003014	renal system process
+TAO:0001287	renal tubule
+GO:0061326	renal tubule development
+GO:0019098	reproductive behavior
+GO:0022414	reproductive process
+GO:0045730	respiratory burst
+GO:0002536	respiratory burst involved in inflammatory response
+GO:0022904	respiratory electron transport chain
+GO:0007585	respiratory gaseous exchange
+GO:0010165	response to X-ray
+GO:0009646	response to absence of light
+GO:0001975	response to amphetamine
+GO:0010996	response to auditory stimulus
+GO:0009617	response to bacterium
+GO:0042221	response to chemical stimulus
+GO:0042493	response to drug
+GO:0034976	response to endoplasmic reticulum stress
+GO:0045471	response to ethanol
+GO:0009605	response to external stimulus
+GO:0010332	response to gamma radiation
+GO:0009408	response to heat
+GO:0010212	response to ionizing radiation
+GO:0009642	response to light intensity
+GO:0009416	response to light stimulus
+GO:0009612	response to mechanical stimulus
+GO:0035094	response to nicotine
+GO:0006970	response to osmotic stress
+GO:0006979	response to oxidative stress
+GO:0009651	response to salt stress
+GO:0042594	response to starvation
+GO:0009266	response to temperature stimulus
+GO:0009611	response to wounding
+GO:0009410	response to xenobiotic stimulus
+TAO:0000152	retina
+GO:0060041	retina development in camera-type eye
+GO:0010842	retina layer formation
+GO:0060042	retina morphogenesis in camera-type eye
+TAO:0009318	retinal bipolar neuron
+GO:0060040	retinal bipolar neuron differentiation
+GO:0061304	retinal blood vessel morphogenesis
+GO:0046666	retinal cell programmed cell death
+TAO:0009262	retinal cone cell
+GO:0046549	retinal cone cell development
+GO:0042670	retinal cone cell differentiation
+TAO:0009262^OBO_REL:part_of(TAO:0000143)	retinal cone cell of retinal photoreceptor layer
+TAO:0009310	retinal ganglion cell
+GO:0031290	retinal ganglion cell axon guidance
+TAO:0000024	retinal ganglion cell layer
+TAO:0009310^OBO_REL:part_of(TAO:0000107)	retinal ganglion cell of eye
+TAO:0009310^OBO_REL:part_of(TAO:0000152)	retinal ganglion cell of retina
+TAO:0009310^OBO_REL:part_of(TAO:0000024)	retinal ganglion cell of retinal ganglion cell layer
+TAO:0000119	retinal inner nuclear layer
+TAO:0001329	retinal inner plexiform layer
+TAO:0000046	retinal neural layer
+TAO:0001464	retinal outer nuclear layer
+TAO:0001330	retinal outer plexiform layer
+TAO:0000143	retinal photoreceptor layer
+GO:0003406	retinal pigment epithelium development
+TAO:0000144	retinal pigmented epithelium
+TAO:0009275	retinal rod cell
+GO:0046548	retinal rod cell development
+GO:0060221	retinal rod cell differentiation
+TAO:0009275^OBO_REL:part_of(TAO:0001466)	retinal rod cell of photoreceptor outer segment layer
+TAO:0009275^OBO_REL:part_of(TAO:0000143)	retinal rod cell of retinal photoreceptor layer
+GO:0034653	retinoic acid catabolic process
+GO:0048384	retinoic acid receptor signaling pathway
+GO:0001523	retinoid metabolic process
+TAO:0000422	retroarticular
+GO:0046154	rhodopsin metabolic process
+TAO:0001440	rhombic lip
+TAO:0001064	rhombomere
+TAO:0001031	rhombomere 1
+TAO:0000822	rhombomere 2
+TAO:0000948	rhombomere 3
+TAO:0001032	rhombomere 4
+GO:0021570	rhombomere 4 development
+TAO:0000823	rhombomere 5
+GO:0021571	rhombomere 5 development
+TAO:0000069	rhombomere 6
+GO:0021572	rhombomere 6 development
+TAO:0000949	rhombomere 7
+TAO:0000153	rhombomere 8
+GO:0021654	rhombomere boundary formation
+GO:0021594	rhombomere formation
+GO:0021593	rhombomere morphogenesis
+TAO:0001064^OBO_REL:part_of(TAO:0000029)	rhombomere of hindbrain
+TAO:0000538	rib
+GO:0000028	ribosomal small subunit assembly
+GO:0005840^OBO_REL:part_of(TAO:0001094)	ribosome of body
+BSPO:0000007^OBO_REL:part_of(TAO:0000197)	right side of dorsal nucleus
+BSPO:0000007^OBO_REL:part_of(TAO:0000213)	right side of habenula
+TAO:0009321	rod bipolar cell
+TAO:0001311	roof plate rhombomere
+GO:0021903	rostrocaudal neural tube patterning
+GO:0005791^OBO_REL:part_of(TAO:0000031)	rough endoplasmic reticulum of hypochord
+GO:0005791^OBO_REL:part_of(VSAO:0000032)	rough endoplasmic reticulum of notochord
+GO:0005791^OBO_REL:part_of(CL:0000062)	rough endoplasmic reticulum of osteoblast
+GO:0001726^OBO_REL:part_of(TAO:0000086)	ruffle of EVL
+GO:0005219	ryanodine-sensitive calcium-release channel activity
+TAO:0000428	saccule
+TAO:0000676	sagitta
+GO:0042383^OBO_REL:part_of(TAO:0005145)	sarcolemma of muscle
+GO:0042383^OBO_REL:part_of(TAO:0001056)	sarcolemma of myotome
+GO:0042383^OBO_REL:part_of(TAO:0009115)	sarcolemma of skeletal muscle cell
+GO:0030017^OBO_REL:part_of(TAO:0000471)	sarcomere of atrium
+GO:0030017^OBO_REL:part_of(TAO:0009316)	sarcomere of cardiac muscle cell
+GO:0030017^OBO_REL:part_of(TAO:0000009)	sarcomere of cardiac ventricle
+GO:0030017^OBO_REL:part_of(TAO:0009117)	sarcomere of fast muscle cell
+GO:0030017^OBO_REL:part_of(TAO:0000114)	sarcomere of heart
+GO:0030017^OBO_REL:part_of(TAO:0005145)	sarcomere of muscle
+GO:0030017^OBO_REL:part_of(TAO:0009114)	sarcomere of muscle cell
+GO:0030017^OBO_REL:part_of(TAO:0001056)	sarcomere of myotome
+GO:0030017^OBO_REL:part_of(TAO:0005277)	sarcomere of skeletal muscle
+GO:0030017^OBO_REL:part_of(TAO:0009115)	sarcomere of skeletal muscle cell
+GO:0030017^OBO_REL:part_of(TAO:0009116)	sarcomere of slow muscle cell
+GO:0030017^OBO_REL:part_of(TAO:0000473)	sarcomere of trunk musculature
+GO:0030017^OBO_REL:part_of(TAO:0005061)	sarcomere of ventricular myocardium
+GO:0045214	sarcomere organization
+GO:0048769	sarcomerogenesis
+GO:0016528^OBO_REL:part_of(TAO:0009115)	sarcoplasm of skeletal muscle cell
+GO:0016528^OBO_REL:part_of(TAO:0000473)	sarcoplasm of trunk musculature
+GO:0033017^OBO_REL:part_of(TAO:0005277)	sarcoplasmic reticulum membrane of skeletal muscle
+GO:0016529^OBO_REL:part_of(TAO:0009117)	sarcoplasmic reticulum of fast muscle cell
+GO:0016529^OBO_REL:part_of(TAO:0005145)	sarcoplasmic reticulum of muscle
+GO:0016529^OBO_REL:part_of(TAO:0009114)	sarcoplasmic reticulum of muscle cell
+GO:0016529^OBO_REL:part_of(TAO:0009115)	sarcoplasmic reticulum of skeletal muscle cell
+GO:0016529^OBO_REL:part_of(TAO:0000473)	sarcoplasmic reticulum of trunk musculature
+GO:0014841	satellite cell proliferation
+VSAO:0000048	scale
+TAO:0001455	scapulocoracoid cartilage
+TAO:0001455^OBO_REL:part_of(TAO:0005317)	scapulocoracoid cartilage of pectoral fin fold
+TAO:0001509	sclerotic cartilage
+TAO:0001080	sclerotome
+GO:0061056	sclerotome development
+TAO:0009247	secondary motor neuron
+GO:0014021	secondary neural tube formation
+GO:0030141^OBO_REL:part_of(TAO:0001282)	secretory granule of adenohypophysis
+GO:0030141^OBO_REL:part_of(TAO:0009094)	secretory granule of goblet cell
+GO:0030141^OBO_REL:part_of(TAO:0009151)	secretory granule of hatching gland cell
+GO:0007367	segment polarity determination
+TAO:0000279	segmental plate
+GO:0035282	segmentation
+GO:0035474	selective angioblast sprouting
+TAO:0000431	semicircular canal
+GO:0060872	semicircular canal development
+GO:0060876	semicircular canal formation
+GO:0048752	semicircular canal morphogenesis
+GO:0070654	sensory epithelium regeneration
+TAO:0009053	sensory neuron
+TAO:0009053^OBO_REL:part_of(TAO:0000075)	sensory neuron of spinal cord
+TAO:0009053^OBO_REL:part_of(TAO:0000295)	sensory neuron of trigeminal ganglion
+TAO:0009053^OBO_REL:part_of(TAO:0000162)	sensory neuron of trigeminal placode
+GO:0050953	sensory perception of light stimulus
+GO:0007605	sensory perception of sound
+GO:0050975	sensory perception of touch
+TAO:0000282	sensory system
+GO:0004252	serine-type endopeptidase activity
+TAO:0009361^OBO_REL:part_of(TAO:0000101)	serotonergic neuron of diencephalon
+TAO:0009361^OBO_REL:part_of(TAO:0001155)	serotonergic neuron of enteric nervous system
+TAO:0009361^OBO_REL:part_of(TAO:0000109)	serotonergic neuron of forebrain
+TAO:0009361^OBO_REL:part_of(TAO:0000029)	serotonergic neuron of hindbrain
+GO:0042428	serotonin metabolic process
+TAO:0000071	shield
+GO:0072331	signal transduction by p53 class mediator
+GO:0042770	signal transduction in response to DNA damage
+TAO:0005069	sinoatrial node
+TAO:0000154	sinus venosus
+TAO:0005277	skeletal muscle
+GO:0071340	skeletal muscle acetylcholine-gated channel clustering
+TAO:0009115	skeletal muscle cell
+GO:0035914	skeletal muscle cell differentiation
+TAO:0009115^OBO_REL:part_of(TAO:0001056)	skeletal muscle cell of myotome
+TAO:0009115^OBO_REL:part_of(TAO:0001117)	skeletal muscle cell of post-vent region
+TAO:0009115^OBO_REL:part_of(TAO:0000155)	skeletal muscle cell of somite
+TAO:0009115^OBO_REL:part_of(TAO:0000473)	skeletal muscle cell of trunk musculature
+GO:0014856	skeletal muscle cell proliferation
+GO:0003009	skeletal muscle contraction
+GO:0048741	skeletal muscle fiber development
+GO:0030241	skeletal muscle myosin thick filament assembly
+TAO:0005277^OBO_REL:part_of(TAO:0001056)	skeletal muscle of myotome
+GO:0060538	skeletal muscle organ development
+GO:0007519	skeletal muscle tissue development
+GO:0014866	skeletal myofibril assembly
+VSAO:0000027	skeletal system
+GO:0001501	skeletal system development
+GO:0048705	skeletal system morphogenesis
+GO:0043589	skin morphogenesis
+GO:0030431	sleep
+TAO:0009116	slow muscle cell
+TAO:0009116^OBO_REL:part_of(TAO:0001056)	slow muscle cell of myotome
+TAO:0009116^OBO_REL:part_of(TAO:0001117)	slow muscle cell of post-vent region
+TAO:0009116^OBO_REL:part_of(TAO:0000155)	slow muscle cell of somite
+TAO:0009116^OBO_REL:part_of(TAO:0000473)	slow muscle cell of trunk musculature
+GO:0031444	slow-twitch skeletal muscle fiber contraction
+GO:0030532^OBO_REL:part_of(CARO:0000013)	small nuclear ribonucleoprotein complex of cell
+GO:0005790^OBO_REL:part_of(TAO:0005169)	smooth endoplasmic reticulum of intrahepatic bile duct
+TAO:0005274	smooth muscle
+GO:0051145	smooth muscle cell differentiation
+TAO:0009118^OBO_REL:part_of(TAO:0000112)	smooth muscle cell of gut
+TAO:0009118^OBO_REL:part_of(TAO:0001338)	smooth muscle cell of intestine
+TAO:0009118^OBO_REL:part_of(TAO:0000706)	smooth muscle cell of posterior intestine
+GO:0030485^OBO_REL:part_of(TAO:0001338)	smooth muscle contractile fiber of intestine
+TAO:0005274^OBO_REL:part_of(TAO:0001338)	smooth muscle of intestine
+TAO:0005274^OBO_REL:part_of(TAO:0000076)	smooth muscle of swim bladder
+GO:0048745	smooth muscle tissue development
+GO:0007224	smoothened signaling pathway
+GO:0060831	smoothened signaling pathway involved in dorsal/ventral neural tube patterning
+GO:0005272	sodium channel activity
+GO:0034706^OBO_REL:part_of(TAO:0000175)	sodium channel complex of posterior lateral line nerve
+GO:0055078	sodium ion homeostasis
+GO:0006814	sodium ion transport
+GO:0005890^OBO_REL:part_of(TAO:0000150)	sodium:potassium-exchanging ATPase complex of pronephric duct
+GO:0007525	somatic muscle development
+TAO:0009307^OBO_REL:part_of(TAO:0000105)	somatic stem cell of epidermis
+TAO:0009105^OBO_REL:part_of(TAO:0001260)	somatostatin secreting cell of endocrine pancreas
+TAO:0009105^OBO_REL:part_of(TAO:0000032)	somatostatin secreting cell of hypothalamus
+TAO:0009155	somatotropin secreting cell
+GO:0060126	somatotropin secreting cell differentiation
+TAO:0000155	somite
+TAO:0000072	somite 1
+TAO:0000974	somite 10
+TAO:0000725	somite 11
+TAO:0000851	somite 12
+TAO:0000975	somite 13
+TAO:0000726	somite 14
+TAO:0000852	somite 15
+TAO:0000976	somite 16
+TAO:0000727	somite 17
+TAO:0000853	somite 18
+TAO:0000977	somite 19
+TAO:0000728	somite 2
+TAO:0000156	somite 20
+TAO:0000854	somite 21
+TAO:0000978	somite 22
+TAO:0000730	somite 23
+TAO:0000855	somite 24
+TAO:0000980	somite 25
+TAO:0000074	somite 26
+TAO:0000731	somite 27
+TAO:0000856	somite 28
+TAO:0000981	somite 29
+TAO:0000732	somite 3
+TAO:0000157	somite 30
+TAO:0000857	somite 4
+TAO:0000073	somite 5
+TAO:0000982	somite 6
+TAO:0000733	somite 7
+TAO:0000858	somite 8
+TAO:0000983	somite 9
+TAO:0001462	somite border
+TAO:0001462^OBO_REL:part_of(TAO:0001117)	somite border of post-vent region
+TAO:0001462^OBO_REL:part_of(TAO:0000072)	somite border of somite 1
+TAO:0001462^OBO_REL:part_of(TAO:0000974)	somite border of somite 10
+TAO:0001462^OBO_REL:part_of(TAO:0000725)	somite border of somite 11
+TAO:0001462^OBO_REL:part_of(TAO:0000851)	somite border of somite 12
+TAO:0001462^OBO_REL:part_of(TAO:0000975)	somite border of somite 13
+TAO:0001462^OBO_REL:part_of(TAO:0000726)	somite border of somite 14
+TAO:0001462^OBO_REL:part_of(TAO:0000852)	somite border of somite 15
+TAO:0001462^OBO_REL:part_of(TAO:0000976)	somite border of somite 16
+TAO:0001462^OBO_REL:part_of(TAO:0000727)	somite border of somite 17
+TAO:0001462^OBO_REL:part_of(TAO:0000853)	somite border of somite 18
+TAO:0001462^OBO_REL:part_of(TAO:0000728)	somite border of somite 2
+TAO:0001462^OBO_REL:part_of(TAO:0000732)	somite border of somite 3
+TAO:0001462^OBO_REL:part_of(TAO:0000857)	somite border of somite 4
+TAO:0001462^OBO_REL:part_of(TAO:0000073)	somite border of somite 5
+TAO:0001462^OBO_REL:part_of(TAO:0000982)	somite border of somite 6
+TAO:0001462^OBO_REL:part_of(TAO:0000733)	somite border of somite 7
+TAO:0001462^OBO_REL:part_of(TAO:0000858)	somite border of somite 8
+TAO:0001462^OBO_REL:part_of(TAO:0000983)	somite border of somite 9
+TAO:0001462^OBO_REL:part_of(TAO:0001115)	somite border of trunk
+GO:0061053	somite development
+TAO:0000155^OBO_REL:part_of(TAO:0001117)	somite of post-vent region
+TAO:0000155^OBO_REL:part_of(TAO:0001115)	somite of trunk
+GO:0032525	somite rostral/caudal axis specification
+GO:0001757	somite specification
+GO:0001756	somitogenesis
+GO:0002075	somitomeric trunk muscle development
+TAO:0009006	sperm
+TAO:0009006^OBO_REL:part_of(TAO:0001268)	sperm of sperm duct
+TAO:0009005	spermatocyte
+TAO:0009005^OBO_REL:part_of(TAO:0000598)	spermatocyte of testis
+GO:0007283	spermatogenesis
+TAO:0001337	spermatogonia
+TAO:0001337^OBO_REL:part_of(TAO:0000598)	spermatogonia of testis
+TAO:0000075	spinal cord
+GO:0021512	spinal cord anterior/posterior patterning
+GO:0021510	spinal cord development
+GO:0021513	spinal cord dorsal/ventral patterning
+GO:0021522	spinal cord motor neuron differentiation
+TAO:0007028	spinal cord neural keel
+TAO:0007042^OBO_REL:part_of(TAO:0001115)	spinal cord neural tube of trunk
+GO:0021529	spinal cord oligodendrocyte cell differentiation
+GO:0051225	spindle assembly
+GO:0090307	spindle assembly involved in mitosis
+GO:0005819^OBO_REL:part_of(CARO:0000013)	spindle of cell
+GO:0005819^OBO_REL:part_of(TAO:0001289)	spindle of ciliary marginal zone
+GO:0005819^OBO_REL:part_of(TAO:0001117)	spindle of post-vent region
+GO:0007051	spindle organization
+GO:0031616^OBO_REL:part_of(CARO:0000013)	spindle pole centrosome of cell
+GO:0000922^OBO_REL:part_of(TAO:0000098)	spindle pole of proliferative region
+TAO:0001216	splanchnocranium
+TAO:0000436	spleen
+GO:0000387	spliceosomal snRNP assembly
+GO:0000245	spliceosome assembly
+GO:0002040	sprouting angiogenesis
+GO:0001964	startle response
+TAO:0000588	statoacoustic (VIII) ganglion
+GO:0019827	stem cell maintenance
+GO:0002140^OBO_REL:part_of(TAO:0000940)	stereocilia tip link of posterior lateral line neuromast
+GO:0032421^OBO_REL:part_of(TAO:0000619)	stereocilium bundle of anterior crista
+GO:0032421^OBO_REL:part_of(TAO:0009121)	stereocilium bundle of auditory receptor cell
+GO:0032421^OBO_REL:part_of(TAO:0000281)	stereocilium bundle of hair cell posterior macula
+GO:0032421^OBO_REL:part_of(TAO:0000386)	stereocilium bundle of macula
+GO:0032420^OBO_REL:part_of(TAO:0000678)	stereocilium of hair cell anterior macula
+GO:0032420^OBO_REL:part_of(TAO:0009367)	stereocilium of neuromast hair cell
+GO:0032420^OBO_REL:part_of(TAO:0000940)	stereocilium of posterior lateral line neuromast
+TAO:0001290	stomodeum
+TAO:0001347	stratum fibrosum et griseum superficiale
+GO:0055002	striated muscle cell development
+GO:0051146	striated muscle cell differentiation
+GO:0006941	striated muscle contraction
+GO:0071688	striated muscle myosin thick filament assembly
+GO:0005863^OBO_REL:part_of(TAO:0000009)	striated muscle myosin thick filament of cardiac ventricle
+GO:0005863^OBO_REL:part_of(TAO:0009117)	striated muscle myosin thick filament of fast muscle cell
+GO:0005863^OBO_REL:part_of(TAO:0001056)	striated muscle myosin thick filament of myotome
+GO:0005863^OBO_REL:part_of(TAO:0009115)	striated muscle myosin thick filament of skeletal muscle cell
+GO:0005863^OBO_REL:part_of(TAO:0009116)	striated muscle myosin thick filament of slow muscle cell
+GO:0005865^OBO_REL:part_of(TAO:0009117)	striated muscle thin filament of fast muscle cell
+GO:0005865^OBO_REL:part_of(TAO:0005145)	striated muscle thin filament of muscle
+GO:0005865^OBO_REL:part_of(TAO:0001056)	striated muscle thin filament of myotome
+GO:0005865^OBO_REL:part_of(TAO:0005277)	striated muscle thin filament of skeletal muscle
+GO:0005865^OBO_REL:part_of(TAO:0009116)	striated muscle thin filament of slow muscle cell
+GO:0005865^OBO_REL:part_of(TAO:0000473)	striated muscle thin filament of trunk musculature
+GO:0014706	striated muscle tissue development
+TAO:0005035	subintestinal vein
+GO:0006931	substrate-dependent cell migration, cell attachment to substrate
+GO:0051923	sulfation
+TAO:0001484^OBO_REL:part_of(TAO:0000086)	superficial blastomere of EVL
+TAO:0001572	superior cervical ganglion
+TAO:0002244	supraoptic tract
+TAO:0000691	supraorbital bone
+VSAO:0000001	surface structure
+TAO:0000076	swim bladder
+TAO:0005335	swim bladder bud
+GO:0048794	swim bladder development
+GO:0048797	swim bladder formation
+GO:0048798	swim bladder inflation
+GO:0048795	swim bladder morphogenesis
+TAO:0001556	sympathetic chain ganglion
+TAO:0001576	sympathetic nervous system
+TAO:0000692	symplectic
+GO:0007416	synapse assembly
+GO:0060074	synapse maturation
+GO:0045202^OBO_REL:part_of(TAO:0009154)	synapse of eye photoreceptor cell
+GO:0045202^OBO_REL:part_of(TAO:0009367)	synapse of neuromast hair cell
+GO:0045202^OBO_REL:part_of(TAO:0001330)	synapse of retinal outer plexiform layer
+GO:0050808	synapse organization
+GO:0007129	synapsis
+GO:0051124	synaptic growth at neuromuscular junction
+GO:0007268	synaptic transmission
+GO:0007271	synaptic transmission, cholinergic
+GO:0060012	synaptic transmission, glycinergic
+GO:0034592^OBO_REL:part_of(TAO:0009367)	synaptic vesicle lumen of neuromast hair cell
+GO:0016188	synaptic vesicle maturation
+GO:0008021^OBO_REL:part_of(TAO:0001155)	synaptic vesicle of enteric nervous system
+GO:0008021^OBO_REL:part_of(TAO:0009366)	synaptic vesicle of hair cell
+GO:0008021^OBO_REL:part_of(TAO:0009367)	synaptic vesicle of neuromast hair cell
+GO:0008021^OBO_REL:part_of(TAO:0009125)	synaptic vesicle of olfactory receptor cell
+GO:0008021^OBO_REL:part_of(TAO:0000152)	synaptic vesicle of retina
+GO:0071911	synchronous neurotransmitter secretion
+GO:0000768	syncytium formation by plasma membrane fusion
+TAO:0005182	t-interneuron
+GO:0009304	tRNA transcription
+TAO:0000077	tail bud
+TAO:0005037	tail vasculature
+GO:0042330	taxis
+TAO:0000159	tectal ventricle
+GO:0043676^OBO_REL:part_of(TAO:0001094)	tectum of body
+TAO:0000160	tegmentum
+TAO:0000447	tela chorioidea
+TAO:0000597	telencephalic tracts
+TAO:0000696	telencephalic ventricle
+TAO:0000079	telencephalon
+GO:0021537	telencephalon development
+GO:0003720	telomerase activity
+GO:0014802^OBO_REL:part_of(TAO:0009115)	terminal cisterna of skeletal muscle cell
+TAO:0000598	testis
+ZFA:0005565	tether cell
+TAO:0001215	thalamus
+GO:0021794	thalamus development
+GO:0001966	thigmotaxis
+TAO:0000161	third ventricle
+TAO:0005110	thoracic duct
+TAO:0009323	thrombocyte
+GO:0071892	thrombocyte activation
+GO:0002574	thrombocyte differentiation
+GO:0072679	thymocyte migration
+TAO:0001078	thymus
+GO:0048538	thymus development
+TAO:0001072	thyroid follicle
+GO:0030878	thyroid gland development
+TAO:0009210	thyroid hormone secreting cell
+TAO:0001081	thyroid primordium
+TAO:0009218	thyroid stimulating hormone secreting cell
+GO:0060129	thyroid-stimulating hormone-secreting cell differentiation
+GO:0005923^OBO_REL:part_of(TAO:0000086)	tight junction of EVL
+GO:0005923^OBO_REL:part_of(TAO:0000001)	tight junction of Kupffer's vesicle
+GO:0005923^OBO_REL:part_of(TAO:0009036)	tight junction of blood vessel endothelial cell
+GO:0005923^OBO_REL:part_of(TAO:0005257)	tight junction of blood vessel endothelium
+GO:0005923^OBO_REL:part_of(TAO:0001094)	tight junction of body
+GO:0005923^OBO_REL:part_of(TAO:0009316)	tight junction of cardiac muscle cell
+GO:0005923^OBO_REL:part_of(TAO:0001320)	tight junction of endocardium
+GO:0005923^OBO_REL:part_of(TAO:0009183)	tight junction of epidermal cell
+GO:0005923^OBO_REL:part_of(TAO:0000112)	tight junction of gut
+GO:0005923^OBO_REL:part_of(TAO:0001054)	tight junction of lateral dorsal aorta
+GO:0005923^OBO_REL:part_of(TAO:0009306)	tight junction of neuroepithelial cell
+GO:0016271	tissue death
+GO:0009888	tissue development
+GO:0042246	tissue regeneration
+GO:0034505	tooth mineralization
+TAO:0001508	trabecula communis
+TAO:0001507	trabecula cranii
+TAO:0005059	trabecular layer
+TAO:0001366	tract of the postoptic commissure
+GO:0006366	transcription from RNA polymerase II promoter
+GO:0019226	transmission of nerve impulse
+TAO:0000295	trigeminal ganglion
+TAO:0001365	trigeminal motor nuclei
+TAO:0000080	trigeminal neural crest
+TAO:0000162	trigeminal placode
+TAO:0000450	trochlear motor nucleus
+TAO:0001115	trunk
+TAO:0000081	trunk mesenchyme
+TAO:0000473	trunk musculature
+TAO:0001024	trunk neural crest
+TAO:0009004	trunk neural crest cell
+TAO:0001115^OBO_REL:part_of(TAO:0000303)	trunk of female
+GO:0035290	trunk segmentation
+TAO:0005024	trunk vasculature
+GO:0032023	trypsinogen activation
+GO:0035148	tube formation
+GO:0019799	tubulin N-acetyltransferase activity
+GO:0070740	tubulin-glutamic acid ligase activity
+GO:0070738	tubulin-glycine ligase activity
+GO:0003309	type B pancreatic cell differentiation
+GO:0045098^OBO_REL:part_of(TAO:0009116)	type III intermediate filament of slow muscle cell
+TAO:0001570	unfertilized egg
+GO:0009826	unidimensional cell growth
+BSPO:0000031^OBO_REL:part_of(TAO:0001455)	upper region of scapulocoracoid cartilage
+TAO:0001442	upper rhombic lip
+GO:0015840	urea transport
+TAO:0000602	uroneural
+GO:0004853	uroporphyrinogen decarboxylase activity
+TAO:0000158	urostyle
+TAO:0000700	utricle
+TAO:0005327	vH ionocyte
+GO:0000220^OBO_REL:part_of(TAO:0009367)	vacuolar proton-transporting V-type ATPase, V0 domain of neuromast hair cell
+GO:0000221^OBO_REL:part_of(TAO:0005325)	vacuolar proton-transporting V-type ATPase, V1 domain of integument ionocyte
+GO:0000221^OBO_REL:part_of(TAO:0009367)	vacuolar proton-transporting V-type ATPase, V1 domain of neuromast hair cell
+GO:0005773^OBO_REL:part_of(CL:0000138)	vacuole of chondrocyte
+GO:0005773^OBO_REL:part_of(TAO:0001285)	vacuole of intersegmental vessel
+GO:0005773^OBO_REL:part_of(VSAO:0000032)	vacuole of notochord
+GO:0005773^OBO_REL:part_of(TAO:0009115)	vacuole of skeletal muscle cell
+GO:0007033	vacuole organization
+TAO:0007067	vagal ganglion
+TAO:0000297	vagal lobe
+TAO:0009181	vascular associated smooth muscle cell
+TAO:0005077	vascular cord
+TAO:0002171	vascular endothelium
+GO:0001944	vasculature development
+GO:0001570	vasculogenesis
+GO:0048845	venous blood vessel morphogenesis
+TAO:0000604	ventral aorta
+TAO:0001069	ventral fin fold
+TAO:0001402	ventral hyoid arch
+TAO:0005222	ventral larval melanophore stripe
+TAO:0005222^OBO_REL:part_of(TAO:0001117)	ventral larval melanophore stripe of post-vent region
+TAO:0001201	ventral lateral mesoderm
+TAO:0001273	ventral mandibular arch
+TAO:0000164	ventral mesenchyme
+TAO:0000861	ventral oblique extraocular muscle
+TAO:0000457	ventral rectus
+BSPO:0000084^OBO_REL:part_of(TAO:0001205)	ventral region of Meckel's cartilage
+BSPO:0000084^OBO_REL:part_of(TAO:0001094)	ventral region of body
+BSPO:0000084^OBO_REL:part_of(TAO:0000008)	ventral region of brain
+BSPO:0000084^OBO_REL:part_of(VSAO:0000164)	ventral region of caudal fin
+BSPO:0000084^OBO_REL:part_of(TAO:0000012)	ventral region of central nervous system
+BSPO:0000084^OBO_REL:part_of(TAO:0000100)	ventral region of cerebellum
+BSPO:0000084^OBO_REL:part_of(TAO:0000101)	ventral region of diencephalon
+BSPO:0000084^OBO_REL:part_of(CARO:0000066)	ventral region of epithelium
+BSPO:0000084^OBO_REL:part_of(TAO:0000107)	ventral region of eye
+BSPO:0000084^OBO_REL:part_of(TAO:0000022)	ventral region of floor plate
+BSPO:0000084^OBO_REL:part_of(TAO:0000109)	ventral region of forebrain
+BSPO:0000084^OBO_REL:part_of(TAO:0000128)	ventral region of midbrain
+BSPO:0000084^OBO_REL:part_of(TAO:0001117)	ventral region of post-vent region
+BSPO:0000084^OBO_REL:part_of(TAO:0000151)	ventral region of pronephros
+BSPO:0000084^OBO_REL:part_of(TAO:0000152)	ventral region of retina
+BSPO:0000084^OBO_REL:part_of(TAO:0000144)	ventral region of retinal pigmented epithelium
+BSPO:0000084^OBO_REL:part_of(TAO:0000075)	ventral region of spinal cord
+BSPO:0000084^OBO_REL:part_of(TAO:0000077)	ventral region of tail bud
+BSPO:0000084^OBO_REL:part_of(TAO:0001115)	ventral region of trunk
+BSPO:0000084^OBO_REL:part_of(TAO:0005222)	ventral region of ventral larval melanophore stripe
+BSPO:0000084^OBO_REL:part_of(TAO:0000084)	ventral region of yolk
+BSPO:0000068^OBO_REL:part_of(VSAO:0000164)	ventral side of caudal fin
+BSPO:0000068^OBO_REL:part_of(TAO:0000107)	ventral side of eye
+GO:0021514	ventral spinal cord interneuron differentiation
+GO:0021521	ventral spinal cord interneuron specification
+TAO:0000304	ventral telencephalon
+TAO:0000458	ventral thalamus
+TAO:0001137	ventral tooth row
+TAO:0000608	ventral transverse
+TAO:0005028	ventral wall of dorsal aorta
+BSPO:0000039^OBO_REL:part_of(TAO:0000890)	ventral-most of floor plate spinal cord
+GO:0055015	ventricular cardiac muscle cell development
+GO:0055012	ventricular cardiac muscle cell differentiation
+GO:0055005	ventricular cardiac myofibril development
+TAO:0002247	ventricular endocardium
+TAO:0005061	ventricular myocardium
+TAO:0001261	ventricular system
+GO:0021591	ventricular system development
+TAO:0001083	ventricular zone
+TAO:0001083^OBO_REL:part_of(TAO:0000079)	ventricular zone of telencephalon
+BSPO:0000085^OBO_REL:part_of(TAO:0001117)	ventro-lateral region of post-vent region
+BSPO:0000085^OBO_REL:part_of(TAO:0001115)	ventro-lateral region of trunk
+TAO:0000708	ventrolateral optic tract
+TAO:0001189	vertebra
+TAO:0001167	vertebra 1
+TAO:0001168	vertebra 2
+TAO:0005033	vertebral artery
+VSAO:0000183	vertebral centrum
+VSAO:0000185	vertebral column
+TAO:0000610	vertical myoseptum
+GO:0012506^OBO_REL:part_of(TAO:0009154)	vesicle membrane of eye photoreceptor cell
+GO:0031982^OBO_REL:part_of(TAO:0000088)	vesicle of YSL
+GO:0031982^OBO_REL:part_of(TAO:0009111)	vesicle of hepatocyte
+GO:0031982^OBO_REL:part_of(TAO:0001338)	vesicle of intestine
+GO:0031982^OBO_REL:part_of(TAO:0009141)	vesicle of macrophage
+GO:0031982^OBO_REL:part_of(TAO:0000144)	vesicle of retinal pigmented epithelium
+GO:0016192	vesicle-mediated transport
+GO:0060005	vestibular reflex
+TAO:0001138	vestibuloauditory system
+GO:0007522	visceral muscle development
+GO:0007632	visual behavior
+GO:0007601	visual perception
+TAO:0001127	visual system
+TAO:0002290	vitreous
+GO:0005245	voltage-gated calcium channel activity
+GO:0005891^OBO_REL:part_of(TAO:0009367)	voltage-gated calcium channel complex of neuromast hair cell
+GO:0022832	voltage-gated channel activity
+GO:0005249	voltage-gated potassium channel activity
+GO:0005248	voltage-gated sodium channel activity
+GO:0001518^OBO_REL:part_of(TAO:0009150)	voltage-gated sodium channel complex of Rohon-Beard neuron
+GO:0001518^OBO_REL:part_of(TAO:0009120)	voltage-gated sodium channel complex of mechanoreceptor cell
+GO:0001518^OBO_REL:part_of(TAO:0000175)	voltage-gated sodium channel complex of posterior lateral line nerve
+GO:0001518^OBO_REL:part_of(TAO:0000075)	voltage-gated sodium channel complex of spinal cord
+GO:0050882	voluntary musculoskeletal movement
+GO:0030104	water homeostasis
+GO:0042060	wound healing
+TAO:0002148	xanthoblast
+TAO:0002148^OBO_REL:part_of(TAO:0000092)	xanthoblast of axis
+TAO:0009198	xanthophore
+GO:0050936	xanthophore differentiation
+TAO:0009198^OBO_REL:part_of(TAO:0001094)	xanthophore of body
+GO:0031633^OBO_REL:part_of(TAO:0001094)	xanthophore of body
+TAO:0009198^OBO_REL:part_of(TAO:0001114)	xanthophore of head
+TAO:0009198^OBO_REL:part_of(TAO:0001136)	xanthophore of hypodermis
+TAO:0009198^OBO_REL:part_of(TAO:0001115)	xanthophore of trunk
+TAO:0000084	yolk
+TAO:0005224	yolk larval melanophore stripe
+TAO:0005224^OBO_REL:part_of(TAO:0001117)	yolk larval melanophore stripe of post-vent region
+GO:0060417^OBO_REL:part_of(TAO:0000106)	yolk of extension
+TAO:0001344	zona limitans intrathalamica
+GO:0000238	zygotene
+GO:0042588^OBO_REL:part_of(TAO:0009277)	zymogen granule of acinar cell
+GO:0042588^OBO_REL:part_of(TAO:0000140)	zymogen granule of pancreas

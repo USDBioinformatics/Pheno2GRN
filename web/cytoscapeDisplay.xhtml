@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!--
+Copyright 2013 University of South Dakota
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License
+is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing permissions and limitations under
+the License.
+-->
+<!--This class contains the information for creating the sidebar and header of the site.-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:head>
+        <script src="JQuery/cytoscape.js"></script>
+
+
+        <style>
+            .graph {
+                height: 700px;
+                width: 700px;
+                position: relative;
+                left: 0;
+                top: 0;
+                border-style:solid;
+                border-width:5px;
+            }
+        </style>
+    </h:head>
+    <h:body id="cytoscapeBody">
+
+        <p:accordionPanel id="displayAccordion">
+
+            <p:tab title="PSICQUIC Visualization">
+                <p:dialog header="Select A Color For This Id"
+                          closable="true"
+                          widgetVar="colorDialog"
+                          resizable="false"
+                          dynamic="true">
+                    <p:panelGrid id="dialogPanelGrid" columns="2">
+                        <h:outputText value="Phenotype Id: "/>
+                        <h:outputText value="#{GeneNetworkWorkflow.selectedIdentifier.id}"/>
+                        <h:outputText value="Current Color: "/>
+                        <h:outputText value="#{GeneNetworkWorkflow.selectedIdentifier.color.colorName}"/>
+                        <p:selectOneMenu value="#{GeneNetworkWorkflow.newColor}">
+                            <f:selectItem itemValue="#{ColorController.PINK}" itemLabel="Pink"/>
+                            <f:selectItem itemValue="#{ColorController.GREEN}" itemLabel="Green"/>
+                            <f:selectItem itemValue="#{ColorController.BLUE}" itemLabel="Blue"/>
+                            <f:selectItem itemValue="#{ColorController.ORANGE}" itemLabel="Orange"/>
+                            <f:selectItem itemValue="#{ColorController.BROWN}" itemLabel="Brown"/>
+                        </p:selectOneMenu>
+                        <p:commandButton value="Change Color" action="#{GeneNetworkWorkflow.changeColor}"
+                                         update="psiquicNormalDisplay"
+                                         oncomplete="PF('colorDialog').hide();"/>
+                    </p:panelGrid>
+
+                </p:dialog>
+
+                <p:panel id="psiquicNormalDisplay">
+
+                    <p:dataTable var="phenoId" rowKey="#{phenoId.id}" 
+                                 value="#{GeneNetworkWorkflow.phenoIds}"
+                                 selectionMode="single"
+                                 selection="#{GeneNetworkWorkflow.selectedIdentifier}">
+                        <f:facet name="header">
+                            <h:outputText value="Phenotypes "/>
+                            <p:graphicImage id="phenotypeTableHelp" value="/images/help.png" />
+                            <p:tooltip for="phenotypeTableHelp">
+                                <h:outputText value="Click on a row to change the color of genes associated with a particular phenotype."/>
+                                <br />
+                                <h:outputText value="Genes associated with mulitple phenotypes will always be black."/>
+                                <br />
+                                <h:outputText value="Genes which are not related to any phenotypes are grey"/>
+                            </p:tooltip>
+                        </f:facet>
+                        <p:ajax event="rowSelect" listener="#{GeneNetworkWorkflow.onRowSelect}" 
+                                update=":form:accordion:displayAccordion:dialogPanelGrid"
+                                oncomplete="colorDialog.show()"></p:ajax>
+                        <p:column headerText="Phenotype Keyword" style="text-align: center">
+                            <h:outputText value="#{phenoId.phenotypeDescription}"/>
+                        </p:column>
+                        <p:column headerText="Phenotype Identifier" style="text-align: center">
+                            <h:outputText value="#{phenoId.id}"/>
+                        </p:column>                        
+                        <p:column  headerText="PhenoType Id Color" style="text-align: center">
+                            <h:outputText value="#{phenoId.color.colorName}"/>
+                        </p:column>
+                    </p:dataTable>
+
+                    <p:commandButton id="updateCytoscape" update="psiquicNormalDisplay" value="Reset Display"/>
+                    <p:graphicImage id="resetPSICQUICCytoscapeHelp" value="/images/help.png" />
+                    <p:tooltip for="resetPSICQUICCytoscapeHelp">
+                        <h:outputText value="Zooming can be acomplished by spinning mouse wheel."/>
+                        <br />
+                        <h:outputText value="Double click on a node to hide non-related nodes."/>
+                    </p:tooltip>
+
+                    <div id="psiquicNormalDiv" class="graph"></div>
+                    <script>
+                                $(function() { // on dom ready
+
+                                $('#psiquicNormalDiv').cytoscape({
+                                style: cytoscape.stylesheet()
+                                        .selector('node')
+                                        .css({
+                                        'content': 'data(name)',
+                                                'text-valign': 'center',
+                                                'color': 'white',
+                                                'text-outline-width': 2,
+                                                'text-outline-color': 'data(faveColor)',
+                                                'background-color': 'data(faveColor)'
+                                        })
+                                        .selector('edge')
+                                        .css({
+                                        'target-arrow-shape': 'triangle'
+                                        })
+                                        .selector(':selected')
+                                        .css({
+                                        'background-color': 'black',
+                                                'line-color': 'data(faveColor)',
+                                                'target-arrow-color': 'data(faveColor)',
+                                                'source-arrow-color': 'data(faveColor)'
+                                        })
+                                        .selector('.faded')
+                                        .css({
+                                        'opacity': 0.25,
+                                                'text-opacity': 0
+                                        }),
+                                        elements: {
+                        #{GeneNetworkWorkflow.psicquicJson}
+                                        },
+                                        ready: function() {
+                                        window.cy = this;
+                                                // giddy up...
+
+                                                cy.elements().unselectify();
+                                                cy.on('tap', 'node', function(e) {
+                                                var node = e.cyTarget;
+                                                        var neighborhood = node.neighborhood().add(node);
+                                                        cy.elements().addClass('faded');
+                                                        neighborhood.removeClass('faded');
+                                                });
+                                                cy.on('tap', function(e) {
+                                                if (e.cyTarget === cy) {
+                                                cy.elements().removeClass('faded');
+                                                }
+                                                });
+                                        }
+                                });
+                                }); // on dom ready
+                    </script>
+                </p:panel>
+            </p:tab>
+            <p:tab title="Reverse Engineering Visualization" disabled="#{!GeneNetworkWorkflow.jobHasBeenSubmitted}">
+                <p:growl id="grninferGrowl" for="grninferGrowl" showDetail="true"/>
+                <h:outputText value="Job may still be running on iPlant. Click button below to check if it has finished."
+                              rendered="#{GeneNetworkWorkflow.jobIsRunning}"/>
+                <p:commandButton value="Check If Job Completed" actionListener="#{GeneNetworkWorkflow.checkGRNInferStatus}"
+                                 update="displayAccordion :form:reportingPanel" rendered="#{GeneNetworkWorkflow.jobIsRunning}"/>
+                <p:panel id="grninferDisplayPanel" rendered="#{!GeneNetworkWorkflow.jobIsRunning and GeneNetworkWorkflow.jobHasBeenSubmitted}">
+                    <p:commandButton id="updateGrninferCytoscape" update="grninferDisplayPanel" value="Reset Display"/>
+                    <p:graphicImage id="resetGrninferOnlyCytoscapeHelp" value="/images/help.png" />
+                    <p:tooltip for="resetGrninferOnlyCytoscapeHelp">
+                        <h:outputText value="Zooming can be acomplished by spinning mouse wheel."/>
+                        <br />
+                        <h:outputText value="Double click on a node to hide non-related nodes."/>
+                    </p:tooltip>
+                    <div id="grninferDisplay" class="graph" ></div>
+                    <script>
+                                $(function() { // on dom ready
+
+                                $('#grninferDisplay').cytoscape({
+                                style: cytoscape.stylesheet()
+                                        .selector('node')
+                                        .css({
+                                        'content': 'data(name)',
+                                                'text-valign': 'center',
+                                                'color': 'white',
+                                                'text-outline-width': 2,
+                                                'text-outline-color': 'data(faveColor)',
+                                                'background-color': 'data(faveColor)'
+                                        })
+                                        .selector('edge')
+                                        .css({
+                                        'target-arrow-shape': 'triangle'
+                                        })
+                                        .selector(':selected')
+                                        .css({
+                                        'background-color': 'black',
+                                                'line-color': 'data(faveColor)',
+                                                'target-arrow-color': 'data(faveColor)',
+                                                'source-arrow-color': 'data(faveColor)'
+                                        })
+                                        .selector('.faded')
+                                        .css({
+                                        'opacity': 0.25,
+                                                'text-opacity': 0
+                                        }),
+                                        elements: {
+                        #{GeneNetworkWorkflow.grninferJson}
+                                        },
+                                        ready: function() {
+                                        window.cy = this;
+                                                // giddy up...
+
+                                                cy.elements().unselectify();
+                                                cy.on('tap', 'node', function(e) {
+                                                var node = e.cyTarget;
+                                                        var neighborhood = node.neighborhood().add(node);
+                                                        cy.elements().addClass('faded');
+                                                        neighborhood.removeClass('faded');
+                                                });
+                                                cy.on('tap', function(e) {
+                                                if (e.cyTarget === cy) {
+                                                cy.elements().removeClass('faded');
+                                                }
+                                                });
+                                        }
+                                });
+                                }); // on dom ready
+                    </script>
+                </p:panel>
+
+            </p:tab>
+            <p:tab title="Merged Visualization" disabled="#{!GeneNetworkWorkflow.jobHasBeenSubmitted}">
+                <p:growl id="combinedGrowl" for="combinedGrowl" showDetail="true"/>
+                <h:outputText value="Job may still be running on iPlant. Click button below to check if it has finished."
+                              rendered="#{GeneNetworkWorkflow.jobIsRunning}"/>
+                <p:commandButton value="Check If Job Completed" actionListener="#{GeneNetworkWorkflow.checkGRNInferStatus}"
+                                 update="displayAccordion :form:reportingPanel" rendered="#{GeneNetworkWorkflow.jobIsRunning}"/>
+                <p:panel id="combinedDisplayPanel" 
+                         rendered="#{!GeneNetworkWorkflow.jobIsRunning and GeneNetworkWorkflow.jobHasBeenSubmitted}">
+                    <p:commandButton id="updateMergedCytoscape" update="combinedDisplayPanel" value="Reset Display"/>
+                    <p:graphicImage id="resetCombinedCytoscapeHelp" value="/images/help.png" />
+                    <p:tooltip for="resetCombinedCytoscapeHelp">
+                        <h:outputText value="Zooming can be acomplished by spinning mouse wheel."/>
+                        <br />
+                        <h:outputText value="Double click on a node to hide non-related nodes."/>
+                    </p:tooltip>
+                    <div id="combined" class="graph" ></div>
+                    <script>
+                                $(function() { // on dom ready
+
+                                $('#combined').cytoscape({
+                                style: cytoscape.stylesheet()
+                                        .selector('node')
+                                        .css({
+                                        'content': 'data(name)',
+                                                'text-valign': 'center',
+                                                'color': 'white',
+                                                'text-outline-width': 2,
+                                                'text-outline-color': 'data(faveColor)',
+                                                'background-color': 'data(faveColor)'
+                                        })
+                                        .selector('edge')
+                                        .css({
+                                        'target-arrow-shape': 'triangle'
+                                        })
+                                        .selector(':selected')
+                                        .css({
+                                        'background-color': 'black',
+                                                'line-color': 'data(faveColor)',
+                                                'target-arrow-color': 'data(faveColor)',
+                                                'source-arrow-color': 'data(faveColor)'
+                                        })
+                                        .selector('.faded')
+                                        .css({
+                                        'opacity': 0.25,
+                                                'text-opacity': 0
+                                        }),
+                                        elements: {
+                        #{GeneNetworkWorkflow.psicquicAndGrninferCombinedJson}
+                                        },
+                                        ready: function() {
+                                        window.cy = this;
+                                                // giddy up...
+
+                                                cy.elements().unselectify();
+                                                cy.on('tap', 'node', function(e) {
+                                                var node = e.cyTarget;
+                                                        var neighborhood = node.neighborhood().add(node);
+                                                        cy.elements().addClass('faded');
+                                                        neighborhood.removeClass('faded');
+                                                });
+                                                cy.on('tap', function(e) {
+                                                if (e.cyTarget === cy) {
+                                                cy.elements().removeClass('faded');
+                                                }
+                                                });
+                                        }
+                                });
+                                }); // on dom ready
+                    </script>
+                </p:panel>
+            </p:tab>
+        </p:accordionPanel>
+    </h:body>
+</html>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!--
+Copyright 2013 University of South Dakota
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License
+is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing permissions and limitations under
+the License.
+-->
+<!--This class contains the information for creating the sidebar and header of the site.-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+
+    <body>   
+
+        <p:panel id="VennPanel">
+            <f:facet name="header">
+                <h:outputText value="Phenotype Gene Intersection (Venn Diagram) "/>
+                <p:graphicImage id="vennFileUploadHelp" value="/images/help.png" />
+                <p:tooltip for="vennFileUploadHelp">
+                    <h:outputText value="Users can also upload multiple .txt files."/>
+                    <br />
+                    <h:outputText value="Files should contain line, space, or tab separated genes."/>
+                    <br/>
+                    <h:outputText value="Each file will become a separate row in the table below."/>
+                </p:tooltip>
+            </f:facet>
+            <p:fileUpload fileUploadListener="#{GeneNetworkWorkflow.vennFileUpload}"
+                          sizeLimit="10485760" invalidSizeMessage="File can only be 10 MB."
+                          auto="true" fileLimit="1" fileLimitMessage="Cannot upload more than 1 file at a time."                           
+                          allowTypes="/.txt$/" invalidFileMessage="Must upload a file with .txt extension"
+                          update="VennPanel"/>
+            <p:messages id="vennSelectionTableMessages" for="vennSelectionTableMessages" showDetail="true" />
+            <p:dataTable id="VennSelectionTable" var="phenoId" value="#{GeneNetworkWorkflow.completeVennList}"
+                         selection="#{GeneNetworkWorkflow.selectedVennPhenoIds}" selectionMode="multiple"
+                         rowKey="#{phenoId.id.concat(phenoId.phenotypeDescription)}"
+                         paginator="true" rows="8">
+                <p:ajax event="rowSelect" listener="#{GeneNetworkWorkflow.onRowSelectVennTable}" 
+                        update=":form:accordion:VennPanel"/>
+                <p:ajax event="rowUnselect" listener="#{GeneNetworkWorkflow.onRowUnselectVennTable}"  
+                        update=":form:accordion:VennPanel"/> 
+                <p:column headerText="Phenotype Keyword" style="text-align: center">
+                    <h:outputText value="#{phenoId.phenotypeDescription}"/>
+                </p:column>
+                <p:column headerText="Phenotype Identifier" style="text-align: center">
+                    <h:outputText value="#{phenoId.id}"/>
+                </p:column>               
+                <p:column headerText="Number of Assocaited Genes" style="text-align: center">
+                    <h:outputText value="#{phenoId.numberOfAssociatedGenes}"/>
+                </p:column>
+
+            </p:dataTable>
+            <p:commandButton id="ShowVennButton" value="Show Venn Diagram" 
+                             disabled="#{empty GeneNetworkWorkflow.selectedVennPhenoIds 
+                                         or GeneNetworkWorkflow.selectedVennPhenoIds.size() lt 2 
+                                         or GeneNetworkWorkflow.selectedVennPhenoIds.size() gt 4}" 
+                             actionListener="#{GeneNetworkWorkflow.setUpVennDiagram}"
+                             update="VennPanel :form:reportingPanel"/>
+            <p:graphicImage id="showVennButtonHelp" value="/images/help.png" />
+            <p:tooltip for="showVennButtonHelp" value="Select 2-4 rows by holding Ctrl or Cmd and clicking on the row"/>
+            <br />
+            <p:graphicImage cache="false" id="vennImage" rendered="#{GeneNetworkWorkflow.showVennImage}"
+                            value="#{GeneNetworkWorkflow.vennImageStream}"  />
+        </p:panel>
+    </body>
+</html>

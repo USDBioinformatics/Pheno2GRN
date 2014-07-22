@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!--
+Copyright 2013 University of South Dakota
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License
+is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing permissions and limitations under
+the License.
+-->
+<!--This is the welcome page for the site.-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>            
+    </h:head>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <h:body>
+        <p:messages id="reportMessages" for="reportMessages" showDetail="true"/>
+        <p:dataTable id="reportTable" var="reportingStep" value="#{GeneNetworkWorkflow.reportingSteps}"  rowKey="#{reportingStep.stepName}" selection="#{GeneNetworkWorkflow.selectedReportingSteps}">
+            <p:column selectionMode="multiple" style="width:16px;text-align:center"/>
+            <p:column headerText="Step">
+                <h:outputText value="#{reportingStep.stepName}"/>
+            </p:column>
+            <p:column headerText="Label">
+                <p:inputText value="#{reportingStep.editableLabel}"/>
+            </p:column>
+            <p:column headerText="Assocaited Images">
+                <p:fileUpload auto="true" fileUploadListener="#{GeneNetworkWorkflow.uploadFileRow}" rendered="#{reportingStep.hasImage}">
+                    <f:attribute name="ReportStep" value="#{reportingStep}"/>
+                </p:fileUpload>
+            </p:column>
+            <p:column headerText="Assocaited Files (Click to Download)">
+                <p:commandButton ajax="false" value="#{reportingStep.fileName}" 
+                                 actionListener="#{GeneNetworkWorkflow.generateStream(reportingStep)}" 
+                                 rendered="#{reportingStep.hasFiles}">
+                    <p:fileDownload value="#{GeneNetworkWorkflow.reportStream}"/>
+                </p:commandButton>
+                    
+            </p:column>
+        </p:dataTable>
+        <p:commandButton value="Generate Complete Report" ajax="false"
+                         actionListener="#{GeneNetworkWorkflow.generateFinalReport}"/>
+    </h:body>
+</html>

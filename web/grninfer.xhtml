@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!--
+Copyright 2013 University of South Dakota
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License
+is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing permissions and limitations under
+the License.
+-->
+<!--This class contains the information for creating the sidebar and header of the site.-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <h:body>
+        <p:panel header="GRNInfer iPlant Submission">
+            <p:messages id="grninferMessages" for="grninferMessages" 
+                        closable="true" showDetail="true"/>
+            <a href="./files/ExampleGRNInferInput.txt" target="_blank">Example GRNInfer Input File</a>
+            <p:fileUpload id="grninferFileUpload" auto="true" update="accordion :form:reportingPanel"
+                          fileUploadListener="#{GeneNetworkWorkflow.handleGRNInferFileUpload}"
+                          allowTypes="/.txt$/" invalidFileMessage="Must upload a file with .txt extension"
+                          fileLimit="1" fileLimitMessage="Can only upload one file."
+                          onstart="document.getElementById('blockText').innerHTML = 'Submitting job to iPlant. Check ReverseEngineering tabs (under Visualization tab) for updates.';
+                          PF('buiForm').show();"
+                          oncomplete="PF('buiForm').hide()"
+                          sizeLimit="10485760" invalidSizeMessage="File can only be 10 MB."/>    
+        </p:panel>
+        <p:panel header="Upload Your Own .dot File To Visualize Merged Network">
+            <p:messages id="ownReverseEngineeringMessages" for="ownReverseEngineeringMessages" 
+                        closable="true" showDetail="true"/>
+            <p:fileUpload id="userReverseEngineeringFileUpload" auto="true" update="accordion :form:reportingPanel"
+                          fileUploadListener="#{GeneNetworkWorkflow.ownReverseEngineeringFileUpload}"
+                          allowTypes="/.dot$/" invalidFileMessage="Must upload a file with .dot extension"
+                          fileLimit="1" fileLimitMessage="Can only upload one file."
+                          sizeLimit="10485760" invalidSizeMessage="File can only less than or equal to 10 MB."
+                          onstart="document.getElementById('blockText').innerHTML = 'Uploading and creating network.';
+                          PF('buiForm').show();"
+                          oncomplete="PF('buiForm').hide()"/>    
+        </p:panel>
+    </h:body>
+</html>

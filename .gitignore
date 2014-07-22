@@ -50,3 +50,6 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+*.netbeans_automatic_build
+*.netbeans_update_resources
+src/java/edu/usd/octopus/iplant/IplantCredentials.java

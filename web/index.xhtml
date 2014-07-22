@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!--
+Copyright 2013 University of South Dakota
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License
+is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing permissions and limitations under
+the License.
+-->
+<!--This is the welcome page for the site.-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Pheno 2 GRN</title>     
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-45360957-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </h:head>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+
+    <h:body>
+
+        <p:layout fullPage="true">
+            <p:layoutUnit position="center">
+                <p:panel>
+                    <f:facet name = "header"  >                        
+                        <h:outputText
+                            value="Welcome To Pheno 2 GRN"
+                            style="font-size:x-large;"/>
+                    </f:facet>                   
+                </p:panel>
+                <p:blockUI id="blockForm" block="form" widgetVar="buiForm">
+                    <h:outputText id="blockText" value=""/><br/>
+                    <p:graphicImage value="images/ajax-loader1.gif" />
+                </p:blockUI>
+                <h:form id="form" >     
+                    <h:panelGroup id="queryPanels" layout="block" >
+
+                        <p:panel id="queryPhenoscapePanel" header="Query Phenoscape and 31 Interaction Databases">
+                            <p:growl showDetail="true" for="growl" sticky="true" id="growl"/>
+                            <p:messages id="QueryPhenoscapeMessage" for="PhenoscapeMessage" closable="true"/>
+                            <p:outputLabel value="Phenotype: " for="phenoscapeInput" />
+                            <p:autoComplete id="phenoscapeInput" size="50"
+                                            placeholder="Start typing here (at least three letters)"
+                                            emptyMessage="No Results Found" 
+                                            value="#{GeneNetworkWorkflow.phenoscapeInput}"
+                                            minQueryLength="3" scrollHeight="300"
+                                            completeMethod="#{GeneNetworkWorkflow.autocompletePhenoscape}"/>
+                          
+
+                            <p:graphicImage id="phenoscapeQueryHelp" value="/images/help.png" />
+                            <p:tooltip for="phenoscapeQueryHelp" 
+                                       value="Type 3 letters and the search will autocomplete with phenotype results."/>
+                            <br></br><br></br>
+
+                            <p:selectBooleanCheckbox value="#{GeneNetworkWorkflow.includeIndirectInteractions}"/>
+                            <h:outputText value="    Include indirect interactors"/>
+                            <p:graphicImage id="indirectInteractorsHelp" value="/images/help.png" />
+                            <p:tooltip for="indirectInteractorsHelp" 
+                                       value="Checking this will include interactor results which do not directly involve genes from phenotype."/>
+
+                            <br></br><br></br>
+
+                            <p:commandButton id="queryPhenoscapeButton" actionListener="#{GeneNetworkWorkflow.phenoscapeQuery}" 
+                                             update="queryPanels resultPanels queryPanels" value="Submit"
+                                             onclick="document.getElementById('blockText').innerHTML = 'Submitting queries to Phenoscape and PSICQUIC standardized databases.';
+                                                     PF('buiForm').show();"
+                                             oncomplete="PF('buiForm').hide();"/>
+
+
+                        </p:panel>
+                        <p:panel header="Upload own genes via file submition or manual entry.">
+                            <p:messages id="userGeneUploadMessages" for="userGeneUploadMessages" showDetail="true"/>
+                            <h:outputText value="Submit own .txt file containing space, tab, or line separated genes."/>
+                            <p:graphicImage id="userSubmissionHelp" value="/images/help.png" />
+                            <p:tooltip for="userSubmissionHelp" 
+                                       value="User submitted genes will be used to automatically query PSICQUIC standardized molecular interaciton databases"/>
+
+                            <p:fileUpload auto="true" fileUploadListener="#{GeneNetworkWorkflow.uploadFileContainingGenes}"
+                                          fileLimit="1" fileLimitMessage="Can only upload one file."
+                                          sizeLimit="10485760" invalidSizeMessage="File can only be 10 MB."
+                                          allowTypes="/.txt$/" invalidFileMessage="Must upload a file with .txt extension"
+                                          onstart="document.getElementById('blockText').innerHTML='Querying PSICQUIC standardized databases with uploaded genes.';PF('buiForm').show();"                                           
+                                          oncomplete="PF('buiForm').hide();"
+                                          update="resultPanels queryPanels"/>
+
+                            <h:outputText value="Type genes (space separated): "/>
+                            <p:inputText id="spaceSeparatedGenesInputText" value="#{GeneNetworkWorkflow.spaceSeparatedGenes}"/>
+                            <p:commandButton id="submitSapceSeparatedGenes" value="Submit Space Separated Genes"
+                                             actionListener="#{GeneNetworkWorkflow.submitSpaceSeparatedGenes}"
+                                             update="resultPanels queryPanels"
+                                             onstart="document.getElementById('blockText').innerHTML='Querying PSICQUIC standardized databases with uploaded genes.';PF('buiForm').show();"                                           
+                                             oncomplete="PF('buiForm').hide();"/>
+
+                        </p:panel>
+                        <p:panel id="paginationPanel" header="Paginate Through Results"
+                                 rendered="#{(not empty GeneNetworkWorkflow.genes.source) or (not empty GeneNetworkWorkflow.genes.target)}">
+                            <p:messages id="paginationMessages" showDetail="true" for="paginationMessages"/>
+                            <h:outputText id="totalInteractionText" 
+                                          value="Total number of possible interactions 
+                                          (this number does not account for redundant data): #{GeneNetworkWorkflow.totInteractNum}" />
+                            <br></br>
+                            <p:commandButton value="Previous Block Of Interactions"
+                                             actionListener="#{GeneNetworkWorkflow.previousPsicquicPagination}"
+                                             disabled="#{GeneNetworkWorkflow.sizeOfPaginationList le 2}"
+                                             update="paginationPanel resultPanels"
+                                             onstart="PF('buiForm').show()"
+                                             oncomplete="PF('buiForm').hide()"/>
+                            <p:commandButton value="Next Block Of Interactions" 
+                                             actionListener="#{GeneNetworkWorkflow.nextPsicquicPagination}"
+                                             disabled="#{GeneNetworkWorkflow.psicquicResultList.size() lt PsicquicController.numResults}"
+                                             update="paginationPanel resultPanels"
+                                             onstart="PF('buiForm').show()"
+                                             oncomplete="PF('buiForm').hide()"/>
+                            <p:graphicImage id="paginationHelp" value="/images/help.png" />
+                            <p:tooltip for="paginationHelp" 
+                                       value="Data is returned in interaction blocks of #{PsicquicController.numResults} interactions."/>
+                        </p:panel>
+                    </h:panelGroup>
+                    <p:blockUI block="resultPanels" id="blockResultPanels" widgetVar="buiExecutionPanel"/>
+                    <h:panelGroup id="resultPanels" layout="block" >
+                        <p:panel header="Execution Data" id="ExecutionPanel" 
+                                 rendered="#{(not empty GeneNetworkWorkflow.genes.source) or (not empty GeneNetworkWorkflow.genes.target)}">
+
+
+                            <p:accordionPanel id="accordion" rendered="#{GeneNetworkWorkflow.showReportingPanel}">
+                                <p:ajax event="tabChange"  update="displayAccordion:psiquicNormalDisplay displayAccordion"/>
+                                <p:tab id="displayTab"  title="Visualization">
+                                    <p:panel id="cytoscape" rendered="#{!GeneNetworkWorkflow.showVenn}">
+                                        <ui:include src="cytoscapeDisplay.xhtml"/>
+                                    </p:panel>
+                                    <p:panel id="venn" rendered="#{GeneNetworkWorkflow.showVenn}">
+                                        <ui:include  src="venn.xhtml"/>
+                                    </p:panel>
+                                    <p:commandButton id="changeToVennButton" value="Move To Venn Diagram" 
+                                                     actionListener="#{GeneNetworkWorkflow.showVenn}"
+                                                     update="accordion"
+                                                     rendered="#{!GeneNetworkWorkflow.showVenn}"/>
+                                    <p:commandButton id="changeToNetworkDisplayButton" value="Move To Network Display" 
+                                                     actionListener="#{GeneNetworkWorkflow.showCytoscape}"
+                                                     update="accordion"
+                                                     rendered="#{GeneNetworkWorkflow.showVenn}"/>
+                                </p:tab>
+
+                                <p:tab title="Gene Selection">
+                                    <p:messages id="geneSelectionMessages" for="geneSelectionMessages" showDetail="true"/>
+                                    <h:outputText value="Click to rerun PSICQUIC query for slected Genes and Update Display: "/>
+                                    <p:commandButton id="rerunSelectedGenesButton" 
+                                                     actionListener="#{GeneNetworkWorkflow.updateFromGeneSelection}"
+                                                     value="Run For Selected Genes" update=":form:resultPanels"
+                                                     onclick="document.getElementById('blockText').innerHTML = 'Re-Submitting PSICQUIC queries for selected genes.';
+                                                             PF('buiForm').show();"
+                                                     oncomplete="PF('buiForm').hide()"/>
+                                    <ui:include src="geneList.xhtml"/>
+                                </p:tab>
+                                <p:tab title="Reverse Engineering">
+                                    <ui:include src="grninfer.xhtml"/>
+                                </p:tab>
+
+                                <p:tab title="PSICQUIC Molecular Interactor Results">
+                                    <p:commandButton value="Re-Generate Display" 
+                                                     update="accordion" 
+                                                     actionListener="#{GeneNetworkWorkflow.updateDisplay}"
+                                                     onclick="PF('buiAccordion2').show();"
+                                                     oncomplete="PF('buiAccordion2').hide();"/>
+                                    <p:blockUI block="accordion" widgetVar="buiAccordion2">
+                                        <h:outputText value="Processing..."/><br/>
+                                        <p:graphicImage value="images/ajax-loader1.gif" />
+                                    </p:blockUI>
+
+                                    <ui:include src="psicquicInteractors.xhtml"/>
+                                </p:tab>
+
+
+                            </p:accordionPanel>
+
+                        </p:panel>
+                        <!-- panel won't be rendered if reporting steps is null or empty-->
+                        <p:panel id="reportingPanel" rendered="#{not empty GeneNetworkWorkflow.reportingSteps}" header="Reporting">
+                            <p:tab title="Reporting">
+                                <ui:include src="report.xhtml"/>
+                            </p:tab>
+                        </p:panel>
+                    </h:panelGroup>
+
+
+                    <div align="center">
+                        <footer>
+                            <h:outputText value="Contact Information" style="font-weight: bold;"/><br></br>
+                            <h:outputText value="usdbioinformatics at gmail"/>
+                            <a href="https://www.facebook.com/pages/USD-Bioinformatics/112308142239453"><br></br>
+                                <h:outputText value="Facebook Page"/>
+                            </a>
+                        </footer>
+                    </div>
+
+
+                </h:form>
+
+
+            </p:layoutUnit>
+
+        </p:layout>
+
+    </h:body>
+</html>

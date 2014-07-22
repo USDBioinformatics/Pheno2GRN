@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!--
+Copyright 2013 University of South Dakota
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License
+is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing permissions and limitations under
+the License.
+-->
+<!--This class contains the information for creating the sidebar and header of the site.-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <h:body>
+        <p:pickList id="genelist"  value="#{GeneNetworkWorkflow.genes}" var="name"   
+                    itemLabel="#{name}" itemValue="#{name}"
+                    showSourceFilter="true" showTargetFilter="true"
+                    filterMatchMode="contains">
+            <f:facet name="sourceCaption">Available Genes</f:facet>
+            <f:facet name="targetCaption">Genes in Use</f:facet>
+        </p:pickList>
+        <p:panel id="homologuesPanel" header="Homologues">
+            <p:selectBooleanCheckbox value="#{GeneNetworkWorkflow.homologues}" 
+                                     itemLabel="Would you like to add the homologues for all Genes in Use genes to Genes in Use?" >
+                <p:ajax update="homologuesPanel"/>
+            </p:selectBooleanCheckbox>
+            <p:panel rendered="#{GeneNetworkWorkflow.homologues}">
+
+                <p:messages id="HomologuesMessage" for="homologuesMessage" showDetail="true" closable="true"/>
+                <p:growl id="growlForHomologs" for="growlForHomologs" showDetail="true" sticky="true"/>
+                <p:outputLabel value="Source Species: "/>  
+                <p:inputText id="sourceSpeciesTextHomology"
+                             value="#{GeneNetworkWorkflow.sourceSpeciesForHomology}"/>
+
+                <p:outputLabel value=" Target Species: " />  
+                <p:inputText id="speciesTextHomology" value="#{GeneNetworkWorkflow.targetSpeciesForHomology}"/>
+
+                <p:commandButton value="Run Homology Query" 
+                                 update="ensemblResults HomologuesMessage genelist growlForHomologs" 
+                                 actionListener="#{GeneNetworkWorkflow.generateHomologyTable}"
+                                 onclick="document.getElementById('blockText').innerHTML = 'Submitting homology queries to ENSEMBL';
+                                         PF('buiForm').show();"
+                                 oncomplete="PF('buiForm').hide()"/>
+               
+                <!-- Data table for the ensembl results-->
+                <p:dataTable id="ensemblResults"  
+                             var="ensemblResult" 
+                             value="#{GeneNetworkWorkflow.homologyResults}"
+                             rowKey="#{ensemblResult.sourceEnsemblId}#{ensemblResult.targetEnsemblId}"
+                             rendered="#{GeneNetworkWorkflow.homologues}"
+                             paginator="true"
+                             rows="10">
+                    <f:facet name="header">Homology Results</f:facet>
+
+                    <p:column headerText="Source Gene Symbol" style="text-align: center">
+                        #{ensemblResult.sourceGeneSymbol}
+                    </p:column>
+
+                    <p:column headerText="Target Gene Symbol" style="text-align: center">
+                        #{ensemblResult.targetGeneSymbol}
+                    </p:column>
+
+                    <p:column headerText="Source Ensembl Id" style="text-align: center">
+                        #{ensemblResult.sourceEnsemblId}
+                    </p:column>
+
+                    <p:column headerText="Target Ensembl Id" style="text-align: center">
+                        #{ensemblResult.targetEnsemblId}
+                    </p:column>
+                </p:dataTable>
+            </p:panel>
+        </p:panel>
+    </h:body>
+</html>
