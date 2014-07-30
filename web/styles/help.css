@@ -1,0 +1,23 @@
+h1,h2,h3{
+font-family: 'Oswald', sans-serif;
+}
+
+p,li,a{
+font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+list-style-type:none;
+}
+
+a{
+text-decoration:none;
+}
+
+a:visited{
+color:blue;
+}
+
+body{
+margin:10px 300px 10px 20px;
+}

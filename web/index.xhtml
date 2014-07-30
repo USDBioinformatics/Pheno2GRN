@@ -72,15 +72,27 @@ the License.
 
                             <p:graphicImage id="phenoscapeQueryHelp" value="/images/help.png" />
                             <p:tooltip for="phenoscapeQueryHelp" 
-                                       value="Type 3 letters and the search will autocomplete with phenotype results."/>
-                            <br></br><br></br>
+                                       value="Type 3 letters and the search will autocomplete with phenotype results."/><br/>
+                            
+                            <a href="./Pheno2GRNHelp.html" target="_blank">Pheno2GRN Documentation</a>
+                            
+                            <p:selectBooleanCheckbox style="position:relative;top:2px;left:300px" value="#{GeneNetworkWorkflow.showAdvancedQueryOptions}">
+                                <p:ajax update="queryPanels"/>
+                            </p:selectBooleanCheckbox>
+                            <h:outputText style="position:relative;left:300px" value=" Show Advanced Options"/>
+                            <br></br>
 
-                            <p:selectBooleanCheckbox value="#{GeneNetworkWorkflow.includeIndirectInteractions}"/>
-                            <h:outputText value="    Include indirect interactors"/>
-                            <p:graphicImage id="indirectInteractorsHelp" value="/images/help.png" />
+                            <p:selectBooleanCheckbox value="#{GeneNetworkWorkflow.includeIndirectInteractions}"
+                                                     rendered="#{GeneNetworkWorkflow.showAdvancedQueryOptions}"/>
+                            <h:outputText value="    Include indirect interactors"
+                                          rendered="#{GeneNetworkWorkflow.showAdvancedQueryOptions}"/>
+                            <p:graphicImage id="indirectInteractorsHelp" value="/images/help.png" 
+                                            rendered="#{GeneNetworkWorkflow.showAdvancedQueryOptions}"/>
                             <p:tooltip for="indirectInteractorsHelp" 
+                                       rendered="#{GeneNetworkWorkflow.showAdvancedQueryOptions}"
                                        value="Checking this will include interactor results which do not directly involve genes from phenotype."/>
-
+                            
+                            
                             <br></br><br></br>
 
                             <p:commandButton id="queryPhenoscapeButton" actionListener="#{GeneNetworkWorkflow.phenoscapeQuery}" 
@@ -91,7 +103,8 @@ the License.
 
 
                         </p:panel>
-                        <p:panel header="Upload own genes via file submition or manual entry.">
+                        <p:panel header="Upload own genes via file submition or manual entry."
+                                 rendered="#{GeneNetworkWorkflow.showAdvancedQueryOptions}">
                             <p:messages id="userGeneUploadMessages" for="userGeneUploadMessages" showDetail="true"/>
                             <h:outputText value="Submit own .txt file containing space, tab, or line separated genes."/>
                             <p:graphicImage id="userSubmissionHelp" value="/images/help.png" />

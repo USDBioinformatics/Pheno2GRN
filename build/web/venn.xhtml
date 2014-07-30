@@ -60,12 +60,12 @@ the License.
             </p:dataTable>
             <p:commandButton id="ShowVennButton" value="Show Venn Diagram" 
                              disabled="#{empty GeneNetworkWorkflow.selectedVennPhenoIds 
-                                         or GeneNetworkWorkflow.selectedVennPhenoIds.size() lt 2 
-                                         or GeneNetworkWorkflow.selectedVennPhenoIds.size() gt 4}" 
+                                         or GeneNetworkWorkflow.selectedVennPhenoIds.size() lt 1 
+                                         or GeneNetworkWorkflow.selectedVennPhenoIds.size() gt 5}" 
                              actionListener="#{GeneNetworkWorkflow.setUpVennDiagram}"
                              update="VennPanel :form:reportingPanel"/>
             <p:graphicImage id="showVennButtonHelp" value="/images/help.png" />
-            <p:tooltip for="showVennButtonHelp" value="Select 2-4 rows by holding Ctrl or Cmd and clicking on the row"/>
+            <p:tooltip for="showVennButtonHelp" value="Select 1-5 rows by holding Ctrl or Cmd and clicking on the row"/>
             <br />
             <p:graphicImage cache="false" id="vennImage" rendered="#{GeneNetworkWorkflow.showVennImage}"
                             value="#{GeneNetworkWorkflow.vennImageStream}"  />

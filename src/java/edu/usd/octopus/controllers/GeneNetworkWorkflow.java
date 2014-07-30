@@ -104,6 +104,8 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
     private int totInteractNum;
     private List<PaginationStep> paginationList;
     private String spaceSeparatedGenes;
+    private boolean showAdvancedQueryOptions=false;
+    private String advancedQueryMessage="Show Advanced Query Options";
 
     //VennDiagram Fields
     private boolean showVennImage = false;
@@ -520,12 +522,12 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
 
     public void onRowSelectVennTable(SelectEvent selectEvent) {
         //Making sure the number of selected phenotypes does exceed 4
-        if (selectedVennPhenoIds.size() > 4) {
+        if (selectedVennPhenoIds.size() > 5) {
 
             //removing the selected pheno from the list
             FacesContext.getCurrentInstance().addMessage("vennSelectionTableMessages",
                     new FacesMessage(FacesMessage.SEVERITY_WARN,
-                            "Please select a max of 4", "You can unselect by holding Ctrl and clicking on the row"));
+                            "Please select a max of 5", "You can unselect by holding Ctrl and clicking on the row"));
             selectedVennPhenoIds.remove((PhenotypeIdentifier) selectEvent.getObject());
 
         }
@@ -534,7 +536,7 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
     }
 
     public void onRowUnselectVennTable(UnselectEvent unselectEvent) {
-        if (selectedVennPhenoIds == null || selectedVennPhenoIds.size() < 2) {
+        if (selectedVennPhenoIds == null || selectedVennPhenoIds.size() < 1) {
             showVennImage = false;
         }
     }
@@ -564,9 +566,9 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
                 if (!vennImageFile.exists()) {
                     throw new WorkflowException("Too many files");
                 }
-                VennPanel vennPanel=new VennPanel();
+                VennPanel vennPanel = new VennPanel();
                 vennPanel.addImageToFile(vennImageFile, PhenoscapeUtilities.generateTabDelimitedPhenoIdAndGenes(selectedVennPhenoIds));
-                
+
                 showVennImage = true;
                 ReportStepUtilities.addStepToCompleteListAndSelectedList(reportingSteps, selectedReportingSteps, vennDiagram);
 
@@ -840,7 +842,6 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
         psicquicResultList = null;
         genes = new DualListModel<>();
         phenoIds.clear();
-        showVenn = false;
         reportingSteps = new ArrayList<>();
         selectedReportingSteps = new ArrayList<>();
 
@@ -860,6 +861,19 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
         }
         paginationList = new ArrayList<>();
         paginationList.add(step);
+
+        //resetting venn diagram fields
+        showVennImage = false;
+        if (vennImageFile != null) {
+            vennImageFile.delete();
+        }
+        showVenn = false;
+        if (selectedVennPhenoIds != null) {
+            selectedVennPhenoIds.clear();
+        }
+        if (completeVennList != null) {
+            completeVennList.clear();
+        }
     }
 
     /**
@@ -933,7 +947,15 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
                     phenoscapeResults.addAll(PhenoscapeQuery.getGenesByTao(tao));
                 }
             }
-
+            //adding all the pheno ids to complete vennLIst
+            if(completeVennList==null){
+                completeVennList=new ArrayList<>();
+            }else{
+                //clearing the list for new analysis
+                completeVennList.clear();
+            }
+            completeVennList.addAll(phenoIds);
+            
             //adding the phenoScape results to the genes DualList
             Iterator it = phenoscapeResults.iterator();
 
@@ -1175,12 +1197,12 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
             }
 
             //adding genes if they aren't already present in the list
-            for(String gene:targetGenes){
-                if(!genes.getTarget().contains(gene)){
+            for (String gene : targetGenes) {
+                if (!genes.getTarget().contains(gene)) {
                     genes.getTarget().add(gene);
                 }
             }
-            
+
             //telling the user which genes were added
             StringBuilder addedGenes = new StringBuilder();
             for (int i = 0; i < targetGenes.size(); i++) {
@@ -1364,6 +1386,14 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
     public void setHomologues(boolean homologues) {
         this.homologues = homologues;
     }
+
+    public boolean isShowAdvancedQueryOptions() {
+        return showAdvancedQueryOptions;
+    }
+
+    public void setShowAdvancedQueryOptions(boolean showAdvancedQueryOptions) {
+        this.showAdvancedQueryOptions = showAdvancedQueryOptions;
+    }    
 
     public PsicquicResult[] getSelectedPsicquicResults() {
         return selectedPsicquicResults;
