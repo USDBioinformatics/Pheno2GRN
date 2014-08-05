@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta charset="UTF-8"/>
@@ -7,121 +7,133 @@
         <title>Pheno2GRN Help</title>
 
         <link rel="stylesheet" type="text/css" href="./styles/help.css"/>
-        <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-            <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-                </head>
-                <body>
-                    <h1>Pheno2GRN Documentation</h1>
-                    <p>
-                        Pheno2GRN allows users to create gene regulatory networks from interaction queries and reverse engineered networks.
-                        Many advanced options are availible to the user for customizability.  A useful reporting section is also availible.
-                    </p>
-                    <ul>
-                        <li><a href="#PhenoScapeQuery">Phenotype To Genes</a></li>
-                        <li><a  href="#GenesToInteractions">Genes To Interactions</a></li>
-                        <li>
-                            <a  href="#VisualizationHeader">Visualization</a>
-                            <ol>
-                                <li><a href="#NetworkVisualization">Network Visualization</a></li>
-                                <li><a href="#Venn Diagram">Gene Intersection Venn Diagram</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#GeneListHeader">Gene Selection</a>
-                            <ol>
-                                <li><a href="#HomologueConversion">Homologue Conversion</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#ReverseEngineeringHeader">Reverse Engineering</a>
-                            <ol>
-                                <li><a href="#GRNInferHeader">GRNInfer Iplant Submission</a></li>
-                                <li><a href="#UserDotUploadHeader">User .dot File Upload</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#PSICQUICHeader">PSICQUIC Molecular Interactor Results</a></li>
-                        <li><a href="#ReportingHeader">Reporting</a></li>
-                    </ul>
+        <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    </head>
+    <body>
+        <h1>Pheno2GRN Documentation</h1>
+        <p>
+            Pheno2GRN allows users to create gene regulatory networks from interaction queries and reverse engineered networks.
+            Many advanced options are available to the user for customizability. Every step taken in the Pheno2GRN is documented in
+            a useful reporting section.
+        </p>
+        <ul>
+            <li><a href="#PhenoScapeQuery">Phenotype To Genes</a></li>
+            <li><a  href="#GenesToInteractions">Genes To Interactions</a></li>
+            <li>
+                <a  href="#VisualizationHeader">Visualization</a>
+                <ol>
+                    <li><a href="#NetworkVisualization">Network Visualization</a></li>
+                    <li><a href="#Venn Diagram">Gene Intersection Venn Diagram</a></li>
+                </ol>
+            </li>
+            <li><a href="#GeneListHeader">Gene Selection</a>
+                <ol>
+                    <li><a href="#HomologueConversion">Homologue Conversion</a></li>
+                </ol>
+            </li>
+            <li><a href="#ReverseEngineeringHeader">Reverse Engineering</a>
+                <ol>
+                    <li><a href="#GRNInferHeader">GRNInfer Iplant Submission</a></li>
+                    <li><a href="#UserDotUploadHeader">User .dot File Upload</a></li>
+                </ol>
+            </li>
+            <li><a href="#PSICQUICHeader">PSICQUIC Molecular Interactor Results</a></li>
+            <li><a href="#ReportingHeader">Reporting</a></li>
+        </ul>
 
-                    <h2 id="PhenoScapeQuery">Phenotype To Genes</h2>
-                    <ol>
-                        <li>Start typing at least 3 letters in the phenotype query text field.</li>
-                        <li>The search will be autocompleted, and the user can select a keyword from the list.</li>
-                        <p>Users are not forced into selecting from the list. Phenotype keyword containing the text in the "Phenotype" text
-                            field will be searched for.  For example, if a user types "cns interneuron" and clicks "Submit", the keyword
-                            search will return genes from both the "CNS interneuron" and "CNS interneuron of spinal cord" phenotype keywords.
-                        </p>
-                    </ol>
-                    <img src="./images/phenoscapeAutocomplete.PNG"/>
-                    <p>Users are allowed to skip the phenotype to gene step by uploading a list of their own genes or submitting
-                        a space-separated list of genes after clicking on the (Advanced Options)
-                    </p>
+        <h2 id="PhenoScapeQuery">Phenotype To Genes</h2>
+        <p>
+            Pheno2GRN takes a phenotype keyword from users and retrieves a list of genes associated with that phenotype from 
+            <a href="http://kb.phenoscape.org/" target="_blank">Phenoscape KB</a>.
+        </p>
+        <ol>
+            <li>Start typing at least 3 letters in the phenotype query text field.</li>
+            <li>The search will be autocompleted, and the user can select a keyword from the list.</li>
+        </ol>
+        <p>Users are not forced into selecting from the list. Phenotype keyword containing the text in the "Phenotype" text
+            field will be searched for.  For example, if a user types "cns interneuron" and clicks "Submit", the keyword
+            search will return genes from both the "CNS interneuron" and "CNS interneuron of spinal cord" phenotype keywords (case insensitive).
+        </p>
+        <img src="./images/phenoscapeAutocomplete.PNG"/>
+        <p>Users are allowed to skip the phenotype to gene step by uploading a list of their own genes or submitting
+            a space-separated list of genes after clicking on the (Advanced Options).
+        </p>
 
-                    <h2 id="GenesToInteractions">Genes to Interactions</h2>
-                    <p> The genes obtained from the phenotype query, or user uploaded are submitted to 31 molecular interaction databases in a 
-                        PSICQUIC stadardized query (more information on PSICCQUIC can be found <a href="https://code.google.com/p/psicquic/" target="_blank">here</a>).
-                        The queries are submitted in parallel to all 31 databases to ensure that data is displayed comes from multiple resources.
-                    </p>
-                    <h2 id="VisualizationHeader">Visualization</h2>
-                    <h3 id="NetworkVisualization">
-                        Network Visualization</h2>
-                        <p>The interaction network is visualized using the javascript library <a href="http://cytoscape.github.io/cytoscape.js/" target="_blank">Cytoscape.js</a>.
-                            The Cytoscape library allows for the coloration of genes which are directly linked to phenotypes or user-supplied genes.  Users can also double click on 
-                            a node to hide all unrealated nodes.  The library also alows users to move nodes and zoom in and out.
-                        </p>
-                        <img src="./images/cytoscape.png"/>
-                        <h3 id="Venn Diagram">Gene Intersection Venn Diagram</h3>
-                        <p> The gene intersection Venn Diagram allows users to determine which genes are found in multiple phenotypes or multiple uploaded gene lists.
-                            to show a venn diagram image:
-                        </p>
-                        <ol>
-                            <li>[OPTIONAL] Users can upload their own files containing genes.  Upload files .txt files containing space, tab, or line separated genes, and they 
-                                will appear as rows in the table.
-                            </li>
-                            <li>Select 1-5 rows for which you would like the gene intersection diagram by clicking on a row (hold Ctrl or cmd to select multiple rows)</li>
-                            <li>The "Show Venn Diagram" button will appear. Click on it and the Venn diagram image will appear below the table</li>
-                        </ol>
+        <h2 id="GenesToInteractions">Genes to Interactions</h2>
+        <p> The genes obtained from the phenotype query, or user upload are submitted to 31 molecular interaction databases
+            conforming to the <a href="https://code.google.com/p/psicquic/" target="_blank">PSICQUIC Standard</a>.
+            The queries are submitted in parallel to all 31 databases until a threshold number of results has been met.
+            The parallel queries ensure that data obtained is homogenized over all 31 
+            databases instead of sequentially querying databases until a threshold number is met and enhance the speed of the query.
+        </p>
+        <h2 id="VisualizationHeader">Visualization</h2>
+        <h3 id="NetworkVisualization">
+            Network Visualization</h3>
+        <p>The interaction network is visualized using the javascript library <a href="http://cytoscape.github.io/cytoscape.js/" target="_blank">Cytoscape.js</a>.
+            The Cytoscape library allows for the coloration of genes which are directly linked to phenotypes or user-supplied genes.  Users can also double click on 
+            a node to hide all unrealated nodes.  The library also alows users to move nodes and zoom in and out.
+        </p>
+        <img src="./images/cytoscape.png"/>
+        <h3 id="Venn Diagram">Gene Intersection Venn Diagram</h3>
+        <p> The gene intersection Venn Diagram allows users to determine which genes are found in multiple phenotypes or multiple uploaded gene lists.
+            to show a venn diagram image:
+        </p>
+        <ol>
+            <li>[OPTIONAL] Users can upload their own files containing genes.  Upload files .txt files containing space, tab, or line separated genes, and they 
+                will appear as rows in the table.
+            </li>
+            <li>Select 1-5 rows for which you would like the gene intersection diagram by clicking on a row (hold Ctrl or cmd to select multiple rows).</li>
+            <li>The "Show Venn Diagram" button will appear. Click on it and the Venn diagram image will appear below the table.</li>
+        </ol>
 
+        <h2 id="GeneListHeader">Gene Selection</h2>
+        <p> The Gene List tab allows users to select which genes they would like to work with.  Gene results from the phenotype to gene queries can be found here.
+            Users select the genes by moving genes from the "Available Genes" list to the "Genes in Use" list.  After moving desired genes to the "Genes in Use"
+            list, click the "Run For Selected Genes" button to rerun the PSICQUIC queries and network visualization for the genes in the "Genes in Use" list.</p>
+        <image src="./images/genelist.png"/>
+        <h3 id="HomologueConversion"> Homologue Conversion</h3>
+        <p>To get the homologues for some selected genes, navigate to the "Gene Selection" tab.</p>
+        <ol>
+            <li>Pick the genes you would like to generate homologues and move those	genes and only those genes into the "Genes In Use" list.</li>
+            <li>Check the "Would you like to add the homologues..." box and the following will appear:
+            <img src="./images/homologueConversion.PNG" /></li>
+            <li>Fill in the source species and target species fields. The "Source Species" is the species of the gene previously selected into the "Genes In Use" list.
+                the "Target Species" is the species in which you would like to find the homologues.
+            </li>
+            <li> Click "Run Homology Query" and the query will be submitted to 
+                <a href="http://www.ensembl.org/index.html" target="_blank">ENSEMBL</a>.  
+                If a homolgue is found in the "Target  Species" which does not already appear in the
+                "Genes In Use" list, it will be added to the list. If a homologue could not be found for a particular gene, a notification will appear.
+            </li>
+        </ol>
 
+        <h2 id="ReverseEngineeringHeader">Reverse Engineering</h2>
+        <p>Pheno2GRN allows users to combine reverse engineered gene networks with ones derived from literature. 
+            Users have the option of uploading their own .dot file or using Pheno2GRN's reverse engineering capabilities.
+            Pheno2GRN's reverse engineering capabilities leverage a high performance computing environment called 
+            <a href="http://www.iplantcollaborative.org/" target="_blank">iPlant</a> 
+            and a microarray dataset reverse engineering application know as 
+            <a href="http://digbio.missouri.edu/grninfer/" target="_blank">GRNInfer</a>.</P>
+        <h3 id="UserDotUploadHeader">User .dot File Upload</h3>
+        <ol>
+            <li>Upload .dot file containing gene interactions notated in this manner: "gene1 -> gene2"</li>
+            <li>Navigate to either the "Reverse Engineering Visualization" or "Merged Visualization" sub tabs of the "Visualization" tab.</li>
+            <li>The tabs should show a Cytoscape visualization of the interaction network. Users may have to click "Reset Display" if the interaction network is empty.</li>
+            <li>The "Reverse Engineering Visualization" tab contains just interactions continued in the .dot file. The "Merged Visualization" contains a merged network of the .dot file contents and the PSICQUIC query interactions.</li>
+        </ol>
+        <h3 id="GRNInferHeader">GRNInfer Iplant Submission</h3>
+        <ol>
+            <li>Create time series microarray dataset using <a href="./files/ExampleGRNInferInput.txt" target="_blank">this file</a> as a template.</li>
+            <li>Pheno2GRN will upload the file to iPLant's data store and submit a GRNInfer job on iPlant using the uploaded file as input</li>
+            <li>Navigate to either the "Reverse Engineering Visualization" or "Merged Visualization" sub tabs of the "Visualization" tab. The following show be present on expanding one of the tabs: <image src="./images/stillRunningIPlant.PNG"/></li>
+            <li>Click the "Check If Job Completed" button to see if iPlant has finished the submitted GRNInfer job. If the job has been completed, a Cytoscape visualization of the interaction network will appear. If the job is still running on iPlant, the user will be notified. Users can continue other processes in the workflow while the job runs on iPlant, and can check for job completion at any time</li>
+            <li>The "Reverse Enginnering Visualization" tab contins just interactions derived using GRNInfer on the microarray dataset. The "Merged Visualization" contains a merged network of the reversed engineered network and the PSICQUIC query interactions.</li>
+        </ol>
+        <h2 id="PSICQUICHeader">PSICQUIC Molecular Interactor Results</h2>
+        <p>The PSICQUIC result tab allows users to paginate through PSICQUIC results and select which results they would like to appear in the Cytoscape interaction visulizations.  All interactions are displayed in default.  To change which interactions appear, select desired interactions and click the "Re-Genenerate Display" button.</p>
 
-
-                        <h2 id="GeneListHeader">Gene Selection</h2>
-                        <p> The Gene List tab allows users to select which genes they would like to work with.  Gene results from the phenotype to gene queries can be found here.
-                            Users select the genes by moving genes from the "Availible Genes" list to the "Genes in Use" list.  After moving desired genes to the "Genes in Use"
-                            list, click the "Run For Selected Genes" button to rerun the PSICQUIC queries and network visualization for the genes in the "Genes in Use" list.</p>
-                        <h3 id="HomologueConversion"> Homologue Conversion</h3>
-                        <p>To get the homologues for some selected genes, navigate to the "Gene Selection" tab.</p>
-                        <ol>
-                            <li>Pick the genes you would like to generate homologues and move those	genes and only those genes into the "Genes In Use" list.</li>
-                            <li>Check the "Would you like to add the homologues..." box and the following will appear:</li>
-                            <img src="./images/homologueConversion.PNG" />
-                            <li>Fill in the source species and target species fields. The "Source Species" is the species of the gene previously selected into the "Genes In Use" list.
-                                the "Target Species" is the species in which you would like to find the homologues.
-                            </li>
-                            <li> Click "Run Homology Query" and the query will be submitted to ENSEMBL.  If a homolgue is found in the "Target  Species" which does not already appear in the
-                                "Genes In Use" list, it will be added to the list. If a homologue couldn't be found for a particular gene, a notification will appear.
-                            </li>
-                        </ol>
-
-                        <h2 id="ReverseEngineeringHeader">Reverse Engineering</h2>
-                        <p>Pheno2GRN allows users to combine reverse engineered gene networks with ones derived from literature.  Users have the option of uploading their own .dot file or using Pheno2GRN's reverse engineering capabilities. Pheno2GRN leverages a high performance computing environment called <a href="http://www.iplantcollaborative.org/" target="_blank">iPlant</a> and a microarray reverse engineering application know as <a href="http://digbio.missouri.edu/grninfer/" target="_blank">GRNInfer</a>.
-                            <h3 id="UserDotUploadHeader">User .dot File Upload</h3>
-                            <ol>
-                                <li>Upload .dot file containing gene interactions in this manner: "gene1 -> gene2"</li>
-                                <li>Navigate to either the "Reverse Engineering Visualization" or "Merged Visualization" sub tabs of the "Visualization" tab.</li>
-                                <li>The tabs should show a Cytoscape visualization of the interaction network. Users may have to click "Reset Display" if the interaction network is empty.</li>
-                                <li>The "Reverse Enginnering Visualization" tab contins just interactions contined in the .dot file. The "Merged Visualization" contains a merged network of the .dot file contents and the PSICQUIC query interactions.</li>
-                            </ol>
-                            <h3 id="GRNInferHeader">GRNInfer Iplant Submission</h3>
-                            <ol>
-                                <li>Create time series microarray dataset using <a href="./files/ExampleGRNInferInput.txt" target="_blank">this file</a> as a template.</li>
-                                <li>Pheno2GRN will upload the file to iPLant's data store and submit a GRNInfer job on iPlant using the uploaded file as input</li>
-                                <li>Navigate to either the "Reverse Engineering Visualization" or "Merged Visualization" sub tabs of the "Visualization" tab. The following show be present on expanding one of the tabs: <image src="./images/stillRunningIPlant.PNG"/></li>
-                                <li>Click the "Check If Job Completed" button to see if iPlant has finished the submitted GRNInfer job. If the job has been completed, a Cytoscape visualization of the interaction network will appear. If the job is still running on iPlant, the user will be notified. Users can continue other processes in the workflow while the job runs on iPlant, and can check for job completion at any time</li>
-                                <li>The "Reverse Enginnering Visualization" tab contins just interactions derived using GRNInfer on the microarray dataset. The "Merged Visualization" contains a merged network of the reversed engineered network and the PSICQUIC query interactions.</li>
-                            </ol>
-                            <h2 id="PSICQUICHeader">PSICQUIC Molecular Interactor Results</h2>
-                            <p>The PSICQUIC result tab allows users to paginate through PSICQUIC results and select which results they would like to appear in the Cytoscape interaction visulizations.  All interactions are displayed in default.  To change which interactions appear, select desired interactions and click the "Re-Genenerate Display" button.</p>
-
-                            <h2 id="ReportingHeader">Reporting</h2>
-                            <p> The reporting section allows users to download both individual step data and a complete overall report.  As a user completes steps in the workflow, rows are added or updated in the reporting table. To download individual step data, simply click the the button in the "Associated Files" column (this button will not be present, if there is no file to download). The label column allows users to label steps for the overall report. Users can also upload Cytoscape visualization screen shots for the overall report.  Clicking the "Generate Complete Report" button will create and download the overall report in a Microsoft docx format.<p>
-                                    </body>
-                                    </html>
+        <h2 id="ReportingHeader">Reporting</h2>
+        <p> The reporting section allows users to download both individual step data and a complete overall report.  As a user completes steps in the workflow, rows are added or updated in the reporting table. To download individual step data, simply click the the button in the "Associated Files" column (this button will not be present, if there is no file to download). The label column allows users to label steps for the overall report. Users can also upload Cytoscape visualization screen shots for the overall report.  Clicking the "Generate Complete Report" button will create and download the overall report in a Microsoft docx format.</p>
+    </body>
+</html>

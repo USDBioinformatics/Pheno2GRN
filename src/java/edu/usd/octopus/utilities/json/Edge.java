@@ -1,21 +1,28 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package edu.usd.octopus.utilities.json;
 
 import java.util.Objects;
 
 /**
- *
- * @author Nick.Weinandt
+ * Represents an Edge in the Cytoscape.js network. An edge links a source and
+ * target node.
  */
 public class Edge {
-    private String source="";
-    private String target="";
 
+    /**
+     * Name of the source node.
+     */
+    private String source = "";
+    /**
+     * Name of the target node.
+     */
+    private String target = "";
+
+    public Edge() {
+    }
+
+    
+    
+    
     @Override
     public int hashCode() {
         int hash = 7;
@@ -42,7 +49,6 @@ public class Edge {
         return true;
     }
 
-    
     public String getSource() {
         return source;
     }
@@ -58,6 +64,5 @@ public class Edge {
     public void setTarget(String target) {
         this.target = target;
     }
-    
-    
+
 }

@@ -55,7 +55,7 @@ import edu.usd.octopus.utilities.json.CreateCytoscapeJSON;
 import edu.usd.octopus.utilities.json.Edge;
 import edu.usd.octopus.utilities.json.GraphColors;
 import edu.usd.octopus.utilities.json.Node;
-import edu.usd.octopus.venn.VennPanel;
+import edu.usd.octopus.venn.VennImage;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -566,7 +566,7 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
                 if (!vennImageFile.exists()) {
                     throw new WorkflowException("Too many files");
                 }
-                VennPanel vennPanel = new VennPanel();
+                VennImage vennPanel = new VennImage();
                 vennPanel.addImageToFile(vennImageFile, PhenoscapeUtilities.generateTabDelimitedPhenoIdAndGenes(selectedVennPhenoIds));
 
                 showVennImage = true;

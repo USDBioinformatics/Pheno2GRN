@@ -6,12 +6,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
- * @author nick
+ * Contains import Venn Diagram creation functionalities such as label positions
+ * and background image retrieval.
  */
 public class VennImageUtilities {
 
-    public static List<Point> getLabelPoints(int numberOfSets) {
+    /**
+     * Gets the positions set labels.
+     *
+     * @param numberOfSets Number of sets in the venn diagram (1-5).
+     * @return The list of positions (same length as the numberOfSets).
+     */
+    static List<Point> getLabelPoints(int numberOfSets) {
         List<Point> pointList = new ArrayList<>();
 
         switch (numberOfSets) {
@@ -46,7 +52,13 @@ public class VennImageUtilities {
         return pointList;
     }
 
-    public static List<Point> getCountPositionPoints(int numberOfSets) {
+    /**
+     * Gets a list of points to determine where to write the intersection count.
+     *
+     * @param numberOfSets Number of sets involved in the Venn Diagram (1-5).
+     * @return List of points where intersection can be written.
+     */
+    static List<Point> getCountPositionPoints(int numberOfSets) {
         List<Point> pointList = new ArrayList<>();
 
         switch (numberOfSets) {
@@ -121,8 +133,15 @@ public class VennImageUtilities {
         }
         return pointList;
     }
-    
-    public static InputStream getBackGroundImageStream(int numberOfSets){
-       return VennImageUtilities.class.getResourceAsStream("Venn"+numberOfSets+"Sets.jpg");
+
+    /**
+     * Gets the background image for a set number. The images are stored/loaded
+     * from the edu.usd.octopus.venn.
+     *
+     * @param numberOfSets Number of sets involved in the Venn diagram (1-5)
+     * @return A stream from which the background image can be read.
+     */
+    static InputStream getBackGroundImageStream(int numberOfSets) {
+        return VennImageUtilities.class.getResourceAsStream("Venn" + numberOfSets + "Sets.jpg");
     }
 }
