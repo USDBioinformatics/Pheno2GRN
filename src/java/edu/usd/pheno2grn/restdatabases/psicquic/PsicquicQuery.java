@@ -4,6 +4,7 @@
  */
 package edu.usd.pheno2grn.restdatabases.psicquic;
 
+import edu.usd.pheno2grn.controllers.GeneNetworkWorkflow;
 import edu.usd.pheno2grn.exceptions.PackageFileReadException;
 import edu.usd.pheno2grn.exceptions.QueryException;
 import edu.usd.pheno2grn.exceptions.QueryParsingException;
@@ -18,14 +19,14 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
+import java.util.logging.Logger;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
 /**
- * The url for the documentation on how to query PSICQUIC:
+ * Contains functionality for counting and querying PSICQUIC results.The url for
+ * the documentation on how to query PSICQUIC:
  * https://code.google.com/p/psicquic/wiki/PsicquicSpec_1_3_Rest
- *
- * @author nick.weinandt
  */
 @ManagedBean(eager = true, name = "PsicquicController")
 @RequestScoped
@@ -34,7 +35,21 @@ public class PsicquicQuery implements Serializable {
     private static final String COUNT_PARM = "?format=count";
     public static final int MAX_RESULTS_FROM_QUERY = 300;
     public static final int MAX_RESULTS_RETURNED = 100;
+    static final Logger LOG=Logger.getLogger(PsicquicQuery.class.getName());
 
+    /**
+     * Queries a PSICQUIC database and saves the current location in the
+     * records.
+     *
+     * @param geneQueryList List of genes to concatenate to the database url.
+     * @param onlyDirectLinks If true, only interactions with at least one gene
+     * from the gene list will appear in the results.
+     * @param curPos Current position in the database query (essentialy row
+     * number in the result table)
+     * @param resultSet Synchronized set to add data to.
+     * @param psicquicQueryURL Url of the database.
+     * @throws QueryException
+     */
     public static void generateResults(List<String> geneQueryList, boolean onlyDirectLinks,
             QueryPosition curPos, PsicquicSynchronizedResultSet resultSet, String psicquicQueryURL) throws QueryException {
         //creating the gene list string which will be concatenated to the database url
@@ -64,7 +79,7 @@ public class PsicquicQuery implements Serializable {
         while (firstResultNumber <= numberOfResults) {
             //submitting queries, MAX_RESULTS_FROM_QUERY at a time
             String formatParameters = "?firstResult=" + firstResultNumber + "&maxResults=" + MAX_RESULTS_FROM_QUERY;
-            System.out.println(url + formatParameters);
+           
 
             Scanner lineScanner = null;
             try {
@@ -166,7 +181,7 @@ public class PsicquicQuery implements Serializable {
                     }
                 }
             } catch (IOException e) {
-                System.out.println("Problem querying url");
+                LOG.finest("Problem querying url");
             } finally {
                 if (lineScanner != null) {
                     lineScanner.close();
@@ -359,7 +374,7 @@ public class PsicquicQuery implements Serializable {
             try {
                 thread.join();
             } catch (InterruptedException e) {
-                System.out.println("Thread join was Interruputed");
+                LOG.finest("Thread join was Interruputed");
             }
         }
 
@@ -400,7 +415,7 @@ public class PsicquicQuery implements Serializable {
 
             return new Integer(numberHolder);
         } catch (IOException e) {
-            System.out.println(urlString);
+            
             throw new QueryException("Problem getting content from url.");
 
         } finally {
@@ -461,7 +476,7 @@ class CountQueryThread implements Runnable {
             }
 
         } catch (QueryException e) {
-            System.out.println("Couldn't Count: " + urlString);
+            //Queries may bomb if databases are down.
         }
     }
 }

@@ -66,12 +66,10 @@ public class TableUtilities {
         while (lineScanner.hasNextLine()) {
             Tr tableRow = obFactory.createTr();
             String line = lineScanner.nextLine();
-            System.out.println(line);
             Scanner columns = new Scanner(line);
             columns.useDelimiter("\t");
             int counter = 0;
             while (columns.hasNext()) {
-                System.out.println(++counter);
                 addTableCell(tableRow, columns.next(), wordPackage);
             }
             table.getContent().add(tableRow);

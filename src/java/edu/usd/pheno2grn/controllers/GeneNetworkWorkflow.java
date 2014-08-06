@@ -1,19 +1,3 @@
-/**
- * Copyright 2013 University of South Dakota
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- *
- */
 package edu.usd.pheno2grn.controllers;
 
 import edu.usd.pheno2grn.exceptions.IPlantException;
@@ -64,6 +48,7 @@ import java.io.OutputStream;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.logging.Logger;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.ExternalContext;
@@ -138,7 +123,10 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
 
     //reporting fields
     private StreamedContent reportStream;
-
+    
+    final Logger log=Logger.getLogger(GeneNetworkWorkflow.class.getName());
+    
+    
     @Override
     public void valueBound(HttpSessionBindingEvent event) {
     }
@@ -146,13 +134,11 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
     @Override
     public void valueUnbound(HttpSessionBindingEvent event) {
         if (vennImageFile != null && vennImageFile.exists()) {
-            System.out.println("Session Ended, deleting the file");
             vennImageFile.delete();
         }
     }
 
     public void vennFileUpload(FileUploadEvent event) {
-        System.out.println("In the file upload");
         //creating new pheno ID
         PhenotypeIdentifier phenoId = new PhenotypeIdentifier();
         //getting last name and incrementing
@@ -161,7 +147,6 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
             PhenotypeIdentifier lastPheno = completeVennList.get(completeVennList.size() - 1);
             String lastName = lastPheno.getPhenotypeDescription();
             int lastNumber = Integer.parseInt(lastName.substring(lastName.length() - 1));
-            System.out.println("last number: " + lastNumber);
             phenoId.setPhenotypeDescription("User Venn Uploaded #" + ++lastNumber);
 
         } else {
@@ -174,7 +159,7 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
         try {
             sc = new Scanner(event.getFile().getInputstream());
         } catch (IOException e) {
-            System.out.println("Getting info from the file bombed");
+            log.finest("Getting info from the file bombed");
             return;
         }
         while (sc.hasNext()) {
@@ -371,13 +356,7 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
 
         } finally {
             //cleaning up
-            if (output != null) {
-                try {
-                    output.close();
-                } catch (IOException e) {
-                    System.out.println("Couldn't close Faces report outputStream");
-                }
-            }
+            IOUtils.closeQuietly(output);
             if (fc != null) {
                 fc.responseComplete();
             }
@@ -501,7 +480,7 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
 
                     } catch (IOException e) {
                         //let the user know it bombed
-                        System.out.println("Problem generating grninfer json");
+                        log.finest("Problem generating grninfer json");
                     }
                     FacesContext.getCurrentInstance()
                             .addMessage("grninferGrowl", new FacesMessage("Job Completed", ""));
@@ -970,8 +949,6 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
             //showing the reporting panel becuase query returned results            
             showReportingPanel = true;
 
-            System.out.println(
-                    "Query to phenoscape completed successfully");
 
             //adding the phenoscape query to report steps
             ReportStep phenoscapeQuery = new ReportStep(PossibleSteps.PHENOSCAPE_QUERY);
@@ -1106,7 +1083,6 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
                 output.write(buffer, 0,
                         bytesRead);
             }
-            System.out.println("Created Grninfer input file");
         } catch (IOException e) {
             FacesContext.getCurrentInstance().addMessage("grninferMessages", new FacesMessage(FacesMessage.SEVERITY_INFO, "Problem submitting script",
                     e.getMessage()));
@@ -1132,7 +1108,6 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
         }
         try {
             grninferJob = GRNInfer.submitGRNInferJob(file);
-            System.out.println("Submitted GRNInfer Job");
             jobHasBeenSubmitted = true;
             jobIsRunning = true;
         } catch (JobSubmissionException e) {
@@ -1176,7 +1151,6 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
                 //Quering Ensembl for the gene symbol in various databases
                 String targetGeneSymbol = EnsemblQueries.getGeneSymbolFromEnsemblId(holder.getTargetEnsemblId());
                 if (targetGeneSymbol == null) {
-                    System.out.println("made it here");
                     FacesContext.getCurrentInstance().addMessage("homologuesMessage", new FacesMessage(FacesMessage.SEVERITY_ERROR, "No ENSEBML Result",
                             "Could not find target gene for: " + holder.getSourceGeneSymbol()));
                 }
@@ -1232,7 +1206,6 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
             vennImageFile.delete();
         }
         this.vennImageFile = vennImageFile;
-        System.out.println(this.vennImageFile.getAbsolutePath());
     }
 
     public String getSpaceSeparatedGenes() {

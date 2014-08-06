@@ -70,7 +70,7 @@ public class CreateCytoscapeJSON {
 
         //adding last part of nodes
         returnString += nodeString.toString() + "],\nedges: [\n" + edgeString.toString() + "]\n";
-        System.out.println("Completed cytoscape JSON");
+       
         return returnString;
     }
 }

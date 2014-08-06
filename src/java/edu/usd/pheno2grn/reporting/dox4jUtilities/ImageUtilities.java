@@ -40,9 +40,6 @@ public class ImageUtilities {
 
             return p;
         } catch (Exception e) {
-            System.out.println("_________________________________");
-            e.printStackTrace();
-            System.out.println("_________________________________");
             throw new Docx4jException("Could not add image to document");
         }
     }

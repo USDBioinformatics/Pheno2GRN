@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 import org.apache.commons.io.IOUtils;
 import org.docx4j.jaxb.Context;
 import org.docx4j.openpackaging.exceptions.InvalidFormatException;
@@ -32,9 +33,10 @@ import org.primefaces.model.UploadedFile;
  * @author Nick.Weinandt
  */
 public class ReportCreation {
-    
+
     private static final ObjectFactory factory = Context.getWmlObjectFactory();
-    
+    final static Logger LOG = Logger.getLogger(ReportCreation.class.getName());
+
     public static WordprocessingMLPackage createReport(List<ReportStep> reportingSteps, List<PhenotypeIdentifier> phenoIds,
             String phenoscapeQueryString, List<PsicquicResult> psicquicResults, File vennImageFile)
             throws ReportCreationException {
@@ -52,7 +54,7 @@ public class ReportCreation {
 
         //adding methods
         addMethodsSection(wordMLPackage, reportingSteps);
-        
+
         for (ReportStep step : reportingSteps) {
             //adding the step name as a header to the report
             StylingUtilities.addHeader3(wordMLPackage, step.getStepName());
@@ -70,11 +72,9 @@ public class ReportCreation {
                     in = upFile.getInputstream();
                     ImageUtilities.addImage(wordMLPackage, in, upFile.getSize());
                 } catch (IOException e) {
-                    System.out.println("Couldn't pass the input stream to image creation method");
+                    LOG.finest("Couldn't pass the input stream to image creation method");
                 } finally {
-                    if (in != null) {
-                        IOUtils.closeQuietly(in);
-                    }
+                    IOUtils.closeQuietly(in);
                 }
             }
 
@@ -93,9 +93,9 @@ public class ReportCreation {
                 try {
                     InputStream in = new FileInputStream(vennImageFile);
                     ImageUtilities.addImage(wordMLPackage, in, vennImageFile.length());
-                    
+
                     IOUtils.closeQuietly(in);
-                    
+
                 } catch (FileNotFoundException e) {
                     //doing nothing if can't add the VennImage file
                 }
@@ -104,10 +104,10 @@ public class ReportCreation {
 
         //adding the references
         StylingUtilities.addHeader3(wordMLPackage, "References");
-        
+
         StringBuilder referenceString = new StringBuilder();
         referenceString.append("[" + 1 + "] " + "Mesirov, J. P. (2010). Computer science. Accessible reproducible research. Science (New York, N.Y.), 327(5964), 415–6. doi:10.1126/science.1179653\n\n");
-        
+
         int referenceCount = 2;
         for (int i = 0; i < reportingSteps.size(); i++) {
             //adding the references (if step has any)
@@ -117,16 +117,16 @@ public class ReportCreation {
                     referenceString.append("[" + referenceCount++ + "] " + reference + "\n\n");
                 }
             }
-            
+
         }
 
         //converting string to paragraph and adding to document
         P paragraph = Alignment.addLineBreaks(referenceString.toString());
         wordMLPackage.getMainDocumentPart().addObject(paragraph);
-        
+
         return wordMLPackage;
     }
-    
+
     private static void addSummary(WordprocessingMLPackage wordPackage, String phenoscapeQueryString) {
         //adding the summary heading 
         StylingUtilities.addHeader3(wordPackage, "Summary");
@@ -143,13 +143,13 @@ public class ReportCreation {
         String summaryContents = ReportConstants.firstSummaryText + phenotype + ReportConstants.secondSummaryText;
         wordPackage.getMainDocumentPart().addParagraphOfText(summaryContents);
     }
-    
+
     private static void createTopHeader(WordprocessingMLPackage wordMLPackage) {
         P paragraph = Alignment.addLineBreaks(ReportConstants.reportHeader);
         Alignment.centerParagraph(paragraph);
         wordMLPackage.getMainDocumentPart().addObject(paragraph);
     }
-    
+
     private static void addMethodsSection(WordprocessingMLPackage wordPackage, List<ReportStep> reportingSteps)
             throws ReportCreationException {
         //adding the summary heading 
@@ -160,14 +160,14 @@ public class ReportCreation {
 
         //getting the size of the image to be added to the workflow
         InputStream sizeIn = ReportCreation.class.getResourceAsStream("Pheno2GRNWorkflow.png");
-        
+
         long counter = 0;
         try {
             while (sizeIn.read() != -1) {
                 counter++;
             }
         } catch (IOException e) {
-            System.out.println("Could not read the Pheno2GRNworkflow.png");
+            LOG.finest("Could not read the Pheno2GRNworkflow.png");
         } finally {
             IOUtils.closeQuietly(sizeIn);
         }
@@ -212,16 +212,16 @@ public class ReportCreation {
         P paragraph = Alignment.addLineBreaks(sb.toString());
         wordPackage.getMainDocumentPart().addObject(paragraph);
     }
-    
+
     private static void addPhenoscapeTable(WordprocessingMLPackage wordMLPackage, List<PhenotypeIdentifier> phenoIds) {
         //creating column header list
         List<String> headers = new ArrayList<>();
         headers.add("Phenotype ID");
         headers.add("Description");
         headers.add("Gene List");
-        
+
         Tr headerRow = TableUtilities.createTableRowFromList(headers, wordMLPackage);
-        
+
         List<Tr> rowList = new ArrayList<>();
         rowList.add(headerRow);
 
@@ -241,18 +241,18 @@ public class ReportCreation {
                     sb.append(phenoId.getGenesAssociatedWith().get(i));
                 }
             }
-            
+
             rowContents.add(sb.toString());
-            
+
             Tr row = TableUtilities.createTableRowFromList(rowContents, wordMLPackage);
             rowList.add(row);
         }
-        
+
         Tbl table = TableUtilities.createTableFromRowList(rowList);
         wordMLPackage.getMainDocumentPart().addObject(table);
-        
+
     }
-    
+
     private static void addPSICQUICTable(WordprocessingMLPackage wordMLPackage, List<PsicquicResult> psicquicResults) {
         //creating column header list
         List<String> headers = new ArrayList<>();
@@ -260,9 +260,9 @@ public class ReportCreation {
         headers.add("Interactor B ID");
         headers.add("Alias A");
         headers.add("Alias B");
-        
+
         Tr headerRow = TableUtilities.createTableRowFromList(headers, wordMLPackage);
-        
+
         List<Tr> rowList = new ArrayList<>();
         rowList.add(headerRow);
 
@@ -273,14 +273,14 @@ public class ReportCreation {
             rowContents.add(psicquicResult.getInteractorBID());
             rowContents.add(psicquicResult.getGeneNameA());
             rowContents.add(psicquicResult.getGeneNameB());
-            
+
             Tr row = TableUtilities.createTableRowFromList(rowContents, wordMLPackage);
             rowList.add(row);
         }
-        
+
         Tbl table = TableUtilities.createTableFromRowList(rowList);
         wordMLPackage.getMainDocumentPart().addObject(table);
-        
+
     }
-    
+
 }

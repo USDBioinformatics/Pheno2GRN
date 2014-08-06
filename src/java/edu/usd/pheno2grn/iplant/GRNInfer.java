@@ -26,14 +26,12 @@ public class GRNInfer {
       
         String tempFilesPath = JobPathCreateAndDelete.createPath("tempFiles");
         String outputFilesPath = JobPathCreateAndDelete.createPath("output");
-        System.out.println("made it after tempfiles and output path creation");
 
         //uploading the input File to iPlant
         IO_Impl iplantIO = new IO_Impl();
         try {
             iplantIO.uploadFile(IplantCredentials.USERNAME, IplantCredentials.PASSWORD, grnInferInput.getName(), "TEXT-0", grnInferInput.getName(), tempFilesPath.substring(19));
         } catch (InvalidIOException e) {
-            System.out.println("Iplant is down");
             throw new JobSubmissionException("Iplant is down.");
         }
 

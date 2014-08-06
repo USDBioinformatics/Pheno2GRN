@@ -51,7 +51,6 @@ public class DOTConverter {
 
                 int posOfFirstNode = listOfNodes.indexOf(firstNode);
 
-                System.out.println(posOfFirstNode);
 
                 if (posOfFirstNode == -1) {
                     firstNode.getNodesConnectedTo().add(last);

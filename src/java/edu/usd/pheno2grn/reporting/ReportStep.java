@@ -44,7 +44,6 @@ public class ReportStep {
     }
 
     public void setImageFile(UploadedFile imageFile) {
-        System.out.println("Setting image file");
         this.imageFile = imageFile;
     }
 

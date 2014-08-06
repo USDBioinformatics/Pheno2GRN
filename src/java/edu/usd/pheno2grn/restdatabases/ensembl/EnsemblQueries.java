@@ -43,8 +43,6 @@ public class EnsemblQueries {
 
             return geneSymbol.toLowerCase();
         } catch (Exception e) {
-            System.out.println("http://beta.rest.ensembl.org/xrefs/id/" + ensemblId + "?content-type=text/xml");
-            e.printStackTrace();
             FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_ERROR, "Error querying Ensembl", "Could not retrieve gene symbol from Ensebl Id."));
             return null;
         }
