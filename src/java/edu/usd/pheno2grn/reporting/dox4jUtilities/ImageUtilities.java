@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.reporting.dox4jUtilities;
 
 import edu.usd.pheno2grn.exceptions.Docx4jException;
@@ -15,11 +10,23 @@ import org.docx4j.openpackaging.packages.WordprocessingMLPackage;
 import org.docx4j.openpackaging.parts.WordprocessingML.BinaryPartAbstractImage;
 
 /**
- *
- * @author Nick.Weinandt
+ * Contains functionality for adding images to documents.
  */
 public class ImageUtilities {
 
+    /**
+     * Creates a new image in the word document.
+     *
+     * @param wordMLPackage
+     * @param bytes
+     * @param filenameHint
+     * @param altText
+     * @param id1
+     * @param id2
+     * @param cx
+     * @return
+     * @throws Docx4jException
+     */
     public static org.docx4j.wml.P newImage(WordprocessingMLPackage wordMLPackage,
             byte[] bytes, String filenameHint, String altText,
             int id1, int id2, long cx) throws Docx4jException {
@@ -43,7 +50,15 @@ public class ImageUtilities {
             throw new Docx4jException("Could not add image to document");
         }
     }
-    
+
+    /**
+     * Adds the image from the stream to the word document.
+     *
+     * @param wordMLPackage
+     * @param imageStream
+     * @param fileSize
+     * @throws ReportCreationException
+     */
     public static void addImage(WordprocessingMLPackage wordMLPackage, InputStream imageStream, long fileSize)
             throws ReportCreationException {
 
@@ -66,7 +81,7 @@ public class ImageUtilities {
         if (offset < bytes.length) {
             throw new ReportCreationException("Could not read entire image file");
         }
-        
+
         String filenameHint = null;
         String altText = null;
         int id1 = 0;

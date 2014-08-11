@@ -1,18 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.restdatabases.phenoscape;
 
 import java.util.List;
 
 /**
- *
- * @author Nick.Weinandt
+ * Contains functionality for generating tab delimited data.
  */
 public class PhenoscapeUtilities {
 
+    /**
+     * Generates tab delimited data without headers.
+     *
+     * @param phenoIds List of phenotype Ids
+     * @return Tab delimited data. Columns represent the gene list for a
+     * phenotype. The columns are most likely different lengths.
+     */
     public static String generateTabDelimitedPhenoIdAndGenes(List<PhenotypeIdentifier> phenoIds) {
         StringBuilder sb = new StringBuilder();
 

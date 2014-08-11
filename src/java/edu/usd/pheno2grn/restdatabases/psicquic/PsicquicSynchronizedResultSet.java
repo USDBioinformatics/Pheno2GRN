@@ -1,19 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package edu.usd.pheno2grn.restdatabases.psicquic;
 
 import java.util.HashSet;
 
 /**
- *
- * @author Nick.Weinandt
+ * Allows multiple threads to add results to the resultSet when the threads have
+ * the lock.
  */
-public class PsicquicSynchronizedResultSet{
-    public HashSet<PsicquicResult> resultSet=new HashSet<>();
-    final public Object lock=new Object();
+public class PsicquicSynchronizedResultSet {
 
+    public HashSet<PsicquicResult> resultSet = new HashSet<>();
+    final public Object lock = new Object();
 }

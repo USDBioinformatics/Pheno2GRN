@@ -1,31 +1,44 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.restdatabases.psicquic;
 
 /**
- *
- * @author Nick.Weinandt
+ * Class to represent a current position in a database result list.
  */
 public class QueryPosition {
 
+    /**
+     * queryNum represents the position in the queries. It it is always a
+     * multiple of PsicquicQuery.MAX_RESULTS_FROM_QUERY and appears in the query
+     * as firstResult=queryNum. The lineNum dictates the line in the queryNum.
+     * For example, if queryNum=300 and lineNum=3, the current line in a
+     * database's results is 303.
+     */
     private int queryNum = 0;
     private int lineNum = 0;
 
-    public void revertOneLine(){
-        if(lineNum>0){
+    /**
+     * Reverts one database result in the query. If first line in the first
+     * query, simply returning because can't go backwards.
+     */
+    public void revertOneLine() {
+        //if the first line and query, can't go backwards, so simply returning without changing anything
+        if (lineNum == 0 && queryNum == 0) {
+            return;
+        }
+        if (lineNum > 0) {
             lineNum--;
-        }else if(queryNum>0){
-            queryNum=queryNum-PsicquicQuery.MAX_RESULTS_FROM_QUERY;
-            lineNum=PsicquicQuery.MAX_RESULTS_FROM_QUERY-1;
+        } else if (queryNum > 0) {
+            queryNum = queryNum - PsicquicQuery.MAX_RESULTS_FROM_QUERY;
+            lineNum = PsicquicQuery.MAX_RESULTS_FROM_QUERY - 1;
         }
     }
-    
+
     public QueryPosition() {
     }
 
+    /**
+     * Copy constructor.
+     * @param pos 
+     */
     public QueryPosition(QueryPosition pos) {
         this.queryNum = pos.queryNum;
         this.lineNum = pos.lineNum;
@@ -53,7 +66,7 @@ public class QueryPosition {
             return false;
         }
         final QueryPosition other = (QueryPosition) obj;
-      
+
         if (this.queryNum != other.queryNum) {
             return false;
         }

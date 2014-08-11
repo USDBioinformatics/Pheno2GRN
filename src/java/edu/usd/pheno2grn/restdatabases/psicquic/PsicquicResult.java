@@ -1,14 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.restdatabases.psicquic;
 
 import java.util.Objects;
 
 /**
- *
- * @author nick.weinandt
+ * Represents a result from PSICQUIC.
  */
 public class PsicquicResult {
 

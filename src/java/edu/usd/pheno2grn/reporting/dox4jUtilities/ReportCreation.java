@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.reporting.dox4jUtilities;
 
 import edu.usd.pheno2grn.exceptions.ReportCreationException;
@@ -29,14 +24,24 @@ import org.docx4j.wml.Tr;
 import org.primefaces.model.UploadedFile;
 
 /**
- *
- * @author Nick.Weinandt
+ * Creates a word document of the report.
  */
 public class ReportCreation {
 
     private static final ObjectFactory factory = Context.getWmlObjectFactory();
     final static Logger LOG = Logger.getLogger(ReportCreation.class.getName());
 
+    /**
+     * Creates the report of the steps completed in the workflow.
+     * 
+     * @param reportingSteps
+     * @param phenoIds
+     * @param phenoscapeQueryString
+     * @param psicquicResults
+     * @param vennImageFile
+     * @return
+     * @throws ReportCreationException 
+     */
     public static WordprocessingMLPackage createReport(List<ReportStep> reportingSteps, List<PhenotypeIdentifier> phenoIds,
             String phenoscapeQueryString, List<PsicquicResult> psicquicResults, File vennImageFile)
             throws ReportCreationException {

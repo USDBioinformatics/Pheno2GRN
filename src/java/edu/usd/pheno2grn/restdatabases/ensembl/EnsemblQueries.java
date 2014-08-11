@@ -1,10 +1,5 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.restdatabases.ensembl;
 
-import edu.usd.pheno2grn.exceptions.QueryException;
 import java.util.ArrayList;
 import java.util.List;
 import javax.faces.application.FacesMessage;
@@ -16,11 +11,16 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
 /**
- *
- * @author Nick.Weinandt
+ * Functionality for querying Ensembl.
  */
 public class EnsemblQueries {
 
+    /**
+     * Returns the a gene symbol of the ensembl id.
+     *
+     * @param ensemblId
+     * @return Gene symbol.
+     */
     public static String getGeneSymbolFromEnsemblId(String ensemblId) {
         try {
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -48,8 +48,17 @@ public class EnsemblQueries {
         }
     }
 
-    
-    public static List<HomologyResult> queryHomologies(String sourceSpecies, String targetSpecies, List<String> geneSymbols){
+    /**
+     * Converts genes in the source species to genes in the target species. Not
+     * all genes will have homologues.
+     *
+     * @param sourceSpecies Species of the geneSymbols
+     * @param targetSpecies Species in which the genes are desired.
+     * @param geneSymbols List of genes which would like to convert from source
+     * to target homologues.
+     * @return List of homologue genes in the target species.
+     */
+    public static List<HomologyResult> queryHomologies(String sourceSpecies, String targetSpecies, List<String> geneSymbols) {
         List<HomologyResult> homologyResults = new ArrayList();
 
         for (String geneSymbol : geneSymbols) {
@@ -84,7 +93,7 @@ public class EnsemblQueries {
 
             } catch (Exception e) {
                 FacesContext.getCurrentInstance().addMessage("homologuesMessage", new FacesMessage(FacesMessage.SEVERITY_ERROR, "No ENSEBML Result",
-                            "Could not find target gene for: " + homologyResult.getSourceGeneSymbol()));
+                        "Could not find target gene for: " + homologyResult.getSourceGeneSymbol()));
             }
         }
         return homologyResults;

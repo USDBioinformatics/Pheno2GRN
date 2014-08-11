@@ -3,8 +3,6 @@ package edu.usd.pheno2grn.restdatabases.ensembl;
 /**
  * This class represents the reselt of conducting a homology query in the
  * ensembl database.
- *
- * @author Nick.Weinandt
  */
 public class HomologyResult {
 

@@ -1,10 +1,5 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.restdatabases.psicquic;
 
-import edu.usd.pheno2grn.controllers.GeneNetworkWorkflow;
 import edu.usd.pheno2grn.exceptions.PackageFileReadException;
 import edu.usd.pheno2grn.exceptions.QueryException;
 import edu.usd.pheno2grn.exceptions.QueryParsingException;

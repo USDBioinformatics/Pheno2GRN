@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.restdatabases.phenoscape;
 
 import edu.usd.pheno2grn.utilities.json.GraphColors;
@@ -10,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
- * @author Nick.Weinandt
+ * Represents a phenotype from phenoscape. Contains attributes for determining
+ * color of nodes associated with the PhenotypeIdentifier.
  */
 public class PhenotypeIdentifier {
 
@@ -31,10 +26,10 @@ public class PhenotypeIdentifier {
         return convertedObj.getId().equals(this.getId());
     }
 
-    public String getNumberOfAssociatedGenes(){
-        return ""+this.getGenesAssociatedWith().size();
+    public String getNumberOfAssociatedGenes() {
+        return "" + this.getGenesAssociatedWith().size();
     }
-    
+
     public String getPhenotypeDescription() {
         return phenotypeDescription;
     }

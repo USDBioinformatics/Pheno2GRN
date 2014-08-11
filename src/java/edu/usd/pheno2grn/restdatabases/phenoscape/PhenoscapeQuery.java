@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.restdatabases.phenoscape;
 
 import edu.usd.pheno2grn.exceptions.NoResultQueryException;
@@ -17,12 +12,20 @@ import java.util.Scanner;
 import org.apache.commons.io.IOUtils;
 
 /**
- *
- * @author Nick.Weinandt
+ * Allows for the querying of Phenoscape.
  */
 public class PhenoscapeQuery {
 
-    public static List<String> getGenesByTao(String taoID) throws QueryException,NoResultQueryException {
+    /**
+     * Queries phenoscape with the Phenotype Id representing the phenotype.
+     *
+     * @param taoID Id of a phenotype in phenoscape.
+     * @return List of genes associated with the phenotype of the passed
+     * phenotype id.
+     * @throws QueryException Thrown if error querying phenoscape.
+     * @throws NoResultQueryException Thrown if no results from the query.
+     */
+    public static List<String> getGenesByTao(String taoID) throws QueryException, NoResultQueryException {
         String URL = "http://kb.phenoscape.org/OBD-WS/gene/annotated?query=%7B%22phenotype%22:%5B%7B%22entity%22:%7B%22id%22:%22"
                 + taoID + "%22,%22including_parts%22:false%7D%7D%5D,%22match_all_phenotypes%22:false%7D?media=json";
         URL queryURL;
@@ -38,7 +41,7 @@ public class PhenoscapeQuery {
             in = queryURL.openStream();
 
             String queryResults = IOUtils.toString(in, "UTF-8");
-            
+
             //if found not results, report to user
             if (queryResults.length() == 0) {
                 throw new NoResultQueryException();
