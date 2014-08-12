@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.iplant;
 
 import edu.usd.pheno2grn.exceptions.JobSubmissionException;
@@ -11,17 +7,19 @@ import org.iplant.foundation_api.io.InvalidIOException;
 import org.iplant.foundation_api.utility.FileSpecifications;
 
 /**
- *
- * @author nick.weinandt
+ * Functionality for creating/deleting folders
  */
 public class JobPathCreateAndDelete {
 
     /**
-     * Creates a folder in irods which resides in the folder name passed to this method
-     * 
-     * @param parentFolder  Name of the folder wanting to upload to (ex: "output" and "tempFiles")
-     * 
-     * @return  The exact path of the new folder (ex: "/usdbioinformatics/output/job1")
+     * Creates a folder in irods which resides in the folder name passed to this
+     * method
+     *
+     * @param parentFolder Name of the folder wanting to upload to (ex: "output"
+     * and "tempFiles")
+     *
+     * @return The exact path of the new folder (ex:
+     * "/usdbioinformatics/output/job1")
      * @throws JobSubmissionException If error during the upload process
      */
     public static String createPath(String parentFolder) throws JobSubmissionException {
@@ -31,15 +29,15 @@ public class JobPathCreateAndDelete {
         List<FileSpecifications> fileList;
         try {
             //getting the subFolder list for the parentFolder
-            fileList = fileUp.listDirectory(IplantCredentials.USERNAME, IplantCredentials.PASSWORD, parentFolder);            
+            fileList = fileUp.listDirectory(IplantCredentials.USERNAME, IplantCredentials.PASSWORD, parentFolder);
         } catch (InvalidIOException e) {
             throw new JobSubmissionException("Could not find list of parentFolder subfolders");
         }
-        
+
         //getting a path that doesn't currently exist
         String filePath = "job";
-        
-        for (int i = 1; i < fileList.size()+3; i++) {
+
+        for (int i = 1; i < fileList.size() + 3; i++) {
             boolean found = false;
             for (FileSpecifications dirs : fileList) {
                 //if the number of digits on the end of the path is the same as i, choose different i
@@ -68,7 +66,9 @@ public class JobPathCreateAndDelete {
 
     /**
      * Deletes the path of temporary directory
-     * @param path  Must be exact path (ex: "/usdbioinformatis/output/tempFiles/Job1")
+     *
+     * @param path Must be exact path (ex:
+     * "/usdbioinformatis/output/tempFiles/Job1")
      * @throws JobSubmissionException If error during deletion process
      */
     public static void deletePath(String path) throws JobSubmissionException {

@@ -1,16 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.reporting;
 
-import java.io.File;
 import org.primefaces.model.UploadedFile;
 
 /**
- *
- * @author Nick.Weinandt
+ * Represents a step taken in the Pheno2GRN workflow.
  */
 public class ReportStep {
 
@@ -36,7 +29,7 @@ public class ReportStep {
 
     public void setFileName(String fileName) {
         this.fileName = fileName;
-        this.hasFiles=true;
+        this.hasFiles = true;
     }
 
     public UploadedFile getImageFile() {

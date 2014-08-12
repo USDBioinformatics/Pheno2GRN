@@ -1,13 +1,10 @@
-/*
- * This class is used to represent a file stored in irods which can be downloaded.
- */
 package edu.usd.pheno2grn.iplant;
 
 import java.text.DecimalFormat;
 
 /**
- *
- * @author Nick.Weinandt
+ * This class is used to represent a file stored in irods which can be
+ * downloaded.
  */
 public class DownloadFile {
 

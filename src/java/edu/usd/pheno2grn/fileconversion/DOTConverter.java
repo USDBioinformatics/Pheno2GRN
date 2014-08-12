@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.fileconversion;
 
 import java.util.ArrayList;
@@ -10,11 +6,16 @@ import edu.usd.pheno2grn.utilities.json.GraphColors;
 import edu.usd.pheno2grn.utilities.json.Node;
 
 /**
- *
- * @author nick.weinandt
+ * Utilities for converting a .dot file to a list of nodes.
  */
 public class DOTConverter {
 
+    /**
+     * Takes the string contents of a .dot file and create a list of nodes.
+     *
+     * @param s String contents of a .dot file.
+     * @return  A list of nodes created from the .dot file.
+     */
     public static ArrayList<Node> convertDotToList(String s) {
         ArrayList<Node> listOfNodes = new ArrayList<>();
 
@@ -43,14 +44,13 @@ public class DOTConverter {
             //checking to see if the middle string contains the arrow (if it does there was a gene pair on the line
             if (middle.equals("->")) {
                 //converting gene names to lowerCase
-                first=first.toLowerCase();
-                last=last.toLowerCase();
+                first = first.toLowerCase();
+                last = last.toLowerCase();
                 //checking to see if first node was already added
                 Node firstNode = new Node();
                 firstNode.setNodeName(first);
 
                 int posOfFirstNode = listOfNodes.indexOf(firstNode);
-
 
                 if (posOfFirstNode == -1) {
                     firstNode.getNodesConnectedTo().add(last);
@@ -87,7 +87,5 @@ public class DOTConverter {
         }
         return listOfNodes;
     }
-
-  
 
 }

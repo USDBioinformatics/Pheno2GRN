@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package edu.usd.pheno2grn.iplant;
 
 import edu.usd.pheno2grn.exceptions.JobSubmissionException;
@@ -16,11 +10,17 @@ import org.iplant.foundation_api.job.JobManagerImpl;
 import org.iplant.foundation_api.job.JobParameter;
 
 /**
- *
- * @author Nick.Weinandt
+ * Contains functionality for submitting GRNInfer.
  */
 public class GRNInfer {
     
+    /**
+     * Submits a GRNInfer job to iPlant.
+     * @param grnInferInput File containg the GRNInfer dataset.
+     * @return The GRNInfer job submitted to iPlant.
+     * 
+     * @throws JobSubmissionException  
+     */
     public static Job submitGRNInferJob(File grnInferInput)throws JobSubmissionException{
         //creating the tempFiles folder and the output folder
       

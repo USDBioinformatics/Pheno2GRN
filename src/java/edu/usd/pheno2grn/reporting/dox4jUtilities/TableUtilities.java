@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.usd.pheno2grn.reporting.dox4jUtilities;
 
 import java.math.BigInteger;
@@ -16,17 +11,22 @@ import org.docx4j.wml.Tbl;
 import org.docx4j.wml.TblBorders;
 import org.docx4j.wml.TblPr;
 import org.docx4j.wml.Tc;
-import org.docx4j.wml.Text;
 import org.docx4j.wml.Tr;
 
 /**
- *
- * @author Nick.Weinandt
+ * Functionality to create and add a table to a word document.
  */
 public class TableUtilities {
 
     private static ObjectFactory obFactory = new ObjectFactory();
 
+    /**
+     * Adds a cell to a table row.
+     *
+     * @param tableRow
+     * @param content
+     * @param wordPackage
+     */
     private static void addTableCell(Tr tableRow, String content, WordprocessingMLPackage wordPackage) {
 
         Tc tableCell = obFactory.createTc();

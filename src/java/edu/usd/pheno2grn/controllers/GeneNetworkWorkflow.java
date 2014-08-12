@@ -67,8 +67,6 @@ import org.primefaces.model.StreamedContent;
 
 /**
  * This class is the controller class for the Gene Network Mapper Workflow
- *
- * @author Nick Weinandt
  */
 @ManagedBean(eager = true, name = "GeneNetworkWorkflow")
 @SessionScoped
@@ -376,7 +374,7 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
             //getting the file from iplant
             File tempFile = null;
             try {
-                tempFile = IplantFunctionality.downloadFile(grninferJob.getArchivePath().substring(19) + "grninferInput.dot");
+                tempFile = IplantFunctionality.downloadGRNInferDotFile(grninferJob.getArchivePath().substring(19) + "grninferInput.dot");
 
                 //setting the download file stream
                 reportStream = new DefaultStreamedContent(new FileInputStream(tempFile), "text/html", "GRNInfer_Ouput.dot");
@@ -418,7 +416,7 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
                 } else {
                     //getting contents of file and displaying them
                     String path = grninferJob.getArchivePath() + "grninferInput.dot";
-                    File grninferOutput = IplantFunctionality.downloadFile(path.substring(19));
+                    File grninferOutput = IplantFunctionality.downloadGRNInferDotFile(path.substring(19));
 
                     //conveting the file contents to a string
                     try {
