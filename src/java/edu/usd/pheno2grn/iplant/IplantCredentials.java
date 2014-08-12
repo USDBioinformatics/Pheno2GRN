@@ -7,6 +7,6 @@ package edu.usd.pheno2grn.iplant;
  * @author Nick.Weinandt
  */
 public class IplantCredentials {
-    public static final String USERNAME="usdbioinformatics";
-    public static final String PASSWORD="U3k4u5a6";
+    public static final String USERNAME="";
+    public static final String PASSWORD="";
 }
