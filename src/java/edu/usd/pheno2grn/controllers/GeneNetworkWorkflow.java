@@ -87,8 +87,8 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
     private int totInteractNum;
     private List<PaginationStep> paginationList;
     private String spaceSeparatedGenes;
-    private boolean showAdvancedQueryOptions=false;
-    private String advancedQueryMessage="Show Advanced Query Options";
+    private boolean showAdvancedQueryOptions = false;
+    private String advancedQueryMessage = "Show Advanced Query Options";
 
     //VennDiagram Fields
     private boolean showVennImage = false;
@@ -121,14 +121,24 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
 
     //reporting fields
     private StreamedContent reportStream;
-    
-    final Logger log=Logger.getLogger(GeneNetworkWorkflow.class.getName());
-    
-    
-    @Override
+
+    final Logger log = Logger.getLogger(GeneNetworkWorkflow.class.getName());
+
+    /**
+     * Method called when the session starts (user first navigates to the web
+     * page).
+     *
+     * @param event
+     */
     public void valueBound(HttpSessionBindingEvent event) {
+
     }
 
+    /**
+     * Method called when the session times out. Deletes any created files.
+     *
+     * @param event
+     */
     @Override
     public void valueUnbound(HttpSessionBindingEvent event) {
         if (vennImageFile != null && vennImageFile.exists()) {
@@ -137,6 +147,7 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
     }
 
     public void vennFileUpload(FileUploadEvent event) {
+
         //creating new pheno ID
         PhenotypeIdentifier phenoId = new PhenotypeIdentifier();
         //getting last name and incrementing
@@ -925,14 +936,14 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
                 }
             }
             //adding all the pheno ids to complete vennLIst
-            if(completeVennList==null){
-                completeVennList=new ArrayList<>();
-            }else{
+            if (completeVennList == null) {
+                completeVennList = new ArrayList<>();
+            } else {
                 //clearing the list for new analysis
                 completeVennList.clear();
             }
             completeVennList.addAll(phenoIds);
-            
+
             //adding the phenoScape results to the genes DualList
             Iterator it = phenoscapeResults.iterator();
 
@@ -946,7 +957,6 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
 
             //showing the reporting panel becuase query returned results            
             showReportingPanel = true;
-
 
             //adding the phenoscape query to report steps
             ReportStep phenoscapeQuery = new ReportStep(PossibleSteps.PHENOSCAPE_QUERY);
@@ -1364,7 +1374,7 @@ public class GeneNetworkWorkflow implements Serializable, HttpSessionBindingList
 
     public void setShowAdvancedQueryOptions(boolean showAdvancedQueryOptions) {
         this.showAdvancedQueryOptions = showAdvancedQueryOptions;
-    }    
+    }
 
     public PsicquicResult[] getSelectedPsicquicResults() {
         return selectedPsicquicResults;

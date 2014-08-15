@@ -51,6 +51,13 @@ the License.
                             style="font-size:x-large;"/>
                     </f:facet>                   
                 </p:panel>
+                
+                <!-- Notifies the user of session timeout. The time must match the session timeout found in the web.xml
+                (here it is in seconds, the the web.xml it is in minutes).-->
+                <p:idleMonitor timeout="1800000">
+                    <p:ajax event="idle"
+                            onstart="alert('Session has timed out. Please refresh the page to start a new session')" />
+                </p:idleMonitor>
                 <p:blockUI id="blockForm" block="form" widgetVar="buiForm">
                     <h:outputText id="blockText" value=""/><br/>
                     <p:graphicImage value="images/ajax-loader1.gif" />
@@ -68,14 +75,14 @@ the License.
                                             value="#{GeneNetworkWorkflow.phenoscapeInput}"
                                             minQueryLength="3" scrollHeight="300"
                                             completeMethod="#{GeneNetworkWorkflow.autocompletePhenoscape}"/>
-                          
+
 
                             <p:graphicImage id="phenoscapeQueryHelp" value="/images/help.png" />
                             <p:tooltip for="phenoscapeQueryHelp" 
                                        value="Type 3 letters and the search will autocomplete with phenotype results."/><br/>
-                            
-                            
-                            
+
+
+
                             <p:selectBooleanCheckbox style="position:relative;top:2px;left:300px" value="#{GeneNetworkWorkflow.showAdvancedQueryOptions}">
                                 <p:ajax update="queryPanels"/>
                             </p:selectBooleanCheckbox>
@@ -91,8 +98,8 @@ the License.
                             <p:tooltip for="indirectInteractorsHelp" 
                                        rendered="#{GeneNetworkWorkflow.showAdvancedQueryOptions}"
                                        value="Checking this will include interactor results which do not directly involve genes from phenotype."/>
-                            
-                            
+
+
                             <br></br><br></br>
 
                             <p:commandButton id="queryPhenoscapeButton" actionListener="#{GeneNetworkWorkflow.phenoscapeQuery}" 

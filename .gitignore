@@ -23,7 +23,8 @@ hs_err_pid*
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -53,3 +54,4 @@ $RECYCLE.BIN/
 *.netbeans_automatic_build
 *.netbeans_update_resources
 src/java/edu/usd/octopus/iplant/IplantCredentials.java
+/dist/
